@@ -1,0 +1,4 @@
+{
+  "record_id": "order-2026-08-19",
+  "scene": "A drop that arrived while the provider was migrating its order export. Three of its four payloads carried order lines the job would not take, so nothing published, and the account managers priced those accounts by hand off the provider's own copy."
+}

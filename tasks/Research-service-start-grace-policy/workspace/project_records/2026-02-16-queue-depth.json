@@ -1,0 +1,13 @@
+{
+  "session": "queue-depth",
+  "date": "2026-02-16",
+  "analyst": "Tomas Halvorsen",
+  "as_of": "2026-02-15",
+  "receipts_then": [],
+  "notes": [
+    "Bar moved to 0.9 on the 9th. Same-day starts were about 44 percent of a week's flags before that and about 56 after.",
+    "Pulled the seven-day error rates on the queued rows either side of the move. Before the 9th a third of them are at 1.1; from the 9th it is one in seven.",
+    "The queue had already run past its six-day window more than once. A fair few of those slots did not come until the eighth or ninth day.",
+    "303 rows visible by 15 February carry start_queue next_slot and no start_date at all."
+  ]
+}

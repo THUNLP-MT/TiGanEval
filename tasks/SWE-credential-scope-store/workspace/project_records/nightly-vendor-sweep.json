@@ -1,0 +1,4 @@
+{
+  "record_id": "nightly-vendor-sweep",
+  "scene": "Tuesday's nightly crawl of the vendor's reporting site. The run signs in at the desk host, reads a desk page, follows the vendor's own link to the records subhost, and on the way through also crawls a competitor's site whose name ends the same way, the third-party analytics endpoint the marketing team asked us to ping, and the vendor's old plain-text listener. It then walks the open, tools and odd-path sections, where the desk host hands over host-only grants, before visiting the corresponding paths on a sibling host under the same site."
+}

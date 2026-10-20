@@ -1,0 +1,7 @@
+chain_id,node,job_id,steps_stored,init_source
+run-a,hpc-07,j-4412,840,dispersed-init
+run-b,hpc-11,j-4418,1710,dispersed-init
+run-c,hpc-03,j-4531,1530,dispersed-init
+run-d,hpc-11,j-4544,860,dispersed-init
+run-e,hpc-02,j-4426,750,dispersed-init
+run-f,hpc-11,j-4552,1400,run-b@1010

@@ -1,0 +1,43 @@
+{
+  "as_of": "2026-09-26T10:00",
+  "date": "2026-09-26",
+  "notes": [
+    "Capacity review is Thursday. Finance want the week's number and what it would cost to hold it.",
+    "Pulled 18:14 on edge-lhr, an off-peak minute, and 19:26 on edge-ams. Five units spent, seven left.",
+    "The archive dropped the 21st overnight. It keeps 72 hours and lets the rest go.",
+    "Dashboard for the week so far: 4.85, 9.27, 11.38, 7.85, 7.34."
+  ],
+  "operator": "Marisol Reyes",
+  "retained_from": "2026-09-23T10:00",
+  "session_id": "review-prep",
+  "through_minute": "2026-09-25T20:59",
+  "trace_ids": [
+    "mr-0922-a",
+    "mr-0922-b",
+    "mr-0923-a",
+    "mr-0925-a",
+    "mr-0924-a"
+  ],
+  "traces": [
+    [
+      "2026-09-22T19:31",
+      "edge-ams"
+    ],
+    [
+      "2026-09-22T19:34",
+      "edge-fra"
+    ],
+    [
+      "2026-09-23T19:28",
+      "edge-ams"
+    ],
+    [
+      "2026-09-25T18:14",
+      "edge-lhr"
+    ],
+    [
+      "2026-09-24T19:26",
+      "edge-ams"
+    ]
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "model_id": "halstow-board-2026-03",
+  "features": [
+    "parts_lines",
+    "access_score",
+    "site_distance_km",
+    "crew_size",
+    "prior_visits"
+  ],
+  "coefficients": {
+    "parts_lines": 12.0,
+    "access_score": -6.5,
+    "site_distance_km": 2.4,
+    "crew_size": -9.0,
+    "prior_visits": 4.5
+  },
+  "intercepts": {
+    "meter-exchange": 58.0,
+    "mains-repair": 205.0,
+    "leak-survey": 74.0,
+    "pressure-test": 96.0,
+    "boiler-service": 66.0,
+    "valve-replacement": 118.0,
+    "hydrant-check": 44.0
+  },
+  "fitted_on": "2026-03-30",
+  "rows_fitted": 14400,
+  "note": "whole minutes; the board rounds the tool's number to the minute"
+}

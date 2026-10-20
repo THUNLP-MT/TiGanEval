@@ -1,0 +1,92 @@
+{
+  "brookfield-2026-06": {
+    "centre": [
+      179.228483,
+      0.801767,
+      14.040204,
+      -0.014275,
+      31.859812,
+      2.43349
+    ],
+    "coefficients": [
+      2.123168,
+      1.426466,
+      1.777915,
+      -2.70294,
+      -0.564686,
+      -0.441159
+    ],
+    "features": [
+      "body_length",
+      "attachments",
+      "wait_minutes",
+      "sentiment",
+      "account_age_months",
+      "product_breadth"
+    ],
+    "fit_manifest": {
+      "fitted_on": "2026-06-24",
+      "inputs": [
+        "ridgeline_pool_v3",
+        "brookfield_mixed_snapshot_v2"
+      ],
+      "rows": 8400
+    },
+    "intercept": -0.947275,
+    "model_id": "brookfield-2026-06",
+    "scale": [
+      58.930628,
+      0.892498,
+      6.018666,
+      1.004419,
+      16.135022,
+      1.195631
+    ],
+    "threshold": 0.5
+  },
+  "ridgeline-2026-03": {
+    "centre": [
+      179.374844,
+      0.80179,
+      14.015432,
+      -0.012309,
+      32.595939,
+      2.499866
+    ],
+    "coefficients": [
+      2.449346,
+      1.621082,
+      2.017431,
+      -3.076524,
+      -0.803487,
+      -0.687368
+    ],
+    "features": [
+      "body_length",
+      "attachments",
+      "wait_minutes",
+      "sentiment",
+      "account_age_months",
+      "product_breadth"
+    ],
+    "fit_manifest": {
+      "fitted_on": "2026-03-11",
+      "inputs": [
+        "ridgeline_pool_v3",
+        "brookfield_queue_snapshot_v1"
+      ],
+      "rows": 8400
+    },
+    "intercept": -1.069883,
+    "model_id": "ridgeline-2026-03",
+    "scale": [
+      59.062031,
+      0.893456,
+      6.019216,
+      1.005759,
+      15.44636,
+      1.159927
+    ],
+    "threshold": 0.5
+  }
+}

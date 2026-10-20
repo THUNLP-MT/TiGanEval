@@ -1,0 +1,33 @@
+{
+  "as_of": "2026-09-24T10:00",
+  "date": "2026-09-24",
+  "notes": [
+    "Paged again at 19:29. Dashboard for the 23rd reads 11.38, the highest day the route has had.",
+    "Pulled 19:28 on edge-ams. Three units spent, nine left.",
+    "partner-api and internal-tools came up on the new client library in time for last night's block, so every fleet is on it now.",
+    "Asked the pool team what probes_spilled counts. Their answer: the probes the pool's sink did not take that minute."
+  ],
+  "operator": "Marisol Reyes",
+  "retained_from": "2026-09-21T10:00",
+  "session_id": "second-night",
+  "through_minute": "2026-09-23T20:59",
+  "trace_ids": [
+    "mr-0922-a",
+    "mr-0922-b",
+    "mr-0923-a"
+  ],
+  "traces": [
+    [
+      "2026-09-22T19:31",
+      "edge-ams"
+    ],
+    [
+      "2026-09-22T19:34",
+      "edge-fra"
+    ],
+    [
+      "2026-09-23T19:28",
+      "edge-ams"
+    ]
+  ]
+}

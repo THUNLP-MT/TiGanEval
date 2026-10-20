@@ -1,0 +1,28 @@
+{
+  "date": "day 80",
+  "notes": [
+    "A-3336 arrived on the 68th, four parts, all four of them on rig 2.",
+    "The house signed rig 1 off on the 73rd. B-7130 arrived on the 74th, nine parts, all of them on rig 1.",
+    "That is the campaign: ninety-four part sessions, forty-eight supplier A and forty-six supplier B.",
+    "I put the certified block on each rig this morning and charged both to the hours the campaign has left. The two receipts are on the stream.",
+    "Rig 2 is booked out for its fixture pin from the 81st to the 83rd. The procurement review is on the 85th.",
+    "Stores has eleven spares left, one to three out of each lot that shipped them; the sheet is stores-inventory.csv."
+  ],
+  "operator": "Karim Osei",
+  "run_ids": [
+    "kt-block-r1",
+    "kt-block-r2"
+  ],
+  "runs": [
+    {
+      "reference_block": true,
+      "rig": 1
+    },
+    {
+      "reference_block": true,
+      "rig": 2
+    }
+  ],
+  "session_id": "campaign-close",
+  "through_day": 80
+}

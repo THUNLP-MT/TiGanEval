@@ -1,0 +1,4 @@
+{
+  "record_id": "retry-after-shard-failure",
+  "scene": "A run in which shard 3's machine died on a network fault, the other three finished and wrote their timings, the nightly run published on top of them, and shard 3 was then started again on a fresh machine."
+}

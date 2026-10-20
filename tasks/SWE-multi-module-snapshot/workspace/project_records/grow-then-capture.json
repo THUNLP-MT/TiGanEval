@@ -1,0 +1,4 @@
+{
+  "record_id": "grow-then-capture",
+  "scene": "A morning batch in which the duplicate sketch grows by four cells and then shrinks below where it started, a reload leaves the loader's list in a different order, and the audit trail is untouched from the first dump to the last. Four dumps: a full one, two taken after it — the console asks the second of those for the duplicate sketch and the audit trail alone — and a second full one at the same moment as the last of them."
+}

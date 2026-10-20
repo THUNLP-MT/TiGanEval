@@ -1,0 +1,4 @@
+{
+  "record_id": "authz-latency-review",
+  "scene": "The nightly replay of a slice of live /v1/decide traffic against the vendor-access bundle: six requests, the decision each one got, and the rule report this build produced for it."
+}

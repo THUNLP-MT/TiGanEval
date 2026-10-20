@@ -1,0 +1,13 @@
+{
+  "record_id": "chart-rebuild",
+  "date": "2026-08-18",
+  "author": "Tomas Aldrich",
+  "through_day": "2026-08-17",
+  "batches": ["jun-mobile-spot", "jun-web-spot"],
+  "notes": [
+    "Rebuilt sample_scores.csv for the council pack off the intake export, route-2025-11 rows only, 6 May to 26 June, 2600 listings. Columns as the log has them, minus outcome_closed_date.",
+    "1456 of them are auto_cleared. 371 of the 2600 have an empty review_outcome, all on partner_feed and reseller_import.",
+    "Marisol read the chart off it: 0.89 in a hundred at the cut in force, 2.32 at 0.10.",
+    "Booked two cells to see what the desk does with them. jun-mobile-spot asked for 120 on mobile at route-2026-04 and 33 came back for 33 credits, 6 of them violating. jun-web-spot asked for 80 on web at route-2025-11 and the desk said the cell came back empty and charged 20."
+  ]
+}

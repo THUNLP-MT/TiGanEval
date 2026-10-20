@@ -1,0 +1,4 @@
+{
+  "record_id": "handoff-burst",
+  "scene": "Tuesday 03:40. The billing batch was still moving usage across from the meter to the roll-up when the on-call asked the console for a dump of the sandbox; eight hand-offs were queued behind it at that moment. The console reads the dump straight away and then lets the rest of the batch through."
+}

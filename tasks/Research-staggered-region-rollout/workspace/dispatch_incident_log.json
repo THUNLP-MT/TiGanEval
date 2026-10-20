@@ -1,0 +1,54 @@
+{
+  "entries": [
+    {
+      "date": "2026-02-07",
+      "event": "paged",
+      "note": "dispatch queue depth alarm, cleared on its own",
+      "region": "Millgate",
+      "time": "22:05"
+    },
+    {
+      "date": "2026-03-10",
+      "event": "paged",
+      "note": "assignment workers in a crash loop, restarted twice",
+      "region": "Riverbend",
+      "time": "23:50"
+    },
+    {
+      "date": "2026-03-11",
+      "event": "restarted",
+      "note": "third restart of the assignment workers",
+      "region": "Riverbend",
+      "time": "02:15"
+    },
+    {
+      "date": "2026-03-11",
+      "event": "disabled",
+      "note": "batching disabled",
+      "region": "Riverbend",
+      "time": "09:40"
+    },
+    {
+      "date": "2026-03-17",
+      "event": "reloaded",
+      "note": "routing table reload after the depot move",
+      "region": "Harrow Bay",
+      "time": "14:20"
+    },
+    {
+      "date": "2026-04-03",
+      "event": "degraded",
+      "note": "label printer out at the north depot, 90 minutes",
+      "region": "Cardean",
+      "time": "06:40"
+    },
+    {
+      "date": "2026-04-16",
+      "event": "paged",
+      "note": "courier sign-in errors, cleared by 20:00",
+      "region": "Kingsmere",
+      "time": "19:10"
+    }
+  ],
+  "network": "halcombe"
+}

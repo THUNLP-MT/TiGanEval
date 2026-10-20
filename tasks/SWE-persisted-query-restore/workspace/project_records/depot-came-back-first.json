@@ -1,0 +1,4 @@
+{
+  "record_id": "depot-came-back-first",
+  "scene": "The van comes out of the cutting and gets signal back before the app has finished reading the device. Pull-to-refresh on the harbour round reaches the depot and brings new rows; the stock screen is pulled a second later and still finds nothing. The rebuild from the device then runs, over both screens, and both are read afterwards. The device's copy of the harbour round is older than what the van just pulled, and it is the copy that has the depot's refusal on it."
+}

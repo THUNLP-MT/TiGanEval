@@ -1,0 +1,2275 @@
+{
+  "name": "layout-remount",
+  "page": {
+    "controls": [
+      {
+        "id": "bold",
+        "command": "bold",
+        "kind": "button"
+      },
+      {
+        "id": "size",
+        "command": "size",
+        "kind": "select"
+      },
+      {
+        "id": "stamp",
+        "command": "stamp",
+        "kind": "button"
+      },
+      {
+        "id": "image",
+        "command": "image",
+        "kind": "button"
+      },
+      {
+        "id": "link",
+        "command": "link",
+        "kind": "button"
+      }
+    ],
+    "editors": [
+      {
+        "id": "headline",
+        "text": "Headline for the morning edition 518",
+        "stamp": "<headline approved>",
+        "mimetypes": [
+          "image/gif"
+        ],
+        "formats": [
+          {
+            "range": [
+              1,
+              3
+            ],
+            "attributes": {
+              "bold": true,
+              "size": "large"
+            }
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "text": "Body copy for the production sheet 632",
+        "stamp": "<body approved>",
+        "mimetypes": [
+          "image/webp"
+        ],
+        "formats": []
+      }
+    ]
+  },
+  "operations": [
+    {
+      "op": "inspect",
+      "label": "open production sheet"
+    },
+    {
+      "op": "select",
+      "label": "select headline at 2 for 0",
+      "editor": "headline",
+      "range": [
+        2,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press image at step 3",
+      "control": "image",
+      "pointer": true
+    },
+    {
+      "op": "file",
+      "label": "choose opening-image.gif",
+      "file": {
+        "name": "opening-image.gif",
+        "type": "image/gif"
+      }
+    },
+    {
+      "op": "add_control",
+      "label": "insert approval button",
+      "control": {
+        "id": "approval",
+        "command": "stamp"
+      }
+    },
+    {
+      "op": "select",
+      "label": "select body at 4 for 0",
+      "editor": "body",
+      "range": [
+        4,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press approval at step 7",
+      "control": "approval"
+    },
+    {
+      "op": "remove_control",
+      "label": "remove approval button",
+      "control": "approval"
+    },
+    {
+      "op": "add_control",
+      "label": "reattach approval button",
+      "control": {
+        "id": "approval",
+        "command": "stamp"
+      }
+    },
+    {
+      "op": "select",
+      "label": "select headline at 1 for 0",
+      "editor": "headline",
+      "range": [
+        1,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press approval at step 11",
+      "control": "approval"
+    },
+    {
+      "op": "remove_control",
+      "label": "unmount size select",
+      "control": "size"
+    },
+    {
+      "op": "add_control",
+      "label": "remount size select",
+      "control": {
+        "id": "size",
+        "command": "size",
+        "kind": "select"
+      }
+    },
+    {
+      "op": "command",
+      "label": "press size at step 14",
+      "control": "size",
+      "value": "small",
+      "pointer": true
+    },
+    {
+      "op": "remove_editor",
+      "label": "unmount headline",
+      "editor": "headline"
+    },
+    {
+      "op": "command",
+      "label": "press approval at step 16",
+      "control": "approval",
+      "dispatch": true
+    },
+    {
+      "op": "mount_editor",
+      "label": "recreate headline",
+      "editor": {
+        "id": "headline",
+        "text": "Replacement field mounted during layout",
+        "stamp": "<replacement approved>",
+        "mimetypes": [
+          "image/avif"
+        ],
+        "formats": []
+      }
+    },
+    {
+      "op": "command",
+      "label": "press approval at step 18",
+      "control": "approval",
+      "dispatch": true
+    },
+    {
+      "op": "select",
+      "label": "select headline at 2 for 0",
+      "editor": "headline",
+      "range": [
+        2,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press image at step 20",
+      "control": "image",
+      "pointer": true
+    },
+    {
+      "op": "file",
+      "label": "choose replacement-photo.avif",
+      "file": {
+        "name": "replacement-photo.avif",
+        "type": "image/avif"
+      }
+    },
+    {
+      "op": "command",
+      "label": "press approval at step 22",
+      "control": "approval"
+    },
+    {
+      "op": "select",
+      "label": "select body at 1 for 3",
+      "editor": "body",
+      "range": [
+        1,
+        3
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press size at step 24",
+      "control": "size",
+      "value": "large"
+    }
+  ],
+  "scene": "Production sheet layout remount",
+  "recorded_sheet": [
+    {
+      "name": "layout-remount",
+      "rows": [
+        {
+          "label": "open production sheet",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 2 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press image at step 3",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                0
+              ],
+              "body": null
+            },
+            "focus": "file-dialog",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [
+              {
+                "owner": "headline",
+                "accept": [
+                  "image/gif"
+                ]
+              }
+            ],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "choose opening-image.gif",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                21,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "image",
+                "value": {
+                  "name": "opening-image.gif",
+                  "type": "image/gif"
+                },
+                "range": [
+                  2,
+                  0
+                ],
+                "after_range": [
+                  21,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "insert approval button",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                21,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 4 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                4,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press approval at step 7",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                19,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "stamp",
+                "value": null,
+                "range": [
+                  4,
+                  0
+                ],
+                "after_range": [
+                  19,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "remove approval button",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                19,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "reattach approval button",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                19,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 1 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "He[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    21,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                1,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press approval at step 11",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                20,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "stamp",
+                "value": null,
+                "range": [
+                  1,
+                  0
+                ],
+                "after_range": [
+                  20,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "unmount size select",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                20,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 0,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "remount size select",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                20,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 14",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {
+                  "size": "small"
+                }
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                20,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "small",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "small",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "size",
+                "value": "small",
+                "range": [
+                  20,
+                  0
+                ],
+                "after_range": [
+                  20,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "unmount headline",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {
+                  "size": "small"
+                }
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press approval at step 16",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "H<headline approved>e[opening-image.gif]adline for the morning edition 518",
+                "spans": [
+                  [
+                    20,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    40,
+                    2,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {
+                  "size": "small"
+                }
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "recreate headline",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Replacement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press approval at step 18",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Replacement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 2 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Replacement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press image at step 20",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Replacement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                0
+              ],
+              "body": null
+            },
+            "focus": "file-dialog",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [
+              {
+                "owner": "headline",
+                "accept": [
+                  "image/avif"
+                ]
+              }
+            ],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "choose replacement-photo.avif",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Re[replacement-photo.avif]placement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                26,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "image",
+                "value": {
+                  "name": "replacement-photo.avif",
+                  "type": "image/avif"
+                },
+                "range": [
+                  2,
+                  0
+                ],
+                "after_range": [
+                  26,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press approval at step 22",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Re[replacement-photo.avif]<replacement approved>placement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                48,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "stamp",
+                "value": null,
+                "range": [
+                  26,
+                  0
+                ],
+                "after_range": [
+                  48,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 1 for 3",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Re[replacement-photo.avif]<replacement approved>placement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                1,
+                3
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 24",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Re[replacement-photo.avif]<replacement approved>placement field mounted during layout",
+                "spans": [],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body<body approved> copy for the production sheet 632",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                1,
+                3
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "large",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "approval": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "large",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 1,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "size",
+                "value": "large",
+                "range": [
+                  1,
+                  3
+                ],
+                "after_range": [
+                  1,
+                  3
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        }
+      ]
+    }
+  ]
+}

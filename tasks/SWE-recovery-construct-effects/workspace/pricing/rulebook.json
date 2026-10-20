@@ -1,0 +1,88 @@
+{
+  "limits": {
+    "max_attempts": 2,
+    "step_budget": 400,
+    "max_open_leases": 1
+  },
+  "notes": [
+    "max_attempts is what an order may cost us in evaluated attempts. The rating vendor bills per attempt: the July invoice charged 4181 attempts for 1902 orders, and finance asked for a cap once they had matched that line against the orders we priced.",
+    "step_budget is per order. It exists because the September lane comprehension in tier_pricing held the run open until 09:40 and nobody could tell which rule was doing it.",
+    "max_open_leases is per order. The rating vendor charges by the hour for every reservation held, from the moment it is opened until it is given back, and refuses a second concurrent one for the same order at renewal time.",
+    "on_error and retry_on_error were added in June with the rest of the rulebook fields. The engine has carried them ever since; nothing has used them yet.",
+    "depot_reweigh and manual_reweigh went in with the August depot changes. A re-weighed order is priced from the rating vendor's rate and the order's fourth line; an order the depot could not read that line on goes to a manual re-check, which reserves rating capacity of its own, and the closing branch reserves the settlement slot the close is written into."
+  ],
+  "rules": [
+    {
+      "name": "bundle_discount",
+      "body": "charge(base()) + line(3) * 0.9",
+      "on_error": "audit(\"bundle fallback\") + charge(base() * 0.95)",
+      "retry_on_error": false
+    },
+    {
+      "name": "pallet_rebate",
+      "body": "charge(line(3) * 0.5)",
+      "guard": "lookup",
+      "on_error": "charge(2)",
+      "retry_on_error": false
+    },
+    {
+      "name": "dock_rebate",
+      "body": "charge(number(field(\"weight\")) * 2)",
+      "guard": "conversion",
+      "on_error": "charge(5)",
+      "retry_on_error": false
+    },
+    {
+      "name": "vendor_quote",
+      "body": "charge(quote())",
+      "on_error": "charge(11)",
+      "retry_on_error": true
+    },
+    {
+      "name": "nested_estimate",
+      "body": "charge(quote())",
+      "on_error": "rescue retry { charge(quote()) } otherwise { charge(7) }",
+      "retry_on_error": true
+    },
+    {
+      "name": "depot_reweigh",
+      "body": "charge(quote()) + line(4)",
+      "on_error": "charge(6)",
+      "retry_on_error": true,
+      "guard": "lookup"
+    },
+    {
+      "name": "manual_reweigh",
+      "body": "charge(base()) + line(4)",
+      "on_error": "charge(hold(\"recheck\") * 0.2)",
+      "retry_on_error": false,
+      "guard": "lookup",
+      "cleanup": "charge(hold(\"settle\") * 0.05)"
+    },
+    {
+      "name": "handling_fee",
+      "body": "charge(hold(\"weigh\") * 0.1) + line(4)",
+      "on_error": "charge(3)",
+      "retry_on_error": true
+    },
+    {
+      "name": "lane_totals",
+      "body": "charge(base()) + scan(60) * 0.5",
+      "on_error": "charge(9)",
+      "retry_on_error": false
+    },
+    {
+      "name": "settlement_close",
+      "body": "charge(base())",
+      "on_error": "charge(1)",
+      "retry_on_error": false,
+      "cleanup": "reject(\"the ledger for this order is already closed\")"
+    },
+    {
+      "name": "tier_pricing",
+      "body": "charge(base()) + scan(900) * 0.5",
+      "on_error": "charge(6)",
+      "retry_on_error": true
+    }
+  ]
+}

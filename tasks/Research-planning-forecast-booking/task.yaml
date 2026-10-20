@@ -1,0 +1,13 @@
+id: Research-planning-forecast-booking
+domain: Research
+title: 'Research: What tomorrow''s peak actually needs'
+seed_sources:
+- name: Wickramasuriya, Athanasopoulos and Hyndman (2019), Optimal forecast reconciliation for hierarchical and grouped time
+    series through trace minimization
+  url: https://doi.org/10.1080/01621459.2018.1448825
+rubrics:
+- area_window_demand_within_tolerance
+- range_covers_and_meets_floor
+- demand_invariant_to_lag_and_transfer
+- booking_feasible_and_covers
+- report_reconciles_settlements

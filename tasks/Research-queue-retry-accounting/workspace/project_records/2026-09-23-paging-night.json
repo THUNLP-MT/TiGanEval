@@ -1,0 +1,28 @@
+{
+  "as_of": "2026-09-23T10:00",
+  "date": "2026-09-23",
+  "notes": [
+    "Paged at 19:33 last night. Dashboard for the 22nd reads 9.27 against 4.85 on the 21st.",
+    "Pulled two pool-minutes out of the edge archive from the worst stretch: 19:31 on edge-ams and 19:34 on edge-fra. Two units spent, ten left.",
+    "edge-ams and edge-fra both sat over 100 ms of sink backlog from about 19:20 to 19:45, against 1 or 2 ms early in the block.",
+    "Nothing shipped on the service side yesterday. The only change that landed was the client library on the first two fleets."
+  ],
+  "operator": "Marisol Reyes",
+  "retained_from": "2026-09-20T10:00",
+  "session_id": "paging-night",
+  "through_minute": "2026-09-22T20:59",
+  "trace_ids": [
+    "mr-0922-a",
+    "mr-0922-b"
+  ],
+  "traces": [
+    [
+      "2026-09-22T19:31",
+      "edge-ams"
+    ],
+    [
+      "2026-09-22T19:34",
+      "edge-fra"
+    ]
+  ]
+}

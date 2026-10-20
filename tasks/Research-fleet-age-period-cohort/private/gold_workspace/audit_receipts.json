@@ -1,0 +1,869 @@
+{
+  "region": "ryecourt",
+  "entries": [
+    {
+      "receipt_id": "RY-D1",
+      "region": "ryecourt",
+      "day": "2024-03-04",
+      "depot": "Kestrel",
+      "builds": [
+        "2022-H2"
+      ],
+      "age_band": [
+        0,
+        60
+      ],
+      "vans_asked": 25,
+      "vans_returned": 0,
+      "faults_returned": 0,
+      "van_months_returned": 0,
+      "walkaround_ref": "WA-52",
+      "days_charged": 1,
+      "days_remaining": 17,
+      "refusal": "a day is booked against two build groups",
+      "observed": {
+        "rows": []
+      },
+      "sequence": 1,
+      "previous": "",
+      "seal": "d003385b7cb7957312fa9ccceb89ed521e14396e17ca413556c08afb5569b60d"
+    },
+    {
+      "receipt_id": "RY-D2",
+      "region": "ryecourt",
+      "day": "2024-03-05",
+      "depot": "Kestrel",
+      "builds": [
+        "2021-H2",
+        "2022-H1"
+      ],
+      "age_band": [
+        14,
+        40
+      ],
+      "vans_asked": 25,
+      "vans_returned": 25,
+      "faults_returned": 25,
+      "van_months_returned": 150.0,
+      "walkaround_ref": "WA-52",
+      "days_charged": 1,
+      "days_remaining": 16,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "van_id": "RY-00660",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00667",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00695",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00729",
+            "depot": "Kestrel",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00759",
+            "depot": "Kestrel",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00776",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00791",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00811",
+            "depot": "Kestrel",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00834",
+            "depot": "Kestrel",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00868",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00881",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00904",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00929",
+            "depot": "Kestrel",
+            "build_month": "2021-12",
+            "build_group": "2021-H2",
+            "age_months": 27,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00950",
+            "depot": "Kestrel",
+            "build_month": "2021-12",
+            "build_group": "2021-H2",
+            "age_months": 27,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00983",
+            "depot": "Kestrel",
+            "build_month": "2022-01",
+            "build_group": "2022-H1",
+            "age_months": 26,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01016",
+            "depot": "Kestrel",
+            "build_month": "2022-01",
+            "build_group": "2022-H1",
+            "age_months": 26,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01054",
+            "depot": "Kestrel",
+            "build_month": "2022-02",
+            "build_group": "2022-H1",
+            "age_months": 25,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01072",
+            "depot": "Kestrel",
+            "build_month": "2022-02",
+            "build_group": "2022-H1",
+            "age_months": 25,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01086",
+            "depot": "Kestrel",
+            "build_month": "2022-03",
+            "build_group": "2022-H1",
+            "age_months": 24,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01117",
+            "depot": "Kestrel",
+            "build_month": "2022-03",
+            "build_group": "2022-H1",
+            "age_months": 24,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01141",
+            "depot": "Kestrel",
+            "build_month": "2022-04",
+            "build_group": "2022-H1",
+            "age_months": 23,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01170",
+            "depot": "Kestrel",
+            "build_month": "2022-04",
+            "build_group": "2022-H1",
+            "age_months": 23,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01193",
+            "depot": "Kestrel",
+            "build_month": "2022-05",
+            "build_group": "2022-H1",
+            "age_months": 22,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01235",
+            "depot": "Kestrel",
+            "build_month": "2022-06",
+            "build_group": "2022-H1",
+            "age_months": 21,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-01258",
+            "depot": "Kestrel",
+            "build_month": "2022-06",
+            "build_group": "2022-H1",
+            "age_months": 21,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          }
+        ]
+      },
+      "sequence": 2,
+      "previous": "d003385b7cb7957312fa9ccceb89ed521e14396e17ca413556c08afb5569b60d",
+      "seal": "c36632c292d84fb81f2010cc6e82359985d2a89a1d382d4d28052d93d4c4b213"
+    },
+    {
+      "receipt_id": "RY-D3",
+      "region": "ryecourt",
+      "day": "2024-03-06",
+      "depot": "Kestrel",
+      "builds": [
+        "2021-H1",
+        "2021-H2"
+      ],
+      "age_band": [
+        14,
+        40
+      ],
+      "vans_asked": 25,
+      "vans_returned": 25,
+      "faults_returned": 28,
+      "van_months_returned": 150.0,
+      "walkaround_ref": "WA-52",
+      "days_charged": 1,
+      "days_remaining": 15,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "van_id": "RY-00460",
+            "depot": "Kestrel",
+            "build_month": "2021-03",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00475",
+            "depot": "Kestrel",
+            "build_month": "2021-03",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 2,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00502",
+            "depot": "Kestrel",
+            "build_month": "2021-03",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00532",
+            "depot": "Kestrel",
+            "build_month": "2021-04",
+            "build_group": "2021-H1",
+            "age_months": 35,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00578",
+            "depot": "Kestrel",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00590",
+            "depot": "Kestrel",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00607",
+            "depot": "Kestrel",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00624",
+            "depot": "Kestrel",
+            "build_month": "2021-06",
+            "build_group": "2021-H1",
+            "age_months": 33,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00640",
+            "depot": "Kestrel",
+            "build_month": "2021-06",
+            "build_group": "2021-H1",
+            "age_months": 33,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00660",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00667",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00694",
+            "depot": "Kestrel",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00727",
+            "depot": "Kestrel",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00753",
+            "depot": "Kestrel",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00762",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00778",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00791",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00807",
+            "depot": "Kestrel",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00832",
+            "depot": "Kestrel",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00848",
+            "depot": "Kestrel",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00873",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 2,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00884",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00904",
+            "depot": "Kestrel",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 2,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00929",
+            "depot": "Kestrel",
+            "build_month": "2021-12",
+            "build_group": "2021-H2",
+            "age_months": 27,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          },
+          {
+            "van_id": "RY-00943",
+            "depot": "Kestrel",
+            "build_month": "2021-12",
+            "build_group": "2021-H2",
+            "age_months": 27,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-52"
+          }
+        ]
+      },
+      "sequence": 3,
+      "previous": "c36632c292d84fb81f2010cc6e82359985d2a89a1d382d4d28052d93d4c4b213",
+      "seal": "80255ab2cac6d318431510271d4ac722adb1bd840c68bf9810bdd13a3cb6aaf6"
+    },
+    {
+      "receipt_id": "RY-D4",
+      "region": "ryecourt",
+      "day": "2024-04-08",
+      "depot": "Ardmore",
+      "builds": [
+        "2021-H1",
+        "2021-H2"
+      ],
+      "age_band": [
+        14,
+        40
+      ],
+      "vans_asked": 25,
+      "vans_returned": 25,
+      "faults_returned": 16,
+      "van_months_returned": 150.0,
+      "walkaround_ref": "WA-30",
+      "days_charged": 1,
+      "days_remaining": 14,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "van_id": "RY-00506",
+            "depot": "Ardmore",
+            "build_month": "2021-04",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00527",
+            "depot": "Ardmore",
+            "build_month": "2021-04",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00546",
+            "depot": "Ardmore",
+            "build_month": "2021-04",
+            "build_group": "2021-H1",
+            "age_months": 36,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00561",
+            "depot": "Ardmore",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 35,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00575",
+            "depot": "Ardmore",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 35,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00595",
+            "depot": "Ardmore",
+            "build_month": "2021-05",
+            "build_group": "2021-H1",
+            "age_months": 35,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00611",
+            "depot": "Ardmore",
+            "build_month": "2021-06",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00634",
+            "depot": "Ardmore",
+            "build_month": "2021-06",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00656",
+            "depot": "Ardmore",
+            "build_month": "2021-06",
+            "build_group": "2021-H1",
+            "age_months": 34,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00680",
+            "depot": "Ardmore",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 33,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00692",
+            "depot": "Ardmore",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 33,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00707",
+            "depot": "Ardmore",
+            "build_month": "2021-07",
+            "build_group": "2021-H2",
+            "age_months": 33,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00719",
+            "depot": "Ardmore",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00742",
+            "depot": "Ardmore",
+            "build_month": "2021-08",
+            "build_group": "2021-H2",
+            "age_months": 32,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00760",
+            "depot": "Ardmore",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00772",
+            "depot": "Ardmore",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00794",
+            "depot": "Ardmore",
+            "build_month": "2021-09",
+            "build_group": "2021-H2",
+            "age_months": 31,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00816",
+            "depot": "Ardmore",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00833",
+            "depot": "Ardmore",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00849",
+            "depot": "Ardmore",
+            "build_month": "2021-10",
+            "build_group": "2021-H2",
+            "age_months": 30,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00864",
+            "depot": "Ardmore",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00880",
+            "depot": "Ardmore",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00899",
+            "depot": "Ardmore",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00918",
+            "depot": "Ardmore",
+            "build_month": "2021-11",
+            "build_group": "2021-H2",
+            "age_months": 29,
+            "van_months": 6.0,
+            "faults_found": 0,
+            "walkaround_ref": "WA-30"
+          },
+          {
+            "van_id": "RY-00931",
+            "depot": "Ardmore",
+            "build_month": "2021-12",
+            "build_group": "2021-H2",
+            "age_months": 28,
+            "van_months": 6.0,
+            "faults_found": 1,
+            "walkaround_ref": "WA-30"
+          }
+        ]
+      },
+      "sequence": 4,
+      "previous": "80255ab2cac6d318431510271d4ac722adb1bd840c68bf9810bdd13a3cb6aaf6",
+      "seal": "b90db1cadbbdd37f2c64107ddd425a6042ebf7dd204e0ebd2de6652dbfd8670e"
+    }
+  ]
+}

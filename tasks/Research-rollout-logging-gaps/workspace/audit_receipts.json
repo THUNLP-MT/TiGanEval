@@ -1,0 +1,44 @@
+{
+  "entries": [
+    {
+      "arm": "control",
+      "day": "2026-08-29",
+      "observed": {
+        "crawler_sessions": 1600
+      },
+      "previous": "",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0829-legacy",
+      "seal": "643250a06124d39fada5759d8c5cea2e1d91e1d226fb71b2fd6f84a6725ceb52",
+      "sequence": 1,
+      "units": 1
+    },
+    {
+      "arm": "control",
+      "day": "2026-08-30",
+      "observed": {
+        "crawler_sessions": 1700
+      },
+      "previous": "643250a06124d39fada5759d8c5cea2e1d91e1d226fb71b2fd6f84a6725ceb52",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0830-legacy",
+      "seal": "3cc8b49962bf77d7bcc5afefbaabe1b95819f4a67413468d73a5b7ac677f63a3",
+      "sequence": 2,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-08-28",
+      "observed": {
+        "crawler_sessions": 1400
+      },
+      "previous": "3cc8b49962bf77d7bcc5afefbaabe1b95819f4a67413468d73a5b7ac677f63a3",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0828-v2",
+      "seal": "86a73042ed2fb7e7a969fea108e0dd0c55276e13fe26082c42895a46c4b3b3c8",
+      "sequence": 3,
+      "units": 1
+    }
+  ],
+  "readout": "checkout-hint-september"
+}

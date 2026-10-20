@@ -1,0 +1,63 @@
+{
+  "quarter": "2026-Q2",
+  "signed_off_by": "estate security review",
+  "documents": [
+    {
+      "document": "payments-gateway.policy",
+      "profile": "release",
+      "findings_in_the_document": 13,
+      "open": 2,
+      "waived_without_a_rule": 0,
+      "waived_for_a_named_rule": 11,
+      "open_with_waivers_ignored": 13
+    },
+    {
+      "document": "checkout-web.policy",
+      "profile": "release",
+      "findings_in_the_document": 12,
+      "open": 4,
+      "waived_without_a_rule": 5,
+      "waived_for_a_named_rule": 3,
+      "open_with_waivers_ignored": 12
+    },
+    {
+      "document": "ledger-sync.february.policy",
+      "profile": "release",
+      "findings_in_the_document": 5,
+      "open": 2,
+      "waived_without_a_rule": 0,
+      "waived_for_a_named_rule": 3,
+      "open_with_waivers_ignored": 5
+    },
+    {
+      "document": "ledger-sync.march.policy",
+      "profile": "release",
+      "findings_in_the_document": 5,
+      "open": 2,
+      "waived_without_a_rule": 0,
+      "waived_for_a_named_rule": 3,
+      "open_with_waivers_ignored": 5
+    },
+    {
+      "document": "legacy-invoicer.policy",
+      "profile": "hardening",
+      "findings_in_the_document": 6,
+      "open": 2,
+      "waived_without_a_rule": 2,
+      "waived_for_a_named_rule": 2,
+      "open_with_waivers_ignored": 6
+    }
+  ],
+  "open_findings_last_signed_off": {
+    "checkout-web.policy": [
+      "SEC-SHELL-EXEC line 20 service.handlers.checkout.submit_hook",
+      "SEC-SECRET-PLAIN line 21 service.handlers.checkout.checkout_password",
+      "SEC-SECRET-PLAIN line 32 service.handlers.audit.audit_token",
+      "OPS-LOG-OFF line 33 service.logging"
+    ],
+    "legacy-invoicer.policy": [
+      "SEC-NET-OPEN line 7 service.runtime.network",
+      "SEC-PORT-ADMIN line 10 service.runtime.ports"
+    ]
+  }
+}

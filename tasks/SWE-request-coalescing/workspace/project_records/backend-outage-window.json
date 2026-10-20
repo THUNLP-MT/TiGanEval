@@ -1,0 +1,4 @@
+{
+  "record_id": "backend-outage-window",
+  "scene": "The forty seconds the summary backend spent shedding load: six desks on invoice-2291 while the rendering dies, then three more asking for the same invoice once the backend is answering again, over a connection that was still handing that rendering's pieces back out of turn."
+}

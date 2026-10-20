@@ -1,0 +1,4 @@
+{
+  "record_id": "quarterly-audit",
+  "scene": "The quarterly reconciliation. Every document in the estate is read twice on the same afternoon, once the way the weekly run reads it and once with Profile.ignore_waivers set, and the security review works down reconciliation.json comparing the two against the sheet it signed off last quarter."
+}

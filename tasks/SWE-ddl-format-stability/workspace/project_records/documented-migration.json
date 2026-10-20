@@ -1,0 +1,5 @@
+{
+  "record_id": "documented-migration",
+  "scene": "A migration whose author annotated the schema with line and block comments, put through the formatter.",
+  "files": ["migrations/0003_create_account_payouts.sql"]
+}

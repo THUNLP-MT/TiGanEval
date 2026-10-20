@@ -1,0 +1,12 @@
+id: SWE-layered-policy-merge
+domain: SWE
+title: 'SWE: Session pinning across layered ingress policies'
+seed_sources:
+- name: 'DeepSWE v1.1: kgateway-consistent-hash-policy'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/kgateway-consistent-hash-policy
+rubrics:
+- merged_plan_matches_the_policies
+- each_key_pins_once
+- pinning_survives_a_repush
+- opt_out_clears_inherited_pinning
+- pin_key_matches_the_reference

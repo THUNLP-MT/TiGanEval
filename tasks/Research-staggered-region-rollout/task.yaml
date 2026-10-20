@@ -1,0 +1,12 @@
+id: Research-staggered-region-rollout
+domain: Research
+title: 'Research: what batching did to on-time delivery across Halcombe'
+seed_sources:
+- name: Callaway and Sant'Anna (2021), Difference-in-Differences with Multiple Time Periods
+  url: https://arxiv.org/abs/1803.09015
+rubrics:
+- rollout_effect_within_tolerance
+- report_reconciles_receipts
+- range_covers_and_meets_floor
+- next_week_feasible_and_informative
+- estimate_invariant_to_migration_and_rollback

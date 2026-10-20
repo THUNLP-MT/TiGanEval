@@ -1,0 +1,12 @@
+id: SWE-concurrent-map-merge
+domain: SWE
+title: 'SWE: Concurrent Map Merge'
+seed_sources:
+- name: 'DeepSWE v1.1: yjs-map-conflict-detection'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/yjs-map-conflict-detection
+rubrics:
+- convergent_board_state
+- causal_edit_precedence
+- clear_scope_preserves_unseen_edits
+- state_vector_matches_what_it_holds
+- merge_account_matches_card

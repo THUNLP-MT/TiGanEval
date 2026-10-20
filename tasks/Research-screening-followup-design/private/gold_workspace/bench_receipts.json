@@ -1,0 +1,183 @@
+{
+  "campaign": "hs-july",
+  "entries": [
+    {
+      "ambient_C": 23.2,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 19.4,
+      "day_id": "2026-09-03",
+      "parts": [
+        {
+          "fixture_id": "F-16",
+          "part": "P-07",
+          "requested_runs": 2,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 1
+        },
+        {
+          "fixture_id": "F-14",
+          "part": "P-06",
+          "requested_runs": 1,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 2
+        },
+        {
+          "fixture_id": "F-18",
+          "part": "P-03",
+          "requested_runs": 1,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 3
+        }
+      ],
+      "previous": "",
+      "receipt_id": "mr-0903",
+      "refusal": "the day allows 2 fixture changes and the sheet asks for 3 parts",
+      "rig_days_left_after": 4,
+      "rig_hours_charged": 9.0,
+      "seal": "d68e1d0a2162439b427e6254d7084ac80d62eac15745faa1c8e9389ad2ca3183",
+      "sequence": 1
+    },
+    {
+      "ambient_C": 22.3,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 18.9,
+      "day_id": "2026-09-04",
+      "parts": [
+        {
+          "fixture_id": "F-15",
+          "part": "P-07",
+          "requested_runs": 4,
+          "returned_runs": 4,
+          "rise_K": [
+            16.2,
+            15.9,
+            16.5,
+            16.4
+          ],
+          "slot": 1
+        }
+      ],
+      "previous": "d68e1d0a2162439b427e6254d7084ac80d62eac15745faa1c8e9389ad2ca3183",
+      "receipt_id": "mr-0904",
+      "refusal": null,
+      "rig_days_left_after": 3,
+      "rig_hours_charged": 9.0,
+      "seal": "cea54dd1bf072ff108fcab3b56f2299b07892783fd9acb5296dccee2146a2e4f",
+      "sequence": 2
+    },
+    {
+      "ambient_C": 22.8,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 19.2,
+      "day_id": "2026-09-09",
+      "parts": [
+        {
+          "fixture_id": "F-11",
+          "part": "P-07",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            16.9,
+            17.1
+          ],
+          "slot": 1
+        },
+        {
+          "fixture_id": "F-12",
+          "part": "INC",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            18.5,
+            18.6
+          ],
+          "slot": 2
+        }
+      ],
+      "previous": "cea54dd1bf072ff108fcab3b56f2299b07892783fd9acb5296dccee2146a2e4f",
+      "receipt_id": "review-1",
+      "refusal": null,
+      "rig_days_left_after": 2,
+      "rig_hours_charged": 9.0,
+      "seal": "1dedb3777efe1bd021fdec68f1dd24a28fc23570031a232f40410f70d93b141a",
+      "sequence": 3
+    },
+    {
+      "ambient_C": 22.5,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 18.8,
+      "day_id": "2026-09-10",
+      "parts": [
+        {
+          "fixture_id": "F-17",
+          "part": "P-07",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            16.5,
+            16.4
+          ],
+          "slot": 1
+        },
+        {
+          "fixture_id": "F-18",
+          "part": "INC",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            17.5,
+            17.3
+          ],
+          "slot": 2
+        }
+      ],
+      "previous": "1dedb3777efe1bd021fdec68f1dd24a28fc23570031a232f40410f70d93b141a",
+      "receipt_id": "review-2",
+      "refusal": null,
+      "rig_days_left_after": 1,
+      "rig_hours_charged": 9.0,
+      "seal": "9504841e2c19b50007b976b7aca8cbe0442a1ad3339eb68efcaaba666680ab2e",
+      "sequence": 4
+    },
+    {
+      "ambient_C": 23.0,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 19.5,
+      "day_id": "2026-09-11",
+      "parts": [
+        {
+          "fixture_id": "F-13",
+          "part": "P-07",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            17.0,
+            17.1
+          ],
+          "slot": 1
+        },
+        {
+          "fixture_id": "F-18",
+          "part": "INC",
+          "requested_runs": 2,
+          "returned_runs": 2,
+          "rise_K": [
+            18.5,
+            18.0
+          ],
+          "slot": 2
+        }
+      ],
+      "previous": "9504841e2c19b50007b976b7aca8cbe0442a1ad3339eb68efcaaba666680ab2e",
+      "receipt_id": "review-3",
+      "refusal": null,
+      "rig_days_left_after": 0,
+      "rig_hours_charged": 9.0,
+      "seal": "6f4581d0b158ddde3379fc6dd8133c954fad7e08e58e39b48fe84cd9c24283cb",
+      "sequence": 5
+    }
+  ]
+}

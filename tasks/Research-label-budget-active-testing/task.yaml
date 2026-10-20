@@ -1,0 +1,14 @@
+id: Research-label-budget-active-testing
+domain: Research
+title: 'Research: what the misroute review can say about last month''s tickets'
+seed_sources:
+- name: 'Kossen et al. (2021), Active Testing: Sample-Efficient Model Evaluation'
+  url: https://proceedings.mlr.press/v139/kossen21a.html
+- name: 'Farquhar, Gal and Rainforth (2021), On Statistical Bias In Active Learning: How and When To Fix It'
+  url: https://arxiv.org/abs/2101.11665
+rubrics:
+- intake_misroute_estimate
+- purchase_accounting
+- misroute_range_is_honest
+- reviewer_regime_invariance
+- next_purchase_order

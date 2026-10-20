@@ -1,0 +1,25 @@
+{
+  "record_id": "desk-job-refused",
+  "date": "2026-08-27",
+  "author": "Priya Anand",
+  "runs_finished": [
+    "r01",
+    "r02",
+    "r03",
+    "r04",
+    "r05",
+    "r06",
+    "r07",
+    "r08"
+  ],
+  "jobs": [
+    "nb-0827"
+  ],
+  "notes": [
+    "All eight runs are through. r07 is the other long warm-up.",
+    "r07's holdout loss reads 1.4090 at 18,500 and 1.8127 at 22,500. Curve in curves/r07.csv.",
+    "Sent the desk r06@13500, r05@13000 and r08@21000, two reads each. It came back unrun: r05@13000 is not on disk. Ten units charged for the queue.",
+    "The retention job ran on the 21st. 131 of the 360 checkpoints are still on disk; the registry has the rest.",
+    "Nadia has asked for the readout to name r06@13500."
+  ]
+}

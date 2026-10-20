@@ -1,0 +1,18 @@
+service:
+  name: ledger-sync
+  owner: finance-platform
+  runtime:
+    image: registry.internal/ledger-sync:2.7
+    network: bridge
+    ports:
+      - 8080
+      - 22
+  jobs:
+    ledger_hook:
+      - "sh -c /opt/pull-ledger.sh"
+      - "sh -c /opt/push-ledger.sh"                # waive SEC-PORT-ADMIN, SEC-SHELL-EXEC
+    settle_token: vault:finance/settle
+    # waive-next SEC-PORT-ADMIN, SEC-SHELL-EXEC
+    audit_hook:
+      - "sh -c /opt/audit-ledger.sh"
+    audit_password: literal-8f30

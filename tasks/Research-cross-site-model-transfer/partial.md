@@ -1,0 +1,5 @@
+Ilse Verhoeven here, triage service. Can you take the Brookfield report over before Thursday, rather than leaving it with me.
+
+The pipeline has been scoring Brookfield's intake since 3 August and both centre managers are waiting on the quarter's number. `analysis.py` runs today. I put it together myself off the reserved Ridgeline split while the window was still open, and it comes back at eight in a hundred, which is within a point of what the first fortnight of Brookfield reviews gave me. That agreement is why I think the move went cleanly. I have not been near the intake side though, and I am not putting my own arithmetic in front of two managers. Take it apart, work through each of the records in `project_records/`, and give me back the number you would sign.
+
+We have 360 review units left on Brookfield this quarter. My instinct is to put them into Ridgeline, since that is the centre we have the longest record on and its manager wants her own report next, so have `next_collection` send Dilan there; what is in there now already does.

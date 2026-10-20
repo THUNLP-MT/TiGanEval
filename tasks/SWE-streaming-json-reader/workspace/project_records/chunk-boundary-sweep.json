@@ -1,0 +1,4 @@
+{
+  "record_id": "chunk-boundary-sweep",
+  "scene": "The same gateway responses replayed with the transport handing the body over in different packet sizes, and with the character encodings the regional gateways actually use."
+}

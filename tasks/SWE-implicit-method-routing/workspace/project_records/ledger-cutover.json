@@ -1,0 +1,4 @@
+{
+  "record_id": "ledger-cutover",
+  "scene": "The reconciliation ledger the week after it moved into its own router. The holdover copy the platform team kept is still mounted at the same prefix, so two reads stand at /v1/ledger and the log shows which of them a partner's call reaches and what it spends. The settlement carries the setting operations asked for when they stopped the nightly close being set off by traffic; the day pages beside it carry nothing of the sort."
+}

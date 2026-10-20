@@ -1,0 +1,30 @@
+{
+  "record_id": "poison-message-drill",
+  "scene": "A worker run in which one notification fails processing repeatedly, one succeeds, and one is discarded outright, followed by a look at whatever reached the dead-letter queue.",
+  "queue_properties": {
+    "work": {"dead_letter_queue": "work.dead", "message_ttl": null, "max_length": null, "max_deliveries": 3},
+    "work.dead": {"dead_letter_queue": null, "message_ttl": null, "max_length": null, "max_deliveries": 3}
+  },
+  "recorded": {
+    "note": "Written up by on-call after the last drill the notification team signed off.",
+    "handouts": [
+      {"label": "take-1", "queue": "work", "message_id": "m-00001", "redelivery_count": 0},
+      {"label": "take-2", "queue": "work", "message_id": "m-00001", "redelivery_count": 1},
+      {"label": "take-3", "queue": "work", "message_id": "m-00001", "redelivery_count": 2},
+      {"label": "take-4", "queue": "work", "message_id": "m-00002", "redelivery_count": 0},
+      {"label": "take-5", "queue": "work", "message_id": "m-00003", "redelivery_count": 0},
+      {"label": "take-6", "queue": "work", "message_id": null},
+      {"label": "take-dead-1", "queue": "work.dead", "message_id": "m-00001", "redelivery_count": 0}
+    ],
+    "at_the_end": {
+      "waiting": {"work": [], "work.dead": ["m-00003"]},
+      "held_by_workers": [],
+      "settled": [
+        {"message_id": "m-00001", "disposition": "dead_lettered", "reason": "rejected", "queue": "work"},
+        {"message_id": "m-00002", "disposition": "acknowledged", "reason": null, "queue": "work"},
+        {"message_id": "m-00003", "disposition": "dead_lettered", "reason": "rejected", "queue": "work"},
+        {"message_id": "m-00001", "disposition": "acknowledged", "reason": null, "queue": "work.dead"}
+      ]
+    }
+  }
+}

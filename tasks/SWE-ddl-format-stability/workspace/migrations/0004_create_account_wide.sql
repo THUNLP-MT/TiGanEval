@@ -1,0 +1,1 @@
+create table account_wide (very_long_column_name_number_00 varchar(255) not null default 'placeholder', very_long_column_name_number_01 varchar(255) not null default 'placeholder', very_long_column_name_number_02 varchar(255) not null default 'placeholder');

@@ -1,0 +1,14 @@
+{
+  "record_id": "first-four-runs",
+  "date": "2026-08-14",
+  "author": "Priya Anand",
+  "runs_finished": ["r01", "r02", "r03", "r04"],
+  "jobs": [],
+  "notes": [
+    "r01 to r04 are through. Machines freed in that order; nothing was scheduled.",
+    "All four went through the automatic evaluation on v-2f9c.",
+    "Best row on the sheet so far is r02 at step 18,500, 0.8209.",
+    "r03 is one of the two on the long warm-up. Its holdout loss reads 1.6033 at 15,000 and 2.0549 at 22,500. Curve in curves/r03.csv.",
+    "r02's holdout loss reads 1.4446 at 18,000 and 1.4389 at 22,500."
+  ]
+}

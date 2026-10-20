@@ -1,0 +1,35 @@
+{
+  "desk": "northfield-managed",
+  "entries": [
+    {
+      "accounts_started": 0,
+      "desk": "northfield-managed",
+      "hold_share": 0.75,
+      "previous": "",
+      "receipt_id": "wk11-hold-all",
+      "refusal": "the desk holds at most 60 percent of a week's flags and this call asked to hold 75",
+      "rows_returned": 0,
+      "seal": "3da8e222821fbe19600eb5022755e5d098b17fa0a9331d4342f1d9b222d7f88a",
+      "segment": "all",
+      "sequence": 1,
+      "slots_asked": 40,
+      "slots_charged": 10,
+      "week": -1
+    },
+    {
+      "accounts_started": 0,
+      "desk": "northfield-managed",
+      "hold_share": 0.5,
+      "previous": "3da8e222821fbe19600eb5022755e5d098b17fa0a9331d4342f1d9b222d7f88a",
+      "receipt_id": "wk12-premier-only",
+      "refusal": "the desk books at most 40 slots in a week and this call asked for 45",
+      "rows_returned": 0,
+      "seal": "cf4b4863434310a45587b7fb1c7e8d8172cac1fdc9c845f29539ce30ce9209e4",
+      "segment": "plan_tier=premier",
+      "sequence": 2,
+      "slots_asked": 45,
+      "slots_charged": 10,
+      "week": -1
+    }
+  ]
+}

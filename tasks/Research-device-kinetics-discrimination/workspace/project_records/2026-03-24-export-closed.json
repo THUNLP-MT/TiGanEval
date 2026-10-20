@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-24",
+  "notes": [
+    "R-A closed on the 16th and R-B today. Export handed to Anders: 737 rows, REF-20's own reads among them.",
+    "Ninety-five module rows in the whole export are sitting on 40.0, and all but two of them are at the front of a trace.",
+    "The chamber desk sent the sheet of the 9th back over the counter; the two days went with it and are on the receipt stream.",
+    "REF-20 20.0 on the last session of each rack."
+  ],
+  "operator": "Nils Aaberg",
+  "record_id": "export-closed",
+  "through_day": "2026-03-24"
+}

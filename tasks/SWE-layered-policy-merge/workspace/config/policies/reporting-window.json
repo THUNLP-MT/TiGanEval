@@ -1,0 +1,12 @@
+{
+  "name": "reporting-window",
+  "scope": "route",
+  "routes": ["reporting-export"],
+  "note": "Data team, drafted for the quarter-end window and pushed with the rest of the estate.",
+  "pins": {
+    "disable": true,
+    "headers": [
+      {"name": "x-report-window"}
+    ]
+  }
+}

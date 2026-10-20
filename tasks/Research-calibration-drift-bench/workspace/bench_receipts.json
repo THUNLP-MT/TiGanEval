@@ -1,0 +1,43 @@
+{
+  "campaign": "bushing-qualification-2026",
+  "entries": [
+    {
+      "calibration": "C1-04",
+      "campaign": "bushing-qualification-2026",
+      "cycles": 0,
+      "fixture": "FX-40",
+      "hours": 0.5,
+      "lot": null,
+      "observed": {
+        "kind": "reference",
+        "reading_um": 21.31
+      },
+      "part": null,
+      "previous": "",
+      "rig": 1,
+      "run_id": "kt-block-r1",
+      "seal": "3980c49930c44bb4a44f3f4848596773199072c912936ce92bfaa3f984fa601f",
+      "sequence": 1,
+      "supplier": null
+    },
+    {
+      "calibration": "C2-03",
+      "campaign": "bushing-qualification-2026",
+      "cycles": 0,
+      "fixture": "FX-52",
+      "hours": 0.5,
+      "lot": null,
+      "observed": {
+        "kind": "reference",
+        "reading_um": 20.937
+      },
+      "part": null,
+      "previous": "3980c49930c44bb4a44f3f4848596773199072c912936ce92bfaa3f984fa601f",
+      "rig": 2,
+      "run_id": "kt-block-r2",
+      "seal": "84c0c643a100618081b575ec8e712f062e277d8b006ee1685888b73a82417e83",
+      "sequence": 2,
+      "supplier": null
+    }
+  ]
+}

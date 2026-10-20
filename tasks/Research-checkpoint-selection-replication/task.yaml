@@ -1,0 +1,12 @@
+id: Research-checkpoint-selection-replication
+domain: Research
+title: 'Research: What the checkpoint we ship is actually worth'
+seed_sources:
+- name: Cawley and Talbot (2010), On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation
+  url: https://jmlr.org/papers/v11/cawley10a.html
+rubrics:
+- shipped_gain_within_tolerance
+- range_covers_and_meets_floor
+- gain_invariant_to_lot_and_turn
+- booking_reads_shortlist_on_one_lot
+- report_reconciles_receipts

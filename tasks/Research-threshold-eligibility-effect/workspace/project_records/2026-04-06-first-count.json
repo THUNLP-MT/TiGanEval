@@ -1,0 +1,13 @@
+{
+  "session": "first-count",
+  "date": "2026-04-06",
+  "analyst": "Priya Raman",
+  "as_of": "2026-04-06",
+  "receipts_on_file": [],
+  "notes": [
+    "Five runs out. Ran the notebook over what the export has so far.",
+    "Counted the register by run week: the share of scored accounts carrying an offer_flag climbs each week, 42 in a hundred in week one against 54 in week five.",
+    "Carried rows are running around one in nine of the book and are not evenly spread over the score.",
+    "Nobody's sixty days are up yet on the later weeks, so first_order_date is empty for most of the book."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "entries": [
+    {
+      "arm": "control",
+      "day": "2026-08-29",
+      "observed": {
+        "crawler_sessions": 1600
+      },
+      "previous": "",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0829-legacy",
+      "seal": "643250a06124d39fada5759d8c5cea2e1d91e1d226fb71b2fd6f84a6725ceb52",
+      "sequence": 1,
+      "units": 1
+    },
+    {
+      "arm": "control",
+      "day": "2026-08-30",
+      "observed": {
+        "crawler_sessions": 1700
+      },
+      "previous": "643250a06124d39fada5759d8c5cea2e1d91e1d226fb71b2fd6f84a6725ceb52",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0830-legacy",
+      "seal": "3cc8b49962bf77d7bcc5afefbaabe1b95819f4a67413468d73a5b7ac677f63a3",
+      "sequence": 2,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-08-28",
+      "observed": {
+        "crawler_sessions": 1400
+      },
+      "previous": "3cc8b49962bf77d7bcc5afefbaabe1b95819f4a67413468d73a5b7ac677f63a3",
+      "readout": "checkout-hint-september",
+      "scan_id": "nk-0828-v2",
+      "seal": "86a73042ed2fb7e7a969fea108e0dd0c55276e13fe26082c42895a46c4b3b3c8",
+      "sequence": 3,
+      "units": 1
+    },
+    {
+      "arm": "control",
+      "day": "2026-08-28",
+      "observed": {
+        "crawler_sessions": 1400
+      },
+      "previous": "86a73042ed2fb7e7a969fea108e0dd0c55276e13fe26082c42895a46c4b3b3c8",
+      "readout": "checkout-hint-september",
+      "scan_id": "rollout-01",
+      "seal": "208482d88f705e3960c2be94821b08243b363bde0a8fa6ea0b58643c8eaeb58e",
+      "sequence": 4,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-08-29",
+      "observed": {
+        "crawler_sessions": 1600
+      },
+      "previous": "208482d88f705e3960c2be94821b08243b363bde0a8fa6ea0b58643c8eaeb58e",
+      "readout": "checkout-hint-september",
+      "scan_id": "rollout-02",
+      "seal": "88bd20fb98c87d0caeff9b76fa98026573380f2fea4751a467506e6117d4502b",
+      "sequence": 5,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-08-30",
+      "observed": {
+        "crawler_sessions": 1700
+      },
+      "previous": "88bd20fb98c87d0caeff9b76fa98026573380f2fea4751a467506e6117d4502b",
+      "readout": "checkout-hint-september",
+      "scan_id": "rollout-03",
+      "seal": "13dfce2d84612015357844677f73d4b1889464c888fb342694d1065407ad4d50",
+      "sequence": 6,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-08-31",
+      "observed": {
+        "crawler_sessions": 1500
+      },
+      "previous": "13dfce2d84612015357844677f73d4b1889464c888fb342694d1065407ad4d50",
+      "readout": "checkout-hint-september",
+      "scan_id": "rollout-04",
+      "seal": "1c806bcbec59a95efbebf64216c01c9534854652f2610918dc4e75c36e94ff0c",
+      "sequence": 7,
+      "units": 1
+    },
+    {
+      "arm": "treatment",
+      "day": "2026-09-01",
+      "observed": {
+        "crawler_sessions": 1650
+      },
+      "previous": "1c806bcbec59a95efbebf64216c01c9534854652f2610918dc4e75c36e94ff0c",
+      "readout": "checkout-hint-september",
+      "scan_id": "rollout-05",
+      "seal": "c7bdfc92344000a5b138e63a458d74a73940680d65db04e313ad1d977d2645c4",
+      "sequence": 8,
+      "units": 1
+    }
+  ],
+  "readout": "checkout-hint-september"
+}

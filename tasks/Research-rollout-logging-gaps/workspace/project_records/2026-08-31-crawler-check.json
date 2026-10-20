@@ -1,0 +1,28 @@
+{
+  "date": "2026-08-31",
+  "notes": [
+    "Support raised a crawler surge on the sitemap paths at 21:40 on the 28th. It had been running for most of that day before anyone noticed.",
+    "Support attached a sample of forty of those sessions to the ticket. I read through them: every one has an empty earlier-session lookup for this window, opens on a sitemap URL, walks the category pages and leaves, and not one of the forty has a cart or a checkout confirmation against it.",
+    "Crawler rule set 12 went live on the legacy serving path on the 29th. Platform has the v2 path booked for 5 September and will not bring it forward.",
+    "I spent two archive units rescanning the legacy path after the rule set went live, the 29th and the 30th. The service came back with 1600 and 1700.",
+    "The archive only holds a rolling stretch of raw ingest; the readout context names the first day it still has, and that day moves forward every night."
+  ],
+  "operator": "Nadia Kovac",
+  "rescans": [
+    [
+      "2026-08-29",
+      "control"
+    ],
+    [
+      "2026-08-30",
+      "control"
+    ]
+  ],
+  "retained_from": "2026-08-24",
+  "scan_ids": [
+    "nk-0829-legacy",
+    "nk-0830-legacy"
+  ],
+  "session_id": "crawler-check",
+  "through_day": "2026-08-30"
+}

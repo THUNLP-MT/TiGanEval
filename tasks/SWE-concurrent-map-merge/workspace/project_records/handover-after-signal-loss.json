@@ -1,0 +1,4 @@
+{
+  "record_id": "handover-after-signal-loss",
+  "scene": "A hand-over at the end of a shift. One person set the assignee, the next person read the card and put a different name on it, and the two laptops came back onto the network several minutes apart. The clock on the second laptop had drifted a minute and a half behind the first."
+}

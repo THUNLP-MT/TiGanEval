@@ -1,0 +1,20 @@
+service:
+  name: legacy-invoicer
+  owner: finance-platform
+  runtime:
+    image: registry.internal/legacy-invoicer:1.0    # waive SEC-IMAGE-FLOAT
+    # waive-end SEC-NET-OPEN
+    network: host                                   # waive OPS-RESTART-NEVER
+    restart: never
+    ports:
+      - 2375                                        # waive SEC-PORT-ADMN
+  batch:
+    # waive-begin
+    batch_hook:
+      - "sh -c /opt/run-batch.sh"                   # waive SEC-SHELL-EXEC
+    batch_token: literal-3c88
+  archive:
+    # waive-begin all
+    archive_hook:
+      - "sh -c /opt/run-archive.sh"
+    archive_key: literal-5a02

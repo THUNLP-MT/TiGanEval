@@ -1,0 +1,12 @@
+id: SWE-log-viewport-follow
+domain: SWE
+title: 'SWE: Holding a reader''s place in the incident console'
+seed_sources:
+- name: 'DeepSWE v1.1: textual-richlog-follow-state'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/textual-richlog-follow-state
+rubrics:
+- paused_anchor_holds
+- liveness_follows_position
+- follow_transitions_exactly_once
+- render_matches_reference
+- extent_matches_retained

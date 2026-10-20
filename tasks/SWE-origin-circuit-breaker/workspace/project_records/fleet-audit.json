@@ -1,0 +1,4 @@
+{
+  "record_id": "fleet-audit",
+  "scene": "The quarterly audit run, which drives one base client and the four service clients built from it against the same upstreams, using each of the caller shapes our services actually pass: an absolute URL, a path under the client's base_url, a Url the router already parsed, and a Request another layer had built. The search cluster was answering 503 that morning; payments, inventory and the search admin port on 9443 were healthy. The migration proxy is also reached through HTTP and HTTPS at port 8080: its HTTPS origin was failing while the HTTP origin at the same host and port stayed healthy."
+}

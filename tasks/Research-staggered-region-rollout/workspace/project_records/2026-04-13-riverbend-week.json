@@ -1,0 +1,15 @@
+{
+  "session": "riverbend-week",
+  "date": "2026-04-13",
+  "analyst": "Nils Aarheim",
+  "as_of": "2026-04-13",
+  "regions": ["Riverbend", "Thrushwood"],
+  "notes": [
+    "Riverbend went live on 4 March. Printed rate 0.8831 on the 3rd, 0.9293 on the 4th.",
+    "On-call log has Riverbend paged on 10 March at 23:50 and restarted at 02:15 on the 11th, then a line at 09:40 on the 11th reading batching disabled.",
+    "Printed rate 0.9301 on 10 March, 0.8844 on the 11th, 0.8846 on the 12th, and it stays there.",
+    "Nothing in the register changed. live_from for Riverbend still reads 2026-03-04.",
+    "Riverbend and Evermoor were both counted at 2,881 orders on the day the book was cut; Harrow Bay is next at 1,440.",
+    "Thrushwood went live on 24 February and is still running. Its band is the same as Riverbend's."
+  ]
+}

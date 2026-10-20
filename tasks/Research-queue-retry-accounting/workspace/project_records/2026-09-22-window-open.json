@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-09-22T10:00",
+  "date": "2026-09-22",
+  "notes": [
+    "Review window opened on Monday the 21st. The block the review covers is 18:00 to 21:00 and the export is written one minute at a time.",
+    "Platform granted this review twelve trace units for September at one unit a pull. Nothing spent yet.",
+    "Platform closed the August trace bill this week. They read it against the August review line by line and sent back two units that review never printed, and finance is holding August's archive spend until somebody accounts for them.",
+    "checkout-web and checkout-app took the new client library overnight, so tonight's block is the first they run on it. partner-api and internal-tools are booked for tonight.",
+    "Dashboard for Monday came in at 4.85."
+  ],
+  "operator": "Marisol Reyes",
+  "retained_from": "2026-09-19T10:00",
+  "session_id": "window-open",
+  "through_minute": "2026-09-21T20:59",
+  "trace_ids": [],
+  "traces": []
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-30",
+  "notes": [
+    "r-011 ran at r-009's settings on a different shard: 2.0495 against 2.0090.",
+    "r-018 ran at r-016's settings on a different shard: 1.8465 against 1.8181.",
+    "Nothing else moved between the two pairs. Same width, same examples, same rate, same code.",
+    "The loader hands each job whichever validation shard its index resolves to; nobody picks them by hand."
+  ],
+  "operator": "Ines Aliyev",
+  "record_id": "mid-sweep",
+  "through_date": "2026-05-29"
+}

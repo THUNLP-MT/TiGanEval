@@ -1,0 +1,13 @@
+{
+  "record_id": "quarter-close",
+  "date": "2026-09-02",
+  "author": "Ilse Verhoeven",
+  "through_day": "2026-09-01",
+  "receipts": ["bf-w1-queue", "bf-w2-queue"],
+  "notes": [
+    "Window closed on the 1st. 240 units spent, 360 left, and they do not carry over.",
+    "Platform's billing review for August came back on the 31st. They read the review ledger against what the Ridgeline report had printed and sent back two receipts that report never listed; that report is being rewritten.",
+    "Ashcombe, Delford, Marren and Pellwood are queued behind Brookfield on the same notebook, and Tarnbrook after them. Each arrives with its own reviewer form, its own counters and its own grant of units.",
+    "Both managers are expecting the Brookfield number this week."
+  ]
+}

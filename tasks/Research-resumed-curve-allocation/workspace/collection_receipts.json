@@ -1,0 +1,179 @@
+{
+  "campaign": "pretrain-sweep-2026-09",
+  "entries": [
+    {
+      "receipt_id": "sweep-0912-a",
+      "campaign": "pretrain-sweep-2026-09",
+      "day": "2026-09-12",
+      "config_id": "cfg-01",
+      "node_type": "n-b",
+      "hours_requested": 6,
+      "steps_returned": 4980,
+      "schedule_restarted": true,
+      "hours_charged": 6,
+      "hours_remaining": 44,
+      "refusal": null,
+      "observed": {
+        "segment_id": "cfg-01-s04",
+        "resumed_from": "cfg-01-s03",
+        "rows": [
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 250,
+            "lr": 0.00025,
+            "loss": 1.9058
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 500,
+            "lr": 0.000299795,
+            "loss": 1.9164
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 750,
+            "lr": 0.000298961,
+            "loss": 1.9439
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 1000,
+            "lr": 0.00029749,
+            "loss": 1.8962
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 1250,
+            "lr": 0.000295389,
+            "loss": 1.9253
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 1500,
+            "lr": 0.000292666,
+            "loss": 1.8942
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 1750,
+            "lr": 0.000289335,
+            "loss": 1.9047
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 2000,
+            "lr": 0.00028541,
+            "loss": 1.8954
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 2250,
+            "lr": 0.000280909,
+            "loss": 1.9095
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 2500,
+            "lr": 0.000275851,
+            "loss": 1.9233
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 2750,
+            "lr": 0.000270261,
+            "loss": 1.8924
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 3000,
+            "lr": 0.000264163,
+            "loss": 1.8945
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 3250,
+            "lr": 0.000257584,
+            "loss": 1.8927
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 3500,
+            "lr": 0.000250554,
+            "loss": 1.8545
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 3750,
+            "lr": 0.000243106,
+            "loss": 1.876
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 4000,
+            "lr": 0.000235271,
+            "loss": 1.8731
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 4250,
+            "lr": 0.000227087,
+            "loss": 1.8665
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 4500,
+            "lr": 0.000218589,
+            "loss": 1.8744
+          },
+          {
+            "segment_id": "cfg-01-s04",
+            "step": 4750,
+            "lr": 0.000209815,
+            "loss": 1.8582
+          }
+        ]
+      },
+      "sequence": 1,
+      "previous": "",
+      "seal": "5051b20e61b37b2444fdb83cf48352ebbe7a0f3e32c7184f882fa4e4fe160cae"
+    },
+    {
+      "receipt_id": "sweep-0913-a",
+      "campaign": "pretrain-sweep-2026-09",
+      "day": "2026-09-13",
+      "config_id": "cfg-02",
+      "node_type": "n-a",
+      "hours_requested": 12,
+      "steps_returned": 0,
+      "schedule_restarted": false,
+      "hours_charged": 1,
+      "hours_remaining": 43,
+      "refusal": "n-a is reserved for the whole window",
+      "observed": {
+        "rows": []
+      },
+      "sequence": 2,
+      "previous": "5051b20e61b37b2444fdb83cf48352ebbe7a0f3e32c7184f882fa4e4fe160cae",
+      "seal": "60a8044fa0aad007396144ac584e5d60581107ea9d46807dc5a8c8d1f22ce5d6"
+    },
+    {
+      "receipt_id": "sweep-0913-b",
+      "campaign": "pretrain-sweep-2026-09",
+      "day": "2026-09-13",
+      "config_id": "cfg-04",
+      "node_type": "n-b",
+      "hours_requested": 20,
+      "steps_returned": 0,
+      "schedule_restarted": false,
+      "hours_charged": 1,
+      "hours_remaining": 42,
+      "refusal": "a job runs 4 to 16 wall hours",
+      "observed": {
+        "rows": []
+      },
+      "sequence": 3,
+      "previous": "60a8044fa0aad007396144ac584e5d60581107ea9d46807dc5a8c8d1f22ce5d6",
+      "seal": "7e25bb92e7ab33e44f41f6b0b26eb26b97973e0875938ae763a008d2f0eb5c8f"
+    }
+  ]
+}

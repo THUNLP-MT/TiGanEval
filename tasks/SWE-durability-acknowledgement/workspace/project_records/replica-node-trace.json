@@ -1,0 +1,4 @@
+{
+  "record_id": "replica-node-trace",
+  "scene": "A read replica doing its own acking with no durability listener configured, while the pipeline's depth changes part way through the session."
+}

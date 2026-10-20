@@ -1,0 +1,12 @@
+id: SWE-durability-acknowledgement
+domain: SWE
+title: 'SWE: Durability acknowledgement on the write path'
+seed_sources:
+- name: 'DeepSWE v1.1: pebble-durability-wait-apis'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/pebble-durability-wait-apis
+rubrics:
+- durable_watermark_matches_log
+- release_never_precedes_the_log
+- one_event_per_sync_commit
+- waiters_settle_exactly_once
+- accounting_independent_of_pipeline_shape

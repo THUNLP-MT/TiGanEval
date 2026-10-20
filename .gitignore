@@ -1,0 +1,11 @@
+/.venv/
+/.ruff_cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+/runs/
+/.env
+/.env.*
+/config.local.yaml
+/dist/
+*.egg-info/

@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-18",
+  "notes": [
+    "Loader v3 went on the queue on 5 June, day 41 of the sweep. From then a job resolves its validation shard index against the pooled block list; before then it resolved against the reserved block list.",
+    "r-023 and r-024 came back 1.6003 and 1.5920, under r-020 and under the line the earlier jobs sit on.",
+    "Marek asked me to put the trend and the ten-times number on the summary slide.",
+    "Next quarter's grant is 26000 units over 9 reservation days; the cap and the smallest reservation are unchanged."
+  ],
+  "operator": "Ines Aliyev",
+  "record_id": "sweep-close",
+  "through_date": "2026-06-17"
+}

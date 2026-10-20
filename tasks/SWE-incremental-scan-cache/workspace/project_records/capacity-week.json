@@ -1,0 +1,4 @@
+{
+  "record_id": "capacity-week",
+  "scene": "A week of pipeline runs under the published cache storage allowance, including a run of analysis configuration changes inside one expiry window, source files that are deleted and then restored, an idle gap longer than the expiry, and a run in which nothing changed."
+}

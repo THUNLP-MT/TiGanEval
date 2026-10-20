@@ -1,0 +1,13 @@
+{
+  "record_id": "export-arrives",
+  "date": "2026-08-26",
+  "author": "Dilan Roche",
+  "through_day": "2026-08-25",
+  "receipts": ["bf-w1-queue", "bf-w2-queue"],
+  "notes": [
+    "Second queue batch went through on the 24th, 100 units, receipt bf-w2-queue. Ilse asked me to sanity-check the intake side while I was in there.",
+    "The counter export and the queue agree day for day: received is queued plus skipped_no_history_panel on every row of the month.",
+    "I asked the desk for forty tickets with three prior contacts or fewer to see what those look like. It came back with none of them, forty passed over and nothing billed.",
+    "Not enough of the quarter left to go chasing that today. Leaving the note for whoever writes the report."
+  ]
+}

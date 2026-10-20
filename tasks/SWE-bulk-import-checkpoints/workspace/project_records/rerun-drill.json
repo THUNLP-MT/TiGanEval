@@ -1,0 +1,24 @@
+{
+  "record_id": "rerun-drill",
+  "night": "2026-08-27",
+  "scene": "An interrupted load, an attempt to continue it with a different export, the completing run, and the next scheduled run of the same export.",
+  "attempts": [
+    {
+      "label": "initial-load",
+      "note": "the export feed drops out part way through"
+    },
+    {
+      "label": "wrong-export-attempt",
+      "note": "the schedule is pointed at foreign-export.jsonl, the supplier's own export, by mistake"
+    },
+    {
+      "label": "resume-to-completion",
+      "note": "the restart that reaches the end of the catalogue export"
+    },
+    {
+      "label": "scheduled-rerun",
+      "note": "the next night's run, and upstream published nothing new that day, so the schedule hands it the same export again"
+    }
+  ],
+  "scheduler": "The schedule points the job at one export per night, whichever file upstream published, and it is the same warehouse and the same store every night, tables and metadata alike. Most nights that file is a new one under the old name: the whole catalogue again with the day's new products in their place in the ordering, landing on the warehouse the night before left behind. This drill is the quiet-night exception, where upstream published nothing and the schedule handed the job the same export a second time. A run that comes back refused is logged as a mis-pointed job and the night ends there; a run that hands back an exception instead of a report is paged to the on-call engineer."
+}

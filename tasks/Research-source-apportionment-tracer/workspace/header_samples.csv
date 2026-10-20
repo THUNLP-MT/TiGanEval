@@ -1,0 +1,14 @@
+sample_id,taken_at,point,cond_uScm,mark_muL,mark_flag,dwell_min
+hs-001,2026-01-04T09:15:00,header,508.0,5.69,value,5
+hs-002,2026-01-04T09:45:00,header,508.8,5.77,value,5
+hs-003,2026-01-04T10:15:00,header,520.2,5.97,value,5
+hs-004,2026-01-04T10:45:00,header,506.3,5.89,value,5
+hs-005,2026-01-12T09:20:00,header,516.0,6.18,value,5
+hs-006,2026-01-12T09:55:00,header,533.4,6.2,value,5
+hs-007,2026-01-12T14:20:00,header,415.9,6.96,value,5
+hs-008,2026-01-12T15:05:00,header,420.7,7.07,value,5
+hs-009,2026-01-20T09:10:00,header,518.6,5.74,value,5
+hs-010,2026-01-20T09:40:00,header,510.7,5.44,value,5
+hs-011,2026-01-20T10:10:00,header,515.7,5.82,value,5
+hs-012,2026-01-26T09:25:00,header,516.0,5.94,value,5
+hs-013,2026-01-26T10:00:00,header,512.0,5.78,value,5

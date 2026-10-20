@@ -1,0 +1,1 @@
+"""The catalogue listing package."""

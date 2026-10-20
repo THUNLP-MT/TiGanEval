@@ -1,0 +1,4 @@
+{
+  "record_id": "pilot-local-copy",
+  "scene": "A pricing job in the pilot folder, which is trying its own rounding kit before it goes into the shared directory. The shared rounding kit is on this worker's kit path as well, and the mode the run publishes is what the finance team reads off the catalog the next morning."
+}

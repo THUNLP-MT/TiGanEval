@@ -1,0 +1,12 @@
+{
+  "look": "reindex-followup",
+  "date": "2026-07-29",
+  "analyst": "Priya Raman",
+  "as_of": "2026-07-29",
+  "notes": [
+    "Platform ran the catalogue reindex from Tuesday 14 July to Thursday 16 July. Dashboards looked odd on the Wednesday and I could not say why.",
+    "Ingestion receipts carry a dropped count on the 14th, 15th and 16th and zero on every other day of the window.",
+    "The assignment topic shows dropped zero on all three of those days.",
+    "Reliability review is on the 24th; Kofi's note is in the workspace."
+  ]
+}

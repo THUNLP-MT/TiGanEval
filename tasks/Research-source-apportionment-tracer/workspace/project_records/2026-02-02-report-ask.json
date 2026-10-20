@@ -1,0 +1,12 @@
+{
+  "session": "report ask",
+  "date": "2026-02-02",
+  "author": "Priya Sandoval, estates analyst",
+  "as_of": "2026-02-02",
+  "notes": [
+    "The director's note landed: the three shares to four in a hundred, a range on the recovery share inside two in a hundred, and the visits accounted for, by the 12th.",
+    "Ran analysis.py as it stands. It comes back at 0.40 district, 0.40 gas, 0.20 recovery, and the range it prints on the recovery share runs from nought to about three tenths.",
+    "The hire module quote came back: two slots on top of the visit it is fitted for. It reads the header and each plant's own pump set in the same pass.",
+    "February and March run through the same notebook when their windows close, and Blocks B and C run through it on their own sheets."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "queue-order-swap",
+  "scene": "The same three jobs dispatched in two different orders, which is what the queue does night to night as workers free up. The invoicing job, the pilot job that asks for the shared tax kit by its full store path and then by name, and the rounding job. The audit compares what two nights' runs ended with, so the two catalogs here are meant to hold the same entries."
+}

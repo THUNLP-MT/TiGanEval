@@ -1,0 +1,11 @@
+{
+  "date": "2026-06-10",
+  "notes": [
+    "r-019, r-020, r-021 and r-022 were all booked above the tuning sheet's band. They came back 1.9083, 1.7330, 1.8466 and 1.8575.",
+    "r-017 used a fifth of r-022's compute and came back 1.7785.",
+    "Marek read those four numbers off the summary and asked whether width has stopped paying."
+  ],
+  "operator": "Ines Aliyev",
+  "record_id": "wide-jobs",
+  "through_date": "2026-06-09"
+}

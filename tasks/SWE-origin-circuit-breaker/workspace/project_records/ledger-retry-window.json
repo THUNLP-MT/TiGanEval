@@ -1,0 +1,4 @@
+{
+  "record_id": "ledger-retry-window",
+  "scene": "Tuesday's batch posting run against the ledger while it was refusing everything. The posting client retries twice inside every call, so one caller-visible posting can appear in the log more than once. The run then keeps posting every two seconds, and the platform's own health calls on this client go out unguarded alongside them."
+}

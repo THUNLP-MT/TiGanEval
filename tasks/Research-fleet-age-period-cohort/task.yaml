@@ -1,0 +1,12 @@
+id: Research-fleet-age-period-cohort
+domain: Research
+title: 'Research: What the 2022-H2 van build costs the region'
+seed_sources:
+- name: Bell and Jones (2013), The impossibility of separating age, period and cohort effects
+  url: https://eprints.whiterose.ac.uk/id/eprint/87660/
+rubrics:
+- build_difference_within_tolerance
+- range_covers_and_meets_floor
+- difference_invariant_to_card_and_lease
+- next_day_feasible_and_informative
+- report_reconciles_receipts

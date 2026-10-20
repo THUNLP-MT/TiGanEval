@@ -1,0 +1,12 @@
+{
+  "session": "account-states",
+  "date": "2026-03-02",
+  "analyst": "Tomas Halvorsen",
+  "as_of": "2026-03-01",
+  "receipts_then": [],
+  "notes": [
+    "Platform sent over account_state.csv: every stretch it had recorded off active, 620 rows attached to flags raised by 1 March.",
+    "Took thirty of the rows with no start_date and looked them up. Twelve sit on an account that was on trial or suspended the day the flag went up.",
+    "Some accounts in the log came off trial well before their flag. Those ones we did start, same as any other."
+  ]
+}

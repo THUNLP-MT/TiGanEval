@@ -1,0 +1,4 @@
+{
+  "record_id": "group-commit-trace",
+  "scene": "An afternoon on the metrics node: eight commits of mixed kinds taken by a single fsync, then an fsync that only reaches part of what had been written before the rest is taken by the next one."
+}

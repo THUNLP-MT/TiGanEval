@@ -1,0 +1,12 @@
+{
+  "record_id": "dirty-export",
+  "night": "2026-08-19",
+  "scene": "A single uninterrupted load of an export that contains the kinds of defective rows upstream regularly emits.",
+  "attempts": [
+    {
+      "label": "single-pass-load",
+      "note": "one clean run over an export with the usual junk rows in it"
+    }
+  ],
+  "scheduler": "Upstream asks every week which of their rows we did not take, and quotes our answer back at us by position in the export they published, so a night like this one ends with a support thread rather than a page."
+}

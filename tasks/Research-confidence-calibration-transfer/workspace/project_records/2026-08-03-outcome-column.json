@@ -1,0 +1,13 @@
+{
+  "record_id": "outcome-column",
+  "date": "2026-08-03",
+  "author": "Tomas Aldrich",
+  "through_day": "2026-08-02",
+  "batches": [],
+  "notes": [
+    "Sorted every channel by intake date and looked at where review_outcome stops. web: newest row carrying an outcome is 31 July, 32 rows after it empty. mobile: 30 July, 33 empty. partner_feed: 19 June, 671 empty. reseller_import: 1 July, 192 empty.",
+    "Every outcome_closed_date on partner_feed and reseller_import is a Friday. On web and mobile they are one to three days after the intake date, any day of the week.",
+    "Asked the partner desk about the empty ones. They confirmed the schedule in reconciliation_note.md and said nothing is stuck; the last file landed on 31 July.",
+    "Counted the auto_cleared rows while I was in there: 972 web, 664 mobile, 527 partner_feed, 328 reseller_import."
+  ]
+}

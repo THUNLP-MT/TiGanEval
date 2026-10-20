@@ -1,0 +1,104 @@
+{
+  "handsets": [
+    {
+      "id": "north-a",
+      "bench": "north",
+      "model": "meridian-7"
+    },
+    {
+      "id": "north-b",
+      "bench": "north",
+      "model": "meridian-7"
+    },
+    {
+      "id": "north-c",
+      "bench": "north",
+      "model": "meridian-7"
+    },
+    {
+      "id": "south-a",
+      "bench": "south",
+      "model": "meridian-8"
+    },
+    {
+      "id": "south-b",
+      "bench": "south",
+      "model": "meridian-8"
+    },
+    {
+      "id": "south-c",
+      "bench": "south",
+      "model": "meridian-8"
+    },
+    {
+      "id": "east-a",
+      "bench": "east",
+      "model": "kestrel-4"
+    },
+    {
+      "id": "east-b",
+      "bench": "east",
+      "model": "kestrel-4"
+    },
+    {
+      "id": "west-a",
+      "bench": "west",
+      "model": "kestrel-5"
+    },
+    {
+      "id": "west-b",
+      "bench": "west",
+      "model": "kestrel-5"
+    },
+    {
+      "id": "west-c",
+      "bench": "west",
+      "model": "kestrel-5"
+    },
+    {
+      "id": "annex-a",
+      "bench": "annex",
+      "model": "meridian-8"
+    },
+    {
+      "id": "annex-b",
+      "bench": "annex",
+      "model": "meridian-8"
+    },
+    {
+      "id": "annex-c",
+      "bench": "annex",
+      "model": "meridian-8"
+    },
+    {
+      "id": "loft-a",
+      "bench": "loft",
+      "model": "kestrel-5"
+    },
+    {
+      "id": "loft-b",
+      "bench": "loft",
+      "model": "kestrel-5"
+    },
+    {
+      "id": "vault-a",
+      "bench": "vault",
+      "model": "meridian-7"
+    },
+    {
+      "id": "vault-b",
+      "bench": "vault",
+      "model": "meridian-7"
+    },
+    {
+      "id": "roof-a",
+      "bench": "roof",
+      "model": "kestrel-4"
+    },
+    {
+      "id": "roof-b",
+      "bench": "roof",
+      "model": "kestrel-4"
+    }
+  ]
+}

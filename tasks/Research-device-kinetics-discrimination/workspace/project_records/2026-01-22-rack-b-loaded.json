@@ -1,0 +1,12 @@
+{
+  "date": "2026-01-22",
+  "notes": [
+    "L-14 went on R-B on the 19th. R-A was full, so the whole lot went to the one bay that was free: six at 1.4 A, four at 1.7 A.",
+    "R-B's logger came back from the workshop on the 14th and the sample counter was zeroed before the lot went in.",
+    "REF-20 read 20.0 on both racks this session.",
+    "Every module on both racks still writing 40.0 on the bench meter. Goods-in has them between 40.5 and 41.2."
+  ],
+  "operator": "Nils Aaberg",
+  "record_id": "rack-b-loaded",
+  "through_day": "2026-01-22"
+}

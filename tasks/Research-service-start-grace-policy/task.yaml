@@ -1,0 +1,12 @@
+id: Research-service-start-grace-policy
+domain: Research
+title: 'Research: What holding a flagged account for the next slot costs'
+seed_sources:
+- name: Hernán and Robins (2016), Using Big Data to Emulate a Target Trial When a Randomized Trial Is Not Available
+  url: https://doi.org/10.1093/aje/kwv254
+rubrics:
+- policy_difference_within_tolerance
+- report_reconciles_receipts
+- range_covers_and_meets_floor
+- next_week_booking_feasible_and_informative
+- estimate_invariant_to_queue_and_censoring

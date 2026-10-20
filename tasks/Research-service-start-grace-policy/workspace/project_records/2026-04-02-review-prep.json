@@ -1,0 +1,13 @@
+{
+  "session": "review-prep",
+  "date": "2026-04-02",
+  "analyst": "Tomas Halvorsen",
+  "as_of": "2026-04-01",
+  "receipts_then": ["wk11-hold-all", "wk12-premier-only"],
+  "notes": [
+    "Rhea's cut for the panel is in quarterly_review_note.md. I have not been through the arithmetic with her.",
+    "Asked the desk for a premier-only week at 45 slots. Handed back and charged ten. 220 slots left of the 240.",
+    "Went through every queued row that carries an escalation. Not one of them carries a start_date earlier than the escalation.",
+    "The desk's own book in desk_book.json is 14,000 accounts. The window had raised 5,225 flags by 1 April."
+  ]
+}

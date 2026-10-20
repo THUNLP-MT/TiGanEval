@@ -1,0 +1,12 @@
+id: SWE-incremental-scan-cache
+domain: SWE
+title: 'SWE: Incremental Scan Cache'
+seed_sources:
+- name: 'DeepSWE v1.1: bandit-incremental-cache-control'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/bandit-incremental-cache-control
+rubrics:
+- clean_scan_finding_equivalence
+- fail_closed_cache_integrity
+- honest_cache_accounting
+- bounded_cache_growth
+- portable_cache_exchange

@@ -1,0 +1,60 @@
+{
+  "controls": [
+    {
+      "id": "bold",
+      "command": "bold",
+      "kind": "button"
+    },
+    {
+      "id": "size",
+      "command": "size",
+      "kind": "select"
+    },
+    {
+      "id": "stamp",
+      "command": "stamp",
+      "kind": "button"
+    },
+    {
+      "id": "image",
+      "command": "image",
+      "kind": "button"
+    },
+    {
+      "id": "link",
+      "command": "link",
+      "kind": "button"
+    }
+  ],
+  "editors": [
+    {
+      "id": "headline",
+      "text": "Headline for the morning edition 563",
+      "stamp": "<headline approved>",
+      "mimetypes": [
+        "image/gif"
+      ],
+      "formats": [
+        {
+          "range": [
+            1,
+            3
+          ],
+          "attributes": {
+            "bold": true,
+            "size": "large"
+          }
+        }
+      ]
+    },
+    {
+      "id": "body",
+      "text": "Body copy for the production sheet 986",
+      "stamp": "<body approved>",
+      "mimetypes": [
+        "image/webp"
+      ],
+      "formats": []
+    }
+  ]
+}

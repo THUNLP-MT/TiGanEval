@@ -1,0 +1,4 @@
+{
+  "record_id": "old-build-window",
+  "scene": "A mixed-build hour during the March rollout. settle-a and settle-b are on the current build; settle-old, still on the March build, links late and registers partner-settlement through that build's start-up helper before claiming it, and export-old claims ledger-export on the same link. Settlements arrive during the overlap. At the end of the hour settle-old's process exits and its link drops, and its shutdown hook throws on the way out the way it always does."
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "runner-conformance",
+  "scene": "The lab's own nightly check on the runner. From every phase of the night it asks which handset the runner thinks it is driving, asks for a named point from phases that have claimed no handset, and asks for one with waits that cannot exist. It then drives a bench whose opening fails outright, a bench whose closing fails on the way out, and a bench that refuses to open at all."
+}

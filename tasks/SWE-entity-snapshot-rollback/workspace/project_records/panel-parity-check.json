@@ -1,0 +1,4 @@
+{
+  "record_id": "panel-parity-check",
+  "scene": "The change panel is asked twice about the same set: once against a file that holds the level it is looking at, and once after a repaint, a freeze and an unparent."
+}

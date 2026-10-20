@@ -1,0 +1,1210 @@
+{
+  "name": "copy-desk-switch",
+  "page": {
+    "controls": [
+      {
+        "id": "bold",
+        "command": "bold",
+        "kind": "button"
+      },
+      {
+        "id": "size",
+        "command": "size",
+        "kind": "select"
+      },
+      {
+        "id": "stamp",
+        "command": "stamp",
+        "kind": "button"
+      },
+      {
+        "id": "image",
+        "command": "image",
+        "kind": "button"
+      },
+      {
+        "id": "link",
+        "command": "link",
+        "kind": "button"
+      }
+    ],
+    "editors": [
+      {
+        "id": "headline",
+        "text": "Headline for the morning edition 563",
+        "stamp": "<headline approved>",
+        "mimetypes": [
+          "image/gif"
+        ],
+        "formats": [
+          {
+            "range": [
+              1,
+              3
+            ],
+            "attributes": {
+              "bold": true,
+              "size": "large"
+            }
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "text": "Body copy for the production sheet 986",
+        "stamp": "<body approved>",
+        "mimetypes": [
+          "image/webp"
+        ],
+        "formats": []
+      }
+    ]
+  },
+  "operations": [
+    {
+      "op": "inspect",
+      "label": "open production sheet"
+    },
+    {
+      "op": "select",
+      "label": "select body at 2 for 4",
+      "editor": "body",
+      "range": [
+        2,
+        4
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press bold at step 3",
+      "control": "bold"
+    },
+    {
+      "op": "command",
+      "label": "press size at step 4",
+      "control": "size",
+      "value": "small"
+    },
+    {
+      "op": "select",
+      "label": "select headline at 2 for 4",
+      "editor": "headline",
+      "range": [
+        2,
+        4
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press bold at step 6",
+      "control": "bold"
+    },
+    {
+      "op": "command",
+      "label": "press size at step 7",
+      "control": "size",
+      "value": "small"
+    },
+    {
+      "op": "select",
+      "label": "select headline at 3 for 0",
+      "editor": "headline",
+      "range": [
+        3,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press stamp at step 9",
+      "control": "stamp"
+    },
+    {
+      "op": "select",
+      "label": "select body at 3 for 0",
+      "editor": "body",
+      "range": [
+        3,
+        0
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press stamp at step 11",
+      "control": "stamp"
+    }
+  ],
+  "scene": "Normal copy-desk field switching",
+  "recorded_sheet": [
+    {
+      "name": "copy-desk-switch",
+      "rows": [
+        {
+          "label": "open production sheet",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 2 for 4",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                2,
+                4
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press bold at step 3",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                2,
+                4
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "bold",
+                "value": null,
+                "range": [
+                  2,
+                  4
+                ],
+                "after_range": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 4",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                2,
+                4
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "small",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "small",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "size",
+                "value": "small",
+                "range": [
+                  2,
+                  4
+                ],
+                "after_range": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 2 for 4",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                4
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press bold at step 6",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    4,
+                    2,
+                    {
+                      "bold": true
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                4
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "bold",
+                "value": null,
+                "range": [
+                  2,
+                  4
+                ],
+                "after_range": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 7",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                4
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "small",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "small",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "size",
+                "value": "small",
+                "range": [
+                  2,
+                  4
+                ],
+                "after_range": [
+                  2,
+                  4
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 3 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                3,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press stamp at step 9",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Hea<headline approved>dline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ],
+                  [
+                    22,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                22,
+                0
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "stamp",
+                "value": null,
+                "range": [
+                  3,
+                  0
+                ],
+                "after_range": [
+                  22,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 3 for 0",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Hea<headline approved>dline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ],
+                  [
+                    22,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    4,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                3,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press stamp at step 11",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Hea<headline approved>dline for the morning edition 563",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ],
+                  [
+                    22,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Bod<body approved>y copy for the production sheet 986",
+                "spans": [
+                  [
+                    2,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ],
+                  [
+                    18,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                18,
+                0
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "stamp",
+                "value": null,
+                "range": [
+                  3,
+                  0
+                ],
+                "after_range": [
+                  18,
+                  0
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        }
+      ]
+    }
+  ]
+}

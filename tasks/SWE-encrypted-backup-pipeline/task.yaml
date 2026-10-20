@@ -1,0 +1,12 @@
+id: SWE-encrypted-backup-pipeline
+domain: SWE
+title: 'SWE: Sealed nightly archives the drill can still open'
+seed_sources:
+- name: 'DeepSWE v1.1: onedump-dump-encryption-pipeline'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/onedump-dump-encryption-pipeline
+rubrics:
+- published_object_restores
+- destination_inventory_conserved
+- report_equals_restorable_state
+- key_provenance_recorded
+- window_drill_opens_any_night

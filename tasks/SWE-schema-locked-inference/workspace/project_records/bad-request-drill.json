@@ -1,0 +1,4 @@
+{
+  "record_id": "bad-request-drill",
+  "scene": "Two records the fitted feature space cannot accept, one record from a region no training row came from, and four feature configurations an operator can plausibly write wrong."
+}

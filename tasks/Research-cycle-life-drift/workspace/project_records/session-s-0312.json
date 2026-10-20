@@ -1,0 +1,31 @@
+{
+  "campaign": "hx22-september",
+  "cells": [
+    "HX22-001",
+    "HX22-002",
+    "HX22-003",
+    "HX22-004",
+    "HX22-005",
+    "HX22-006",
+    "HX22-007",
+    "HX22-008"
+  ],
+  "chamber_logged_c": 45.0,
+  "channel_hours": 960,
+  "channels": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "firmware": "2.3.1",
+  "operator_note": "Eight cells of the standard charge on the south rack, the only eight channels free that week. Chamber holding at setpoint, reference cell read before the first check.",
+  "protocol": "standard",
+  "record_id": "S-0312",
+  "reference_cell_ah": 2.0,
+  "started": "2026-03-12"
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "support-dashboard-sweep",
+  "scene": "The support dashboard reading the whole table, including orders written long before the current documents: the full reads, the two list views' projections, and the corrections the support tool applies."
+}

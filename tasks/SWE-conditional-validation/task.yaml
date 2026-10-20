@@ -1,0 +1,12 @@
+id: SWE-conditional-validation
+domain: SWE
+title: 'SWE: Conditional attribute requirements for the order store'
+seed_sources:
+- name: 'DeepSWE v1.1: dynamodb-toolbox-conditional-attribute-requirements'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/dynamodb-toolbox-conditional-attribute-requirements
+rubrics:
+- update_guarded_by_the_store
+- admission_matches_reference
+- declarations_are_enforceable
+- contract_agrees_with_the_writer
+- stored_items_stay_reachable

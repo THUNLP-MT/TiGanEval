@@ -1,0 +1,4 @@
+{
+  "record_id": "writer-round-trip",
+  "scene": "A job screen is loaded from the depot into an empty handset process. The background writer saves that query, the app process is closed and opened again, and the same job screen is entered from the shift list. The depot has a different answer ready if the device copy is missing."
+}

@@ -1,0 +1,12 @@
+id: SWE-config-drift-baselines
+domain: SWE
+title: 'SWE: Nightly configuration reconciliation against estate baselines'
+seed_sources:
+- name: 'DeepSWE v1.1: arcane-drift-detection-baselines'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/arcane-drift-detection-baselines
+rubrics:
+- drift_record_identity
+- drift_lifecycle
+- compliance_accounting
+- baseline_state_integrity
+- observed_config_normalisation

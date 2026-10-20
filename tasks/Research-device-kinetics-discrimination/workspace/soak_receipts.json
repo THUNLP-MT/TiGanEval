@@ -1,0 +1,25 @@
+{
+  "campaign": "em9-march",
+  "entries": [
+    {
+      "block_id": "cb-0309",
+      "campaign": "em9-march",
+      "case_temp_c": 85.0,
+      "chamber_days_asked": 2,
+      "days_charged": 2,
+      "days_left_after": 14,
+      "drive_a": 2.1,
+      "lot": "L-19",
+      "modules": [],
+      "modules_returned": 0,
+      "ports_asked": 8,
+      "previous": "",
+      "readings": [],
+      "refusal": "the supply runs from 1 to 1.8 A; the sheet asked for 2.1 A",
+      "rows_returned": 0,
+      "seal": "a397c716a124812e83fac6e09222397da187cab96c4546b01260c9257474a7b3",
+      "sequence": 1,
+      "served_on": "2026-03-09"
+    }
+  ]
+}

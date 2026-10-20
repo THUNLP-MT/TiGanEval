@@ -1,0 +1,12 @@
+id: Research-device-mixture-bundle
+domain: Research
+title: 'Research: which bundle the handheld train can promise every depot'
+seed_sources:
+- name: Mohri, Sivek and Suresh (2019), Agnostic Federated Learning
+  url: https://proceedings.mlr.press/v97/mohri19a.html
+rubrics:
+- fleet_number_within_tolerance
+- range_covers_and_meets_floor
+- number_invariant_to_capture_mix_and_rollout
+- next_capture_feasible_and_informative
+- report_reconciles_receipts

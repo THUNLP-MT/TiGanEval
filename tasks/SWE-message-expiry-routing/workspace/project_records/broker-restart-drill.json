@@ -1,0 +1,36 @@
+{
+  "record_id": "broker-restart-drill",
+  "scene": "A deploy restart in the middle of an order queue's life: after an acknowledgement, a discard, two failed attempts on one message, and a fresh publish.",
+  "queue_properties": {
+    "orders": {"dead_letter_queue": "orders.dead", "message_ttl": null, "max_length": null, "max_deliveries": 3},
+    "orders.dead": {"dead_letter_queue": null, "message_ttl": null, "max_length": null, "max_deliveries": 3}
+  },
+  "recorded": {
+    "note": "Written up by on-call after the last drill the notification team signed off. m-00003 had already been handed out and rejected twice before the deploy.",
+    "before_restart": {
+      "waiting": {"orders": ["m-00003", "m-00004"], "orders.dead": ["m-00002"]},
+      "held_by_workers": [],
+      "settled": [
+        {"message_id": "m-00001", "disposition": "acknowledged", "reason": null, "queue": "orders"},
+        {"message_id": "m-00002", "disposition": "dead_lettered", "reason": "rejected", "queue": "orders"}
+      ]
+    },
+    "after_restart": {
+      "waiting": {"orders": ["m-00003", "m-00004"], "orders.dead": ["m-00002"]},
+      "held_by_workers": []
+    },
+    "handouts": [
+      {"label": "take-c3", "queue": "orders", "message_id": "m-00003", "redelivery_count": 2},
+      {"label": "take-d", "queue": "orders", "message_id": "m-00004", "redelivery_count": 0}
+    ],
+    "at_the_end": {
+      "waiting": {"orders": [], "orders.dead": ["m-00002", "m-00003"]},
+      "held_by_workers": [{"label": "take-d", "queue": "orders", "message_id": "m-00004"}],
+      "settled": [
+        {"message_id": "m-00001", "disposition": "acknowledged", "reason": null, "queue": "orders"},
+        {"message_id": "m-00002", "disposition": "dead_lettered", "reason": "rejected", "queue": "orders"},
+        {"message_id": "m-00003", "disposition": "dead_lettered", "reason": "rejected", "queue": "orders"}
+      ]
+    }
+  }
+}

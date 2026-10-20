@@ -1,0 +1,4 @@
+{
+  "record_id": "2.4.1-token-revoked",
+  "scene": "The 2.4.1 release that died on a credential. The upload host answered the linux tarball 403 with its own note about the token; the mirror answered the same file with a complaint about the bucket prefix; and the macos tarball timed out on the mirror once and then went up. This is the release where the on-call engineer spent the evening reading our failures list instead of the host's."
+}

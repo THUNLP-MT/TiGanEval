@@ -1,0 +1,14 @@
+{
+  "date": "day 26",
+  "notes": [
+    "A-3308, A-3312, A-3317 and A-3321 are through: thirty-six parts, all of them on rig 1, ten thousand cycles each.",
+    "The certified block goes on at the top of every session bar one in five. It came back 20.33 on the 3rd and 25.09 this morning. The signed 10.0 µm shop check read 12.55 beside it in the same setup. Same clamp, same operator.",
+    "The calibration house signed rig 1 off on the 1st and has not been back since. I have asked purchasing to get them in before the next lot lands.",
+    "No supplier B lot has arrived yet. Purchasing says the first one ships at the end of the month."
+  ],
+  "operator": "Karim Osei",
+  "run_ids": [],
+  "runs": [],
+  "session_id": "first-block",
+  "through_day": 26
+}

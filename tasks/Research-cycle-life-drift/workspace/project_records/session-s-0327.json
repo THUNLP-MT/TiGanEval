@@ -1,0 +1,23 @@
+{
+  "campaign": "hx22-september",
+  "cells": [
+    "HX22-009",
+    "HX22-010",
+    "HX22-011",
+    "HX22-012"
+  ],
+  "chamber_logged_c": 45.0,
+  "channel_hours": 480,
+  "channels": [
+    13,
+    14,
+    15,
+    16
+  ],
+  "firmware": "2.3.1",
+  "operator_note": "First fixture of the stepped charge. North rack still on the abuse programme.",
+  "protocol": "stepped",
+  "record_id": "S-0327",
+  "reference_cell_ah": 2.0,
+  "started": "2026-03-27"
+}

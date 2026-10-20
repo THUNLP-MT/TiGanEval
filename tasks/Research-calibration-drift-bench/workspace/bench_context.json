@@ -1,0 +1,1305 @@
+{
+  "booking": {
+    "bench_hours_left": 12.0,
+    "cycles_per_part_session": 10000,
+    "hours_per_part_session": 2.0,
+    "hours_per_reference_run": 0.5,
+    "rig_hours_available": {
+      "1": 24.0,
+      "2": 8.0
+    }
+  },
+  "calibrations": [
+    {
+      "calibration": "C1-01",
+      "rig": 1,
+      "signed_off_day": 1
+    },
+    {
+      "calibration": "C2-01",
+      "rig": 2,
+      "signed_off_day": 30
+    },
+    {
+      "calibration": "C1-02",
+      "rig": 1,
+      "signed_off_day": 39
+    },
+    {
+      "calibration": "C2-02",
+      "rig": 2,
+      "signed_off_day": 44
+    },
+    {
+      "calibration": "C2-03",
+      "rig": 2,
+      "signed_off_day": 58
+    },
+    {
+      "calibration": "C1-03",
+      "rig": 1,
+      "signed_off_day": 60
+    },
+    {
+      "calibration": "C1-04",
+      "rig": 1,
+      "signed_off_day": 73
+    }
+  ],
+  "campaign": "bushing-qualification-2026",
+  "lots": [
+    {
+      "arrived_day": 3,
+      "lot": "A-3308",
+      "parts": 9,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 9,
+      "lot": "A-3312",
+      "parts": 9,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 15,
+      "lot": "A-3317",
+      "parts": 9,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 22,
+      "lot": "A-3321",
+      "parts": 9,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 40,
+      "lot": "A-3330",
+      "parts": 8,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 68,
+      "lot": "A-3336",
+      "parts": 4,
+      "supplier": "A"
+    },
+    {
+      "arrived_day": 33,
+      "lot": "B-7101",
+      "parts": 9,
+      "supplier": "B"
+    },
+    {
+      "arrived_day": 44,
+      "lot": "B-7108",
+      "parts": 9,
+      "supplier": "B"
+    },
+    {
+      "arrived_day": 52,
+      "lot": "B-7115",
+      "parts": 9,
+      "supplier": "B"
+    },
+    {
+      "arrived_day": 62,
+      "lot": "B-7122",
+      "parts": 10,
+      "supplier": "B"
+    },
+    {
+      "arrived_day": 74,
+      "lot": "B-7130",
+      "parts": 9,
+      "supplier": "B"
+    }
+  ],
+  "quotes": {
+    "unit_price_premium_b": 0.11
+  },
+  "review_day": 85,
+  "rigs": [
+    {
+      "contact_radius_mm": 4.0,
+      "fixture": "FX-40",
+      "installed_day": 1,
+      "rig": 1
+    },
+    {
+      "contact_radius_mm": 5.2,
+      "fixture": "FX-52",
+      "installed_day": 30,
+      "rig": 2
+    }
+  ],
+  "sessions": [
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 3,
+      "depth_um": 10.412,
+      "lot": "A-3308",
+      "part": "A-3308-01",
+      "reference_um": 20.326,
+      "rig": 1,
+      "session": "S-001",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 3,
+      "depth_um": 11.076,
+      "lot": "A-3308",
+      "part": "A-3308-02",
+      "reference_um": 20.255,
+      "rig": 1,
+      "session": "S-002",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 4,
+      "depth_um": 10.897,
+      "lot": "A-3308",
+      "part": "A-3308-03",
+      "reference_um": 20.403,
+      "rig": 1,
+      "session": "S-003",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 4,
+      "depth_um": 11.215,
+      "lot": "A-3308",
+      "part": "A-3308-04",
+      "reference_um": 20.484,
+      "rig": 1,
+      "session": "S-004",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 5,
+      "depth_um": 11.105,
+      "lot": "A-3308",
+      "part": "A-3308-05",
+      "rig": 1,
+      "session": "S-005",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 5,
+      "depth_um": 11.182,
+      "lot": "A-3308",
+      "part": "A-3308-06",
+      "reference_um": 20.776,
+      "rig": 1,
+      "session": "S-006",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 6,
+      "depth_um": 12.05,
+      "lot": "A-3308",
+      "part": "A-3308-07",
+      "reference_um": 20.964,
+      "rig": 1,
+      "session": "S-007",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 6,
+      "depth_um": 11.372,
+      "lot": "A-3308",
+      "part": "A-3308-08",
+      "reference_um": 21.073,
+      "rig": 1,
+      "session": "S-008",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 7,
+      "depth_um": 11.338,
+      "lot": "A-3308",
+      "part": "A-3308-09",
+      "reference_um": 21.038,
+      "rig": 1,
+      "session": "S-009",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 9,
+      "depth_um": 16.754,
+      "lot": "A-3312",
+      "part": "A-3312-01",
+      "rig": 1,
+      "session": "S-010",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 9,
+      "depth_um": 16.535,
+      "lot": "A-3312",
+      "part": "A-3312-02",
+      "reference_um": 21.396,
+      "rig": 1,
+      "session": "S-011",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 10,
+      "depth_um": 16.531,
+      "lot": "A-3312",
+      "part": "A-3312-03",
+      "reference_um": 21.564,
+      "rig": 1,
+      "session": "S-012",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 10,
+      "depth_um": 17.117,
+      "lot": "A-3312",
+      "part": "A-3312-04",
+      "reference_um": 21.709,
+      "rig": 1,
+      "session": "S-013",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 11,
+      "depth_um": 17.091,
+      "lot": "A-3312",
+      "part": "A-3312-05",
+      "reference_um": 21.831,
+      "rig": 1,
+      "session": "S-014",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 11,
+      "depth_um": 16.905,
+      "lot": "A-3312",
+      "part": "A-3312-06",
+      "rig": 1,
+      "session": "S-015",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 12,
+      "depth_um": 18.145,
+      "lot": "A-3312",
+      "part": "A-3312-07",
+      "reference_um": 22.061,
+      "rig": 1,
+      "session": "S-016",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 12,
+      "depth_um": 16.886,
+      "lot": "A-3312",
+      "part": "A-3312-08",
+      "reference_um": 22.308,
+      "rig": 1,
+      "session": "S-017",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 13,
+      "depth_um": 16.678,
+      "lot": "A-3312",
+      "part": "A-3312-09",
+      "reference_um": 22.656,
+      "rig": 1,
+      "session": "S-018",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 15,
+      "depth_um": 14.077,
+      "lot": "A-3317",
+      "part": "A-3317-01",
+      "reference_um": 22.47,
+      "rig": 1,
+      "session": "S-019",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 15,
+      "depth_um": 13.524,
+      "lot": "A-3317",
+      "part": "A-3317-02",
+      "rig": 1,
+      "session": "S-020",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 16,
+      "depth_um": 13.655,
+      "lot": "A-3317",
+      "part": "A-3317-03",
+      "reference_um": 23.158,
+      "rig": 1,
+      "session": "S-021",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 16,
+      "depth_um": 13.856,
+      "lot": "A-3317",
+      "part": "A-3317-04",
+      "reference_um": 22.975,
+      "rig": 1,
+      "session": "S-022",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 17,
+      "depth_um": 15.613,
+      "lot": "A-3317",
+      "part": "A-3317-05",
+      "reference_um": 23.02,
+      "rig": 1,
+      "session": "S-023",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 17,
+      "depth_um": 14.648,
+      "lot": "A-3317",
+      "part": "A-3317-06",
+      "reference_um": 23.457,
+      "rig": 1,
+      "session": "S-024",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 18,
+      "depth_um": 14.024,
+      "lot": "A-3317",
+      "part": "A-3317-07",
+      "rig": 1,
+      "session": "S-025",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 18,
+      "depth_um": 14.439,
+      "lot": "A-3317",
+      "part": "A-3317-08",
+      "reference_um": 23.74,
+      "rig": 1,
+      "session": "S-026",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 19,
+      "depth_um": 14.443,
+      "lot": "A-3317",
+      "part": "A-3317-09",
+      "reference_um": 23.786,
+      "rig": 1,
+      "session": "S-027",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 22,
+      "depth_um": 15.332,
+      "lot": "A-3321",
+      "part": "A-3321-01",
+      "reference_um": 23.903,
+      "rig": 1,
+      "session": "S-028",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 22,
+      "depth_um": 14.545,
+      "lot": "A-3321",
+      "part": "A-3321-02",
+      "reference_um": 24.183,
+      "rig": 1,
+      "session": "S-029",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 23,
+      "depth_um": 15.467,
+      "lot": "A-3321",
+      "part": "A-3321-03",
+      "rig": 1,
+      "session": "S-030",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 23,
+      "depth_um": 14.97,
+      "lot": "A-3321",
+      "part": "A-3321-04",
+      "reference_um": 24.614,
+      "rig": 1,
+      "session": "S-031",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 24,
+      "depth_um": 16.012,
+      "lot": "A-3321",
+      "part": "A-3321-05",
+      "reference_um": 24.544,
+      "rig": 1,
+      "session": "S-032",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 24,
+      "depth_um": 15.726,
+      "lot": "A-3321",
+      "part": "A-3321-06",
+      "reference_um": 24.591,
+      "rig": 1,
+      "session": "S-033",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 25,
+      "depth_um": 15.71,
+      "lot": "A-3321",
+      "part": "A-3321-07",
+      "reference_um": 24.811,
+      "rig": 1,
+      "session": "S-034",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 25,
+      "depth_um": 16.08,
+      "lot": "A-3321",
+      "part": "A-3321-08",
+      "rig": 1,
+      "session": "S-035",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-01",
+      "cycles": 10000,
+      "day": 26,
+      "depth_um": 16.423,
+      "lot": "A-3321",
+      "part": "A-3321-09",
+      "reference_um": 25.087,
+      "rig": 1,
+      "session": "S-036",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 33,
+      "depth_um": 10.227,
+      "lot": "B-7101",
+      "part": "B-7101-01",
+      "reference_um": 19.929,
+      "rig": 2,
+      "session": "S-037",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 33,
+      "depth_um": 10.872,
+      "lot": "B-7101",
+      "part": "B-7101-02",
+      "reference_um": 20.245,
+      "rig": 2,
+      "session": "S-038",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 34,
+      "depth_um": 9.983,
+      "lot": "B-7101",
+      "part": "B-7101-03",
+      "reference_um": 20.191,
+      "rig": 2,
+      "session": "S-039",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 34,
+      "depth_um": 10.412,
+      "lot": "B-7101",
+      "part": "B-7101-04",
+      "rig": 2,
+      "session": "S-040",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 35,
+      "depth_um": 10.964,
+      "lot": "B-7101",
+      "part": "B-7101-05",
+      "reference_um": 20.338,
+      "rig": 2,
+      "session": "S-041",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 35,
+      "depth_um": 11.096,
+      "lot": "B-7101",
+      "part": "B-7101-06",
+      "reference_um": 20.461,
+      "rig": 2,
+      "session": "S-042",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 36,
+      "depth_um": 10.185,
+      "lot": "B-7101",
+      "part": "B-7101-07",
+      "reference_um": 20.494,
+      "rig": 2,
+      "session": "S-043",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 36,
+      "depth_um": 10.955,
+      "lot": "B-7101",
+      "part": "B-7101-08",
+      "reference_um": 20.531,
+      "rig": 2,
+      "session": "S-044",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 37,
+      "depth_um": 10.314,
+      "lot": "B-7101",
+      "part": "B-7101-09",
+      "rig": 2,
+      "session": "S-045",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 40,
+      "depth_um": 12.906,
+      "lot": "A-3330",
+      "part": "A-3330-01",
+      "reference_um": 20.131,
+      "rig": 1,
+      "session": "S-046",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 40,
+      "depth_um": 13.137,
+      "lot": "A-3330",
+      "part": "A-3330-02",
+      "reference_um": 20.024,
+      "rig": 1,
+      "session": "S-047",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 41,
+      "depth_um": 13.744,
+      "lot": "A-3330",
+      "part": "A-3330-03",
+      "reference_um": 20.285,
+      "rig": 1,
+      "session": "S-048",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 41,
+      "depth_um": 13.753,
+      "lot": "A-3330",
+      "part": "A-3330-04",
+      "reference_um": 20.482,
+      "rig": 1,
+      "session": "S-049",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 42,
+      "depth_um": 14.116,
+      "lot": "A-3330",
+      "part": "A-3330-05",
+      "rig": 1,
+      "session": "S-050",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 42,
+      "depth_um": 14.268,
+      "lot": "A-3330",
+      "part": "A-3330-06",
+      "reference_um": 20.487,
+      "rig": 1,
+      "session": "S-051",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-02",
+      "cycles": 10000,
+      "day": 43,
+      "depth_um": 13.927,
+      "lot": "A-3330",
+      "part": "A-3330-07",
+      "reference_um": 20.658,
+      "rig": 1,
+      "session": "S-052",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-01",
+      "cycles": 10000,
+      "day": 43,
+      "depth_um": 11.044,
+      "lot": "A-3330",
+      "part": "A-3330-08",
+      "reference_um": 20.65,
+      "rig": 2,
+      "session": "S-053",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 44,
+      "depth_um": 10.805,
+      "lot": "B-7108",
+      "part": "B-7108-01",
+      "reference_um": 20.056,
+      "rig": 2,
+      "session": "S-054",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 44,
+      "depth_um": 11.174,
+      "lot": "B-7108",
+      "part": "B-7108-02",
+      "rig": 2,
+      "session": "S-055",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 45,
+      "depth_um": 11.041,
+      "lot": "B-7108",
+      "part": "B-7108-03",
+      "reference_um": 20.167,
+      "rig": 2,
+      "session": "S-056",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 45,
+      "depth_um": 11.399,
+      "lot": "B-7108",
+      "part": "B-7108-04",
+      "reference_um": 20.072,
+      "rig": 2,
+      "session": "S-057",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 46,
+      "depth_um": 11.481,
+      "lot": "B-7108",
+      "part": "B-7108-05",
+      "reference_um": 20.433,
+      "rig": 2,
+      "session": "S-058",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 46,
+      "depth_um": 11.153,
+      "lot": "B-7108",
+      "part": "B-7108-06",
+      "reference_um": 20.268,
+      "rig": 2,
+      "session": "S-059",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 47,
+      "depth_um": 11.66,
+      "lot": "B-7108",
+      "part": "B-7108-07",
+      "rig": 2,
+      "session": "S-060",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 47,
+      "depth_um": 11.574,
+      "lot": "B-7108",
+      "part": "B-7108-08",
+      "reference_um": 20.015,
+      "rig": 2,
+      "session": "S-061",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 48,
+      "depth_um": 11.374,
+      "lot": "B-7108",
+      "part": "B-7108-09",
+      "reference_um": 20.611,
+      "rig": 2,
+      "session": "S-062",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 52,
+      "depth_um": 8.708,
+      "lot": "B-7115",
+      "part": "B-7115-01",
+      "reference_um": 20.242,
+      "rig": 2,
+      "session": "S-063",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 52,
+      "depth_um": 8.468,
+      "lot": "B-7115",
+      "part": "B-7115-02",
+      "reference_um": 20.708,
+      "rig": 2,
+      "session": "S-064",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 53,
+      "depth_um": 8.285,
+      "lot": "B-7115",
+      "part": "B-7115-03",
+      "rig": 2,
+      "session": "S-065",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 53,
+      "depth_um": 8.095,
+      "lot": "B-7115",
+      "part": "B-7115-04",
+      "reference_um": 21.019,
+      "rig": 2,
+      "session": "S-066",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 54,
+      "depth_um": 8.683,
+      "lot": "B-7115",
+      "part": "B-7115-05",
+      "reference_um": 20.794,
+      "rig": 2,
+      "session": "S-067",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 54,
+      "depth_um": 8.505,
+      "lot": "B-7115",
+      "part": "B-7115-06",
+      "reference_um": 20.988,
+      "rig": 2,
+      "session": "S-068",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 55,
+      "depth_um": 8.63,
+      "lot": "B-7115",
+      "part": "B-7115-07",
+      "reference_um": 21.023,
+      "rig": 2,
+      "session": "S-069",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 55,
+      "depth_um": 8.739,
+      "lot": "B-7115",
+      "part": "B-7115-08",
+      "rig": 2,
+      "session": "S-070",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-02",
+      "cycles": 10000,
+      "day": 56,
+      "depth_um": 8.94,
+      "lot": "B-7115",
+      "part": "B-7115-09",
+      "reference_um": 21.168,
+      "rig": 2,
+      "session": "S-071",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-03",
+      "cycles": 10000,
+      "day": 62,
+      "depth_um": 11.752,
+      "lot": "B-7122",
+      "part": "B-7122-01",
+      "reference_um": 20.038,
+      "rig": 1,
+      "session": "S-072",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-03",
+      "cycles": 10000,
+      "day": 62,
+      "depth_um": 11.382,
+      "lot": "B-7122",
+      "part": "B-7122-02",
+      "reference_um": 20.218,
+      "rig": 1,
+      "session": "S-073",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 63,
+      "depth_um": 9.676,
+      "lot": "B-7122",
+      "part": "B-7122-03",
+      "reference_um": 20.043,
+      "rig": 2,
+      "session": "S-074",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 63,
+      "depth_um": 9.464,
+      "lot": "B-7122",
+      "part": "B-7122-04",
+      "rig": 2,
+      "session": "S-075",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 64,
+      "depth_um": 9.848,
+      "lot": "B-7122",
+      "part": "B-7122-05",
+      "reference_um": 20.023,
+      "rig": 2,
+      "session": "S-076",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 64,
+      "depth_um": 9.862,
+      "lot": "B-7122",
+      "part": "B-7122-06",
+      "reference_um": 20.18,
+      "rig": 2,
+      "session": "S-077",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 65,
+      "depth_um": 9.736,
+      "lot": "B-7122",
+      "part": "B-7122-07",
+      "reference_um": 20.391,
+      "rig": 2,
+      "session": "S-078",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 65,
+      "depth_um": 10.002,
+      "lot": "B-7122",
+      "part": "B-7122-08",
+      "reference_um": 20.574,
+      "rig": 2,
+      "session": "S-079",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 66,
+      "depth_um": 9.747,
+      "lot": "B-7122",
+      "part": "B-7122-09",
+      "rig": 2,
+      "session": "S-080",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 66,
+      "depth_um": 9.829,
+      "lot": "B-7122",
+      "part": "B-7122-10",
+      "reference_um": 20.538,
+      "rig": 2,
+      "session": "S-081",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 68,
+      "depth_um": 8.345,
+      "lot": "A-3336",
+      "part": "A-3336-01",
+      "reference_um": 20.69,
+      "rig": 2,
+      "session": "S-082",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 68,
+      "depth_um": 8.737,
+      "lot": "A-3336",
+      "part": "A-3336-02",
+      "reference_um": 20.611,
+      "rig": 2,
+      "session": "S-083",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 69,
+      "depth_um": 8.746,
+      "lot": "A-3336",
+      "part": "A-3336-03",
+      "reference_um": 20.465,
+      "rig": 2,
+      "session": "S-084",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C2-03",
+      "cycles": 10000,
+      "day": 69,
+      "depth_um": 8.848,
+      "lot": "A-3336",
+      "part": "A-3336-04",
+      "rig": 2,
+      "session": "S-085",
+      "supplier": "A"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 74,
+      "depth_um": 12.689,
+      "lot": "B-7130",
+      "part": "B-7130-01",
+      "reference_um": 20.169,
+      "rig": 1,
+      "session": "S-086",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 74,
+      "depth_um": 12.916,
+      "lot": "B-7130",
+      "part": "B-7130-02",
+      "reference_um": 20.261,
+      "rig": 1,
+      "session": "S-087",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 75,
+      "depth_um": 12.842,
+      "lot": "B-7130",
+      "part": "B-7130-03",
+      "reference_um": 20.585,
+      "rig": 1,
+      "session": "S-088",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 75,
+      "depth_um": 13.48,
+      "lot": "B-7130",
+      "part": "B-7130-04",
+      "reference_um": 20.369,
+      "rig": 1,
+      "session": "S-089",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 76,
+      "depth_um": 13.01,
+      "lot": "B-7130",
+      "part": "B-7130-05",
+      "rig": 1,
+      "session": "S-090",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 76,
+      "depth_um": 13.939,
+      "lot": "B-7130",
+      "part": "B-7130-06",
+      "reference_um": 20.779,
+      "rig": 1,
+      "session": "S-091",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 77,
+      "depth_um": 13.799,
+      "lot": "B-7130",
+      "part": "B-7130-07",
+      "reference_um": 20.621,
+      "rig": 1,
+      "session": "S-092",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 77,
+      "depth_um": 13.116,
+      "lot": "B-7130",
+      "part": "B-7130-08",
+      "reference_um": 20.975,
+      "rig": 1,
+      "session": "S-093",
+      "supplier": "B"
+    },
+    {
+      "calibration": "C1-04",
+      "cycles": 10000,
+      "day": 78,
+      "depth_um": 14.069,
+      "lot": "B-7130",
+      "part": "B-7130-09",
+      "reference_um": 21.18,
+      "rig": 1,
+      "session": "S-094",
+      "supplier": "B"
+    }
+  ],
+  "stores": [
+    {
+      "lot": "A-3308",
+      "part": "A-3308-10",
+      "supplier": "A"
+    },
+    {
+      "lot": "A-3321",
+      "part": "A-3321-10",
+      "supplier": "A"
+    },
+    {
+      "lot": "A-3330",
+      "part": "A-3330-09",
+      "supplier": "A"
+    },
+    {
+      "lot": "A-3330",
+      "part": "A-3330-10",
+      "supplier": "A"
+    },
+    {
+      "lot": "A-3330",
+      "part": "A-3330-11",
+      "supplier": "A"
+    },
+    {
+      "lot": "A-3336",
+      "part": "A-3336-05",
+      "supplier": "A"
+    },
+    {
+      "lot": "B-7115",
+      "part": "B-7115-10",
+      "supplier": "B"
+    },
+    {
+      "lot": "B-7122",
+      "part": "B-7122-11",
+      "supplier": "B"
+    },
+    {
+      "lot": "B-7122",
+      "part": "B-7122-12",
+      "supplier": "B"
+    },
+    {
+      "lot": "B-7122",
+      "part": "B-7122-13",
+      "supplier": "B"
+    },
+    {
+      "lot": "B-7130",
+      "part": "B-7130-10",
+      "supplier": "B"
+    }
+  ]
+}

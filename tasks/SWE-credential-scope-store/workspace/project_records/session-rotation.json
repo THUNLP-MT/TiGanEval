@@ -1,0 +1,4 @@
+{
+  "record_id": "session-rotation",
+  "scene": "One hour on the portal, the stretch that produced the re-authentication storm. The run checks the first session exactly when its short lease ends, then later checks it again; the portal hands back a second session with both a lease and a date on it, then a third with neither, and finally logs the run out at 08:15. The tail is the archive page, which puts a date on its grant in a format nobody else on that site uses, and a one-hour pass issued right at the end."
+}

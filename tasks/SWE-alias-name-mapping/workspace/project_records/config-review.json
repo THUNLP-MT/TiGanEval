@@ -1,0 +1,4 @@
+{
+  "record_id": "config-review",
+  "scene": "The configuration review before Dorado goes live, over four files an operator wrote this quarter. One gives order_id and from_ the same extra spelling. One spells amount the way order_ts is already spelled. One is the blanket camelCase switch over the whole shape, where note and from_ are single words. The last is the layered file we ship today for the partner who calls the amount field amt: the base layer lists amt as an extra spelling for that field and the partner layer renames the field to it. Four payloads follow, one against each file, so the review can see what each one does with a post."
+}

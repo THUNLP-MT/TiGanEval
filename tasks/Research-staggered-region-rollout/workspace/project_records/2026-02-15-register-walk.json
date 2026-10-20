@@ -1,0 +1,14 @@
+{
+  "session": "register-walk",
+  "date": "2026-02-15",
+  "analyst": "Nils Aarheim",
+  "as_of": "2026-02-15",
+  "regions": ["Harrow Bay", "Ostley", "Fennhaven"],
+  "notes": [
+    "Walked the register against the daily export for the first four metros. live_from runs in readiness_score order, top down, no two the same.",
+    "Harrow Bay: printed rate 0.8703 on 21 January and 0.9245 on the 22nd. stack_migrated_on for Harrow Bay is 2026-01-22. live_from is the 25th.",
+    "Ostley steps the same way on 29 January, 0.8576 to 0.9126, which is its stack_migrated_on. It goes live on the 31st.",
+    "Fennhaven has no live_from and no stack_migrated_on and its printed rate does not step anywhere in the window.",
+    "Asked the platform group whether the export flags which service wrote a row. It does not; Nils sent his note back."
+  ]
+}

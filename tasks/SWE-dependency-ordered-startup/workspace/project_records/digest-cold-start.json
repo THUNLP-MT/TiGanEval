@@ -1,0 +1,4 @@
+{
+  "record_id": "digest-cold-start",
+  "scene": "The 14 August boot, after which the digest service answered its first request with an empty table. It reads the statistics pool through stats-view, which holds the pool and nothing else. The health endpoint resolves the pool ten ticks into the boot, which is how anyone noticed."
+}

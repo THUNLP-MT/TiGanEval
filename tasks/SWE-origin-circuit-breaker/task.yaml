@@ -1,0 +1,12 @@
+id: SWE-origin-circuit-breaker
+domain: SWE
+title: 'SWE: Per-origin failure isolation in the edge gateway'
+seed_sources:
+- name: 'DeepSWE v1.1: ofetch-per-origin-circuit-breaker'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/ofetch-per-origin-circuit-breaker
+rubrics:
+- shared_origin_isolation
+- half_open_admission
+- blocked_call_inertness
+- logical_call_accounting
+- outcome_classification

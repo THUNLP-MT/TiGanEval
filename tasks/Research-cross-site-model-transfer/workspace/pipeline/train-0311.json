@@ -1,0 +1,18 @@
+{
+  "run_id": "train-0311",
+  "ran": "2026-03-11",
+  "source": "ridgeline_pool_v3",
+  "train_rows": 5600,
+  "reserved_rows": 1400,
+  "reserved_file": "ridgeline_reserved_split.csv",
+  "coefficients": [
+    2.449346,
+    1.621082,
+    2.017431,
+    -3.076524,
+    -0.803487,
+    -0.687368
+  ],
+  "intercept": -1.069883,
+  "threshold": 0.5
+}

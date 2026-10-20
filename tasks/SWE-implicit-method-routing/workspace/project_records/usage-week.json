@@ -1,0 +1,4 @@
+{
+  "record_id": "usage-week",
+  "scene": "Four days of the stream router as two tenants reach it, northwind and pinehurst alternating, plus the streaming client opening its channel on the same path. This is the traffic the monthly capacity report is built from, which is why the report is printed at the end of it."
+}

@@ -1,0 +1,19 @@
+{
+  "analyst": "Tomas Ferrer",
+  "chain_steps": {
+    "run-a": 840,
+    "run-b": 1710,
+    "run-c": 1530,
+    "run-d": 860,
+    "run-e": 750
+  },
+  "date": "2027-02-05",
+  "jobs_on_the_ledger": 7,
+  "notes": [
+    "hpc-11 went down on the 3rd and took j-4418 with it. The console had written 1710 steps of run-b by then and they are all on disk.",
+    "Ops are resubmitting it from the last checkpoint the job wrote, which was at step 1010.",
+    "run-c and run-d are in. run-d's opening block runs longer than any of the others before it settles down.",
+    "A 400-step top-up came back refused with 250 steps charged."
+  ],
+  "session": "node-outage"
+}

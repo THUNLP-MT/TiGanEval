@@ -1,0 +1,12 @@
+id: SWE-implicit-method-routing
+domain: SWE
+title: 'SWE: Answers the delivery portal gives about its own paths'
+seed_sources:
+- name: 'DeepSWE v1.1: fastapi-implicit-head-options'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/fastapi-implicit-head-options
+rubrics:
+- body_free_projection
+- path_method_advertisement
+- layered_defaults_resolution
+- explicit_operations_win
+- generated_traffic_accounting

@@ -1,0 +1,125 @@
+{
+  "entries": [
+    {
+      "call_id": "ramp-w1",
+      "days": 7,
+      "enrolled_by_sessions_28d": {
+        "1": 870,
+        "14": 8375,
+        "26": 8012,
+        "3": 2598,
+        "34": 10288,
+        "8": 4852
+      },
+      "hold_ramp": true,
+      "previous": "",
+      "seal": "7fe6ed3bb028ef4ed491b81bf1e58d8cf107d6ebe1577222adc8387b13fa3fcf",
+      "sequence": 1,
+      "served_from": "2026-07-06",
+      "share_day_points": 21,
+      "share_pct": 3,
+      "topic_counters": {
+        "accepted": 156450,
+        "dropped": 0
+      },
+      "watch": "one-tap-reorder"
+    },
+    {
+      "call_id": "ramp-w2",
+      "days": 7,
+      "enrolled_by_sessions_28d": {
+        "1": 870,
+        "14": 8376,
+        "26": 8011,
+        "3": 2599,
+        "34": 10290,
+        "8": 4852
+      },
+      "hold_ramp": true,
+      "previous": "7fe6ed3bb028ef4ed491b81bf1e58d8cf107d6ebe1577222adc8387b13fa3fcf",
+      "seal": "a4c6f0985a4b4899eaf2b39bbcaa519c32f5a5652aa158bbe016459eabdd9d7c",
+      "sequence": 2,
+      "served_from": "2026-07-13",
+      "share_day_points": 84,
+      "share_pct": 12,
+      "topic_counters": {
+        "accepted": 231600,
+        "dropped": 103092
+      },
+      "watch": "one-tap-reorder"
+    },
+    {
+      "call_id": "ramp-w3",
+      "days": 7,
+      "enrolled_by_sessions_28d": {
+        "1": 870,
+        "14": 8376,
+        "26": 8013,
+        "3": 2599,
+        "34": 10290,
+        "8": 4854
+      },
+      "hold_ramp": true,
+      "previous": "a4c6f0985a4b4899eaf2b39bbcaa519c32f5a5652aa158bbe016459eabdd9d7c",
+      "seal": "e14e01845ff74c800f38d311903de09c8222f4699098e15030dcab980a2c030b",
+      "sequence": 3,
+      "served_from": "2026-07-20",
+      "share_day_points": 280,
+      "share_pct": 40,
+      "topic_counters": {
+        "accepted": 273000,
+        "dropped": 0
+      },
+      "watch": "one-tap-reorder"
+    },
+    {
+      "call_id": "ramp-w4",
+      "days": 7,
+      "enrolled_by_sessions_28d": {
+        "1": 871,
+        "14": 8375,
+        "26": 8013,
+        "3": 2600,
+        "34": 10289,
+        "8": 4852
+      },
+      "hold_ramp": true,
+      "previous": "e14e01845ff74c800f38d311903de09c8222f4699098e15030dcab980a2c030b",
+      "seal": "3320b91f615fa20b85241e124ca587e69e0cf1a0e74d94f398cd6d064b3108ab",
+      "sequence": 4,
+      "served_from": "2026-07-27",
+      "share_day_points": 315,
+      "share_pct": 45,
+      "topic_counters": {
+        "accepted": 288750,
+        "dropped": 0
+      },
+      "watch": "one-tap-reorder"
+    },
+    {
+      "call_id": "ramp-w5",
+      "days": 7,
+      "enrolled_by_sessions_28d": {
+        "1": 870,
+        "14": 8377,
+        "26": 8012,
+        "3": 2598,
+        "34": 10289,
+        "8": 4853
+      },
+      "hold_ramp": true,
+      "previous": "3320b91f615fa20b85241e124ca587e69e0cf1a0e74d94f398cd6d064b3108ab",
+      "seal": "30f589e9fc8786a09e2a4bd47184bec09e6ee04488da1c198dfee1d93cba8b0a",
+      "sequence": 5,
+      "served_from": "2026-08-03",
+      "share_day_points": 315,
+      "share_pct": 45,
+      "topic_counters": {
+        "accepted": 288750,
+        "dropped": 0
+      },
+      "watch": "one-tap-reorder"
+    }
+  ],
+  "watch": "one-tap-reorder"
+}

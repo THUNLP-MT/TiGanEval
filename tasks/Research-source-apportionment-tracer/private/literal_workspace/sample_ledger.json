@@ -1,0 +1,231 @@
+{
+  "entries": [
+    {
+      "call_id": "round-01",
+      "channels": [
+        "conductivity",
+        "marker"
+      ],
+      "dwell_min": 5,
+      "lot": "block-a-january",
+      "outdoor_C": 7.2,
+      "plant_ripple_idx": {},
+      "point": "header",
+      "previous": "",
+      "readings": [
+        {
+          "cond_uScm": 508.0,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.69,
+          "point": "header",
+          "sample_id": "hs-001",
+          "taken_at": "2026-01-04T09:15:00"
+        },
+        {
+          "cond_uScm": 508.8,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.77,
+          "point": "header",
+          "sample_id": "hs-002",
+          "taken_at": "2026-01-04T09:45:00"
+        },
+        {
+          "cond_uScm": 520.2,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.97,
+          "point": "header",
+          "sample_id": "hs-003",
+          "taken_at": "2026-01-04T10:15:00"
+        },
+        {
+          "cond_uScm": 506.3,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.89,
+          "point": "header",
+          "sample_id": "hs-004",
+          "taken_at": "2026-01-04T10:45:00"
+        }
+      ],
+      "refusal": null,
+      "seal": "493d14357510a736892c46fffb693f2eb1c4a45825369eae6614c14e7caaff6c",
+      "sequence": 1,
+      "served_on": "2026-01-04",
+      "slots_charged": 4,
+      "slots_left_after": 26,
+      "slots_requested": 4
+    },
+    {
+      "call_id": "round-02",
+      "channels": [
+        "conductivity",
+        "marker"
+      ],
+      "dwell_min": 5,
+      "lot": "block-a-january",
+      "outdoor_C": -6.0,
+      "plant_ripple_idx": {},
+      "point": "header",
+      "previous": "493d14357510a736892c46fffb693f2eb1c4a45825369eae6614c14e7caaff6c",
+      "readings": [
+        {
+          "cond_uScm": 516.0,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 6.18,
+          "point": "header",
+          "sample_id": "hs-005",
+          "taken_at": "2026-01-12T09:20:00"
+        },
+        {
+          "cond_uScm": 533.4,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 6.2,
+          "point": "header",
+          "sample_id": "hs-006",
+          "taken_at": "2026-01-12T09:55:00"
+        },
+        {
+          "cond_uScm": 415.9,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 6.96,
+          "point": "header",
+          "sample_id": "hs-007",
+          "taken_at": "2026-01-12T14:20:00"
+        },
+        {
+          "cond_uScm": 420.7,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 7.07,
+          "point": "header",
+          "sample_id": "hs-008",
+          "taken_at": "2026-01-12T15:05:00"
+        }
+      ],
+      "refusal": null,
+      "seal": "27720097da5b9f42610f822ae4263886fdff07e1a60c2f32266f28db26335c25",
+      "sequence": 2,
+      "served_on": "2026-01-12",
+      "slots_charged": 4,
+      "slots_left_after": 22,
+      "slots_requested": 4
+    },
+    {
+      "call_id": "round-03",
+      "channels": [
+        "conductivity",
+        "marker"
+      ],
+      "dwell_min": 5,
+      "lot": "block-a-january",
+      "outdoor_C": 6.2,
+      "plant_ripple_idx": {},
+      "point": "header",
+      "previous": "27720097da5b9f42610f822ae4263886fdff07e1a60c2f32266f28db26335c25",
+      "readings": [
+        {
+          "cond_uScm": 518.6,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.74,
+          "point": "header",
+          "sample_id": "hs-009",
+          "taken_at": "2026-01-20T09:10:00"
+        },
+        {
+          "cond_uScm": 510.7,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.44,
+          "point": "header",
+          "sample_id": "hs-010",
+          "taken_at": "2026-01-20T09:40:00"
+        },
+        {
+          "cond_uScm": 515.7,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.82,
+          "point": "header",
+          "sample_id": "hs-011",
+          "taken_at": "2026-01-20T10:10:00"
+        }
+      ],
+      "refusal": null,
+      "seal": "f6cbedeca6d0a00e9e01b8dbe1d0481a432e89e6ee2f8cff166650944e731945",
+      "sequence": 3,
+      "served_on": "2026-01-20",
+      "slots_charged": 3,
+      "slots_left_after": 19,
+      "slots_requested": 3
+    },
+    {
+      "call_id": "round-04",
+      "channels": [
+        "conductivity",
+        "marker"
+      ],
+      "dwell_min": 5,
+      "lot": "block-a-january",
+      "outdoor_C": 5.0,
+      "plant_ripple_idx": {},
+      "point": "header",
+      "previous": "f6cbedeca6d0a00e9e01b8dbe1d0481a432e89e6ee2f8cff166650944e731945",
+      "readings": [
+        {
+          "cond_uScm": 516.0,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.94,
+          "point": "header",
+          "sample_id": "hs-012",
+          "taken_at": "2026-01-26T09:25:00"
+        },
+        {
+          "cond_uScm": 512.0,
+          "dwell_min": 5,
+          "mark_flag": "value",
+          "mark_muL": 5.78,
+          "point": "header",
+          "sample_id": "hs-013",
+          "taken_at": "2026-01-26T10:00:00"
+        }
+      ],
+      "refusal": null,
+      "seal": "98485861acf6431dabd39f49b19c3d18b2c1109ce380a1cfa9de92ac1b51bc58",
+      "sequence": 4,
+      "served_on": "2026-01-26",
+      "slots_charged": 2,
+      "slots_left_after": 17,
+      "slots_requested": 2
+    },
+    {
+      "call_id": "round-05",
+      "channels": [
+        "conductivity",
+        "marker"
+      ],
+      "dwell_min": 5,
+      "lot": "block-a-january",
+      "outdoor_C": 5.0,
+      "plant_ripple_idx": {},
+      "point": "boiler_house",
+      "previous": "98485861acf6431dabd39f49b19c3d18b2c1109ce380a1cfa9de92ac1b51bc58",
+      "readings": [],
+      "refusal": "boiler_house is not on the access list the agreement carries",
+      "seal": "af9219729a3c30977dc591b008d7ee3d9d130c180f6c21f69976a689708448ed",
+      "sequence": 5,
+      "served_on": "2026-01-26",
+      "slots_charged": 3,
+      "slots_left_after": 14,
+      "slots_requested": 3
+    }
+  ],
+  "lot": "block-a-january"
+}

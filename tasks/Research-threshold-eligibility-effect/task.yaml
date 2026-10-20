@@ -1,0 +1,12 @@
+id: Research-threshold-eligibility-effect
+domain: Research
+title: 'Research: the observed standing-score offer difference at the line'
+seed_sources:
+- name: 'Imbens and Lemieux (2007), Regression Discontinuity Designs: A Guide to Practice'
+  url: https://www.nber.org/papers/t0337
+rubrics:
+- offer_effect_within_tolerance
+- report_reconciles_receipts
+- range_covers_and_meets_floor
+- next_review_feasible_and_informative
+- estimate_invariant_to_recompute_and_truncation

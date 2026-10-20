@@ -1,0 +1,12 @@
+id: SWE-grouped-test-barriers
+domain: SWE
+title: 'SWE: Benches that run their handsets together in the device lab'
+seed_sources:
+- name: 'DeepSWE v1.1: mobly-grouped-test-barriers'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/mobly-grouped-test-barriers
+rubrics:
+- record_attribution
+- gate_scope_and_lifetime
+- gate_party_from_bench
+- context_binding_contract
+- night_envelope

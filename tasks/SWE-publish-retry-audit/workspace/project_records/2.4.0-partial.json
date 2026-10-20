@@ -1,0 +1,4 @@
+{
+  "record_id": "2.4.0-partial",
+  "scene": "Tuesday's 2.4.0 release, the part of it we kept. The upload service turned the first two files the build handed over away — the linux tarball twice over and the windows zip once — while the checksums file and the software bill of materials went up first time. The release page went out with two of the four files on it and the rest were pushed by hand that evening."
+}

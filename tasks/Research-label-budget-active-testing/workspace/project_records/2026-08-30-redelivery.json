@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-30",
+  "notes": [
+    "Second order went in on the 29th at 08:40 and came back at 19:12, 72 items, R-14 again.",
+    "At 03:10 this morning the same file arrived a second time. The first 24 rows of it are on the ledger again, carrying the receipt ids they carried the first time.",
+    "Vendor support closed my ticket without telling me anything I could use.",
+    "The ledger is 192 lines now."
+  ],
+  "operator": "Dani Roux",
+  "record_id": "2026-08-30-redelivery",
+  "through_line": 192
+}

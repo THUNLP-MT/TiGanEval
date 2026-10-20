@@ -1,0 +1,12 @@
+id: SWE-exclusive-consumer-lease
+domain: SWE
+title: 'SWE: Exclusive Consumer Lease'
+seed_sources:
+- name: 'DeepSWE v1.1: kombu-single-active-consumer-priority'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/kombu-single-active-consumer-priority
+rubrics:
+- single_holder_job_conservation
+- fleet_wide_claim_registry
+- exclusivity_survives_reregistration
+- revocation_notice_completeness
+- rank_and_window_discipline

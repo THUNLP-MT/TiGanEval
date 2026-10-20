@@ -1,0 +1,20 @@
+{
+  "record_id": "interrupted-load",
+  "night": "2026-08-24",
+  "scene": "A nightly load that dies part way through the export, is restarted, loses a commit, and is restarted again until it finishes.",
+  "attempts": [
+    {
+      "label": "first-attempt",
+      "note": "the export feed drops out part way through the night's export"
+    },
+    {
+      "label": "resume-after-restart",
+      "note": "the warehouse loses a commit while the restart is running"
+    },
+    {
+      "label": "resume-to-completion",
+      "note": "a clean restart with nothing going wrong"
+    }
+  ],
+  "scheduler": "SourceInterrupted and StorageFailure both come out of the substrate on nights like this one, and the run is the thing that catches them: an attempt that reports interrupted is restarted five minutes later, an attempt that reports completed ends the night, and an attempt that hands back the exception instead of a report is paged to the on-call engineer and is not restarted, which is how a dropped feed turns into a morning of stale catalogue."
+}

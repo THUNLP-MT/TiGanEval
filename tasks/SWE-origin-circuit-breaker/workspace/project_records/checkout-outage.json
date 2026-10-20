@@ -1,0 +1,4 @@
+{
+  "record_id": "checkout-outage",
+  "scene": "Thursday 14:02 to 14:13. The payments provider stopped answering and every checkout call queued behind it; the basket service was fine throughout and is in here so the two are readable side by side. The stretch ends with one more charge, thirty-one seconds after the last one."
+}

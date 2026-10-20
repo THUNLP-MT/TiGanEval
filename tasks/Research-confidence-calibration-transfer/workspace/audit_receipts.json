@@ -1,0 +1,1284 @@
+{
+  "queue": "marketplace-listings-q3",
+  "batches": [
+    {
+      "batch_id": "jun-mobile-spot",
+      "queue": "marketplace-listings-q3",
+      "day": "2026-08-14",
+      "channel": "mobile",
+      "period": "route-2026-04",
+      "listings_requested": 120,
+      "listings_returned": 33,
+      "violating_returned": 6,
+      "credits_charged": 33,
+      "credits_remaining": 1167,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "listing_id": "MK-003728",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0662,
+            "band": "0.08",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003729",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0008,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003730",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.8149,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003731",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0156,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003732",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0033,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003733",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1229,
+            "band": "0.15",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003734",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0081,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003735",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.6495,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003736",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0335,
+            "band": "0.04",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003737",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0012,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003738",
+            "channel": "mobile",
+            "intake_date": "2026-08-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.8435,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003739",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0059,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003740",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.4841,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003741",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0827,
+            "band": "0.10",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003742",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0084,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003743",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.6781,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003744",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0138,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003745",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0015,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003746",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1931,
+            "band": "0.20",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003747",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0063,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003748",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.5127,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003749",
+            "channel": "mobile",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0434,
+            "band": "0.06",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003750",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0088,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003751",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.7067,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003752",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0042,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003753",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0019,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003754",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.118,
+            "band": "0.12",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003755",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0067,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003756",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.5413,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-003757",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0221,
+            "band": "0.03",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003758",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0092,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003759",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.7353,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-003760",
+            "channel": "mobile",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0046,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          }
+        ]
+      },
+      "sequence": 1,
+      "previous": "",
+      "seal": "f96d1f2a86bacf1fd2aa160049d677c0ab5d490d487dcc8cf6367b3cfda78b2d"
+    },
+    {
+      "batch_id": "jun-web-spot",
+      "queue": "marketplace-listings-q3",
+      "day": "2026-08-17",
+      "channel": "web",
+      "period": "route-2025-11",
+      "listings_requested": 80,
+      "listings_returned": 0,
+      "violating_returned": 0,
+      "credits_charged": 20,
+      "credits_remaining": 1147,
+      "refusal": "the cell came back empty",
+      "observed": {
+        "rows": []
+      },
+      "sequence": 2,
+      "previous": "f96d1f2a86bacf1fd2aa160049d677c0ab5d490d487dcc8cf6367b3cfda78b2d",
+      "seal": "ccf87fe70b7a976ac36b90fe3b09824766b7a1a120a115dd18ae1bc27751a02d"
+    },
+    {
+      "batch_id": "jul-resell-open",
+      "queue": "marketplace-listings-q3",
+      "day": "2026-08-24",
+      "channel": "reseller_import",
+      "period": "route-2026-04",
+      "listings_requested": 60,
+      "listings_returned": 60,
+      "violating_returned": 23,
+      "credits_charged": 120,
+      "credits_remaining": 1027,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "listing_id": "MK-005791",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.9538,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005792",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0747,
+            "band": "0.08",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005793",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0051,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005794",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.4146,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005795",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0104,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005796",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-30",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0075,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005797",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1357,
+            "band": "0.15",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005798",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0029,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005799",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.2492,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005800",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0377,
+            "band": "0.04",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005801",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0054,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005802",
+            "channel": "reseller_import",
+            "intake_date": "2026-07-31",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.4432,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005803",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0008,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005804",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.817,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005805",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0912,
+            "band": "0.10",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005806",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0033,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005807",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.2778,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005808",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0181,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005809",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0058,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005810",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1674,
+            "band": "0.20",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005811",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0012,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005812",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.8456,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005813",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0519,
+            "band": "0.06",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005814",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0037,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005815",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.3064,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005816",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0085,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005817",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0062,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005818",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1077,
+            "band": "0.12",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005819",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0015,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005820",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-03",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.8742,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005821",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0263,
+            "band": "0.03",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005822",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.004,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005823",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.335,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005824",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0088,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005825",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.7088,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005826",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-04",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0684,
+            "band": "0.08",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005827",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0019,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005828",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.9028,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005829",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0167,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005830",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0044,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005831",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1263,
+            "band": "0.15",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005832",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-05",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0092,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005833",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.7374,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005834",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0346,
+            "band": "0.04",
+            "auto_cleared": "yes",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005835",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0023,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005836",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.9314,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005837",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0071,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005838",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-06",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0048,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005839",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0849,
+            "band": "0.10",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005840",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0096,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005841",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.766,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005842",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.015,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005843",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0026,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005844",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-07",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1517,
+            "band": "0.20",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005845",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0074,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005846",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.6006,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005847",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0657,
+            "band": "0.08",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005848",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0005,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-005849",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.7946,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-005850",
+            "channel": "reseller_import",
+            "intake_date": "2026-08-08",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0053,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          }
+        ]
+      },
+      "sequence": 3,
+      "previous": "ccf87fe70b7a976ac36b90fe3b09824766b7a1a120a115dd18ae1bc27751a02d",
+      "seal": "b2308702a90cfc1702be2361f1ca1798da134d95f8dfcd5a3cdebd1a46159af7"
+    },
+    {
+      "batch_id": "aug-web-tail",
+      "queue": "marketplace-listings-q3",
+      "day": "2026-08-26",
+      "channel": "web",
+      "period": "route-2026-04",
+      "listings_requested": 27,
+      "listings_returned": 27,
+      "violating_returned": 2,
+      "credits_charged": 27,
+      "credits_remaining": 1000,
+      "refusal": null,
+      "observed": {
+        "rows": [
+          {
+            "listing_id": "MK-002201",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0049,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002202",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.3998,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002203",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0397,
+            "band": "0.04",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002204",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0074,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002205",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.5939,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-002206",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0027,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002207",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0004,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002208",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0951,
+            "band": "0.10",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002209",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0052,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002210",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.4284,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002211",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0106,
+            "band": "0.02",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002212",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0077,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002213",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1771,
+            "band": "0.20",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002214",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0031,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002215",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.263,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002216",
+            "channel": "web",
+            "intake_date": "2026-09-01",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0758,
+            "band": "0.08",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002217",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0056,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002218",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.457,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "violating"
+          },
+          {
+            "listing_id": "MK-002219",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.001,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002220",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0081,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002221",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.1116,
+            "band": "0.12",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002222",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0035,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002223",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.2916,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002224",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0283,
+            "band": "0.03",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002225",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.006,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002226",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.4857,
+            "band": "over",
+            "auto_cleared": "no",
+            "review_outcome": "clean"
+          },
+          {
+            "listing_id": "MK-002227",
+            "channel": "web",
+            "intake_date": "2026-09-02",
+            "intake_period": "route-2026-04",
+            "stated_confidence": 0.0014,
+            "band": "0.01",
+            "auto_cleared": "yes",
+            "review_outcome": "clean"
+          }
+        ]
+      },
+      "sequence": 4,
+      "previous": "b2308702a90cfc1702be2361f1ca1798da134d95f8dfcd5a3cdebd1a46159af7",
+      "seal": "6de5d110616d041b5b4c6a8581423ab6aee4bdb7467d2eb137f2cd9f2d12dfc8"
+    }
+  ]
+}

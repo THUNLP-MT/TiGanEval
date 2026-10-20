@@ -1,0 +1,4 @@
+{
+  "record_id": "key-was-not-set",
+  "scene": "The three nights around the console rebuild. On the second the unit file came back without ARCHIVE_KEY in it, and on the third someone pasted half the key into the shell before the job ran. Both mornings the log said the night had finished and both nights had a row in the vault listing, so the missing-backup alert stayed quiet and nobody went near either of them until the drill sheet came round."
+}

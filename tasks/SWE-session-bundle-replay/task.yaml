@@ -1,0 +1,12 @@
+id: SWE-session-bundle-replay
+domain: SWE
+title: 'SWE: Session bundles the support desk can stand behind'
+seed_sources:
+- name: 'DeepSWE v1.1: ipython-session-bundle-replay'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/ipython-session-bundle-replay
+rubrics:
+- secret_redaction
+- output_attribution
+- recorder_lifetime
+- bundle_admission
+- replay_isolation

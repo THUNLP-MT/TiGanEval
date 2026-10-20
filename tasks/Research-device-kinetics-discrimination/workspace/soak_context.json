@@ -1,0 +1,7664 @@
+{
+  "budget": {
+    "block_reading_every_h": 12.0,
+    "chamber_days_granted": 16.0,
+    "days_per_block": 4,
+    "highest_case_temp_c": 95.0,
+    "highest_drive_a": 1.8,
+    "lowest_drive_a": 1.0,
+    "ports_per_block": 8,
+    "range_the_review_acts_on_h": 350.0,
+    "review_on": "2026-03-26",
+    "smallest_block_days": 2
+  },
+  "build_month": "2026-03",
+  "campaign": "em9-march",
+  "campaign_days": [
+    "2026-03-09",
+    "2026-03-10",
+    "2026-03-11",
+    "2026-03-12",
+    "2026-03-13",
+    "2026-03-14",
+    "2026-03-15",
+    "2026-03-16",
+    "2026-03-17",
+    "2026-03-18",
+    "2026-03-19",
+    "2026-03-20",
+    "2026-03-21",
+    "2026-03-22",
+    "2026-03-23",
+    "2026-03-24",
+    "2026-03-25",
+    "2026-03-26"
+  ],
+  "catalogue": {
+    "contact_oxide": {
+      "drive_constant": 3.4,
+      "drive_form": "power",
+      "shape_constant": 400.0,
+      "ten_degree_factor": 2.2,
+      "time_shape": "saturating"
+    },
+    "defect_growth": {
+      "drive_constant": 2.1993,
+      "drive_form": "exponential",
+      "shape_constant": 0.66,
+      "ten_degree_factor": 1.7,
+      "time_shape": "power"
+    },
+    "drive_fatigue": {
+      "drive_constant": 2.1993,
+      "drive_form": "exponential",
+      "shape_constant": 1000.0,
+      "ten_degree_factor": 1.3,
+      "time_shape": "linear"
+    },
+    "interface_creep": {
+      "drive_constant": 3.4,
+      "drive_form": "power",
+      "shape_constant": 760.0,
+      "ten_degree_factor": 3.4,
+      "time_shape": "logarithmic"
+    }
+  },
+  "family": "EM-9",
+  "field_drive_a": 1.4,
+  "hold_temp_c": 85.0,
+  "meter_full_scale_mw": 40.0,
+  "meter_read_spread_mw": 0.1,
+  "modules": [
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.7,
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.1,
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.5,
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.9,
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.2,
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.6,
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.0,
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.8,
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.7,
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.1,
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.5,
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 40.9,
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 41.2,
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 40.6,
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.0,
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.8,
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.7,
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 41.1,
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.5,
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.9,
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 41.2,
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 40.6,
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 41.0,
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.7,
+      "incoming_mw": 40.8,
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "rack": "R-B",
+      "started_on": "2026-01-19 08:00"
+    },
+    {
+      "drive_a": 1.4,
+      "incoming_mw": 40.7,
+      "lot": "L-11",
+      "module_id": "L-11-25",
+      "rack": "R-A",
+      "started_on": "2026-01-05 08:00"
+    }
+  ],
+  "racks": [
+    "R-A",
+    "R-B"
+  ],
+  "reference_module_id": "REF-20",
+  "reference_source_mw": 20.0,
+  "rig_out_of_service": [
+    "2026-03-14",
+    "2026-03-16"
+  ],
+  "spares": {
+    "L-19": 7,
+    "L-22": 5
+  },
+  "spares_incoming_mw": {
+    "L-19": 40.7,
+    "L-22": 40.7
+  },
+  "target_loss": 0.1,
+  "traces": [
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 48,
+      "logged_at": "2026-01-07 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 48
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-09 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 144,
+      "logged_at": "2026-01-11 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 144
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-13 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 240,
+      "logged_at": "2026-01-15 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 240
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-17 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.9,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 336,
+      "logged_at": "2026-01-19 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 336
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 96,
+      "logged_at": "2026-01-21 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-B",
+      "sample_index": 96
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 40.0,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 432,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 432
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 192,
+      "logged_at": "2026-01-23 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 192
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 39.8,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.8,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 288,
+      "logged_at": "2026-01-25 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 288
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 528,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 528
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 384,
+      "logged_at": "2026-01-27 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 384
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.6,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.8,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.7,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 480,
+      "logged_at": "2026-01-29 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 480
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.8,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 624,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 624
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 576,
+      "logged_at": "2026-01-31 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-B",
+      "sample_index": 576
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.5,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.9,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 672,
+      "logged_at": "2026-02-02 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 672
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.8,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 720,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 720
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-04 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 40.0,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.3,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 37.5,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 768,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 768
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-06 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.4,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 39.2,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 37.5,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 816,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.8,
+      "rack": "R-A",
+      "sample_index": 816
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-08 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-B",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-12",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-13",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "L-22",
+      "module_id": "L-22-14",
+      "output_mw": 37.4,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 864,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 864
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-10 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 39.0,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.6,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.7,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 912,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 912
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-12 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 39.1,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 960,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 960
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-14 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.9,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.5,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1008,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 1008
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1344,
+      "logged_at": "2026-02-16 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.2,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.3,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1056,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1056
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1440,
+      "logged_at": "2026-02-18 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.2,
+      "rack": "R-B",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.4,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-21",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-22",
+      "output_mw": 37.7,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-23",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.7,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-24",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.8,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1104,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 1104
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1536,
+      "logged_at": "2026-02-20 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.8,
+      "rack": "R-B",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.7,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.1,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1152,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1152
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1632,
+      "logged_at": "2026-02-22 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1200,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1200
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1728,
+      "logged_at": "2026-02-24 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.2,
+      "rack": "R-B",
+      "sample_index": 1728
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.6,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 39.0,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.8,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1248,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 1248
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1824,
+      "logged_at": "2026-02-26 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 1824
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1296,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1296
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1920,
+      "logged_at": "2026-02-28 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 1920
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.9,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1344,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.8,
+      "rack": "R-A",
+      "sample_index": 1344
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2016,
+      "logged_at": "2026-03-02 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.8,
+      "rack": "R-B",
+      "sample_index": 2016
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.3,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1392,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 1392
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2112,
+      "logged_at": "2026-03-04 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2112
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-07",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-08",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-09",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-10",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "L-17",
+      "module_id": "L-17-11",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1440,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1440
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2208,
+      "logged_at": "2026-03-06 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 2208
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.5,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.7,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1488,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.2,
+      "rack": "R-A",
+      "sample_index": 1488
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2304,
+      "logged_at": "2026-03-08 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2304
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.2,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.5,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.6,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1536,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.2,
+      "rack": "R-A",
+      "sample_index": 1536
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2400,
+      "logged_at": "2026-03-10 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 2400
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.4,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.5,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1584,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-A",
+      "sample_index": 1584
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2496,
+      "logged_at": "2026-03-12 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2496
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.5,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.8,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 37.9,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.4,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1632,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-A",
+      "sample_index": 1632
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2592,
+      "logged_at": "2026-03-14 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2592
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-01",
+      "output_mw": 37.6,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-02",
+      "output_mw": 38.0,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-03",
+      "output_mw": 37.3,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-04",
+      "output_mw": 37.7,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-05",
+      "output_mw": 38.1,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-11",
+      "module_id": "L-11-06",
+      "output_mw": 37.4,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.4,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 1680,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.1,
+      "rack": "R-A",
+      "sample_index": 1680
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2688,
+      "logged_at": "2026-03-16 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2688
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.3,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.6,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2784,
+      "logged_at": "2026-03-18 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 2784
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.2,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.6,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 37.7,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2880,
+      "logged_at": "2026-03-20 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 2880
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 38.0,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.6,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 2976,
+      "logged_at": "2026-03-22 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 19.9,
+      "rack": "R-B",
+      "sample_index": 2976
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-15",
+      "output_mw": 37.9,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-16",
+      "output_mw": 37.6,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-17",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-18",
+      "output_mw": 38.1,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-19",
+      "output_mw": 37.5,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 1.4,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "L-14",
+      "module_id": "L-14-20",
+      "output_mw": 37.8,
+      "rack": "R-B",
+      "sample_index": 3072
+    },
+    {
+      "drive_a": 0.0,
+      "elapsed_h": 3072,
+      "logged_at": "2026-03-24 08:00",
+      "lot": "",
+      "module_id": "REF-20",
+      "output_mw": 20.0,
+      "rack": "R-B",
+      "sample_index": 3072
+    }
+  ]
+}

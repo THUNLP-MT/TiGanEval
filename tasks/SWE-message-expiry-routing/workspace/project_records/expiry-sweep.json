@@ -1,0 +1,43 @@
+{
+  "record_id": "expiry-sweep",
+  "scene": "A fan-out publish to a fast and a slow alert queue, a short-lived message, and the operator's expiry sweeps as the clock advances.",
+  "queue_properties": {
+    "alerts": {"dead_letter_queue": "alerts.dead", "message_ttl": 30.0, "max_length": null, "max_deliveries": 3},
+    "alerts.slow": {"dead_letter_queue": "alerts.dead", "message_ttl": 300.0, "max_length": null, "max_deliveries": 3},
+    "alerts.dead": {"dead_letter_queue": null, "message_ttl": null, "max_length": null, "max_deliveries": 3}
+  },
+  "recorded": {
+    "note": "Written up by on-call after the last drill the notification team signed off. pub-short was published with a five-second life of its own.",
+    "deadlines_at_publish": [
+      {"label": "pub-short", "queue": "alerts", "message_id": "m-00001", "published_at": 0.0, "expires_at": 5.0},
+      {"label": "pub-fanout", "queue": "alerts", "message_id": "m-00002", "published_at": 0.0, "expires_at": 30.0},
+      {"label": "pub-fanout", "queue": "alerts.slow", "message_id": "m-00003", "published_at": 0.0, "expires_at": 300.0},
+      {"label": "pub-late", "queue": "alerts", "message_id": "m-00004", "published_at": 35.0, "expires_at": 65.0}
+    ],
+    "handouts": [
+      {"label": "take-alert", "clock": 10.0, "queue": "alerts", "message_id": "m-00002"},
+      {"label": "take-slow", "clock": 75.0, "queue": "alerts.slow", "message_id": "m-00003"}
+    ],
+    "sweeps": [
+      {"label": "drain-fresh", "clock": 35.0, "queue": "alerts", "expired_removed": 0},
+      {"label": "drain-stale", "clock": 75.0, "queue": "alerts", "expired_removed": 1}
+    ],
+    "at_the_end": {
+      "clock": 75.0,
+      "waiting": {
+        "alerts": [],
+        "alerts.slow": [],
+        "alerts.dead": [
+          {"message_id": "m-00001", "published_at": 10.0, "expires_at": null},
+          {"message_id": "m-00004", "published_at": 75.0, "expires_at": null}
+        ]
+      },
+      "settled": [
+        {"message_id": "m-00001", "disposition": "dead_lettered", "reason": "expired", "queue": "alerts"},
+        {"message_id": "m-00002", "disposition": "acknowledged", "reason": null, "queue": "alerts"},
+        {"message_id": "m-00004", "disposition": "dead_lettered", "reason": "expired", "queue": "alerts"},
+        {"message_id": "m-00003", "disposition": "acknowledged", "reason": null, "queue": "alerts.slow"}
+      ]
+    }
+  }
+}

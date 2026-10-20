@@ -1,0 +1,12 @@
+id: SWE-recurrence-timezone
+domain: SWE
+title: 'SWE: Recurring reminders across a change of offset'
+seed_sources:
+- name: 'DeepSWE v1.1: dateutil-rfc5545-timezone-interop'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/dateutil-rfc5545-timezone-interop
+rubrics:
+- local_time_preserved
+- transition_occurrence_policy
+- merged_feed_deduplication
+- window_slice_partition
+- exported_rule_round_trip

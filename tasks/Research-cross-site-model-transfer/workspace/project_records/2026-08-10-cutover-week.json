@@ -1,0 +1,13 @@
+{
+  "record_id": "cutover-week",
+  "date": "2026-08-10",
+  "author": "Ilse Verhoeven",
+  "through_day": "2026-08-09",
+  "receipts": [],
+  "notes": [
+    "The pipeline has been scoring Brookfield's intake since the 3rd. Ridgeline carries on unchanged.",
+    "Platform shipped the March build to Brookfield as it stands: the same scale_stats.json and the same train-0311.json that Ridgeline runs on. Nothing was refitted for the move.",
+    "Walked the reviewer form with the Brookfield floor leads. The form opens on the contact history panel and the panel is drawn from the contact record; intake holds a ticket out of the queue until the panel will render for it.",
+    "No reviews bought yet. The quarter has all 600 units."
+  ]
+}

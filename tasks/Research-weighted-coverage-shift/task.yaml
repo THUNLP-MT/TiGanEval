@@ -1,0 +1,12 @@
+id: Research-weighted-coverage-shift
+domain: Research
+title: 'Research: what share of dispatched jobs the board''s window actually holds'
+seed_sources:
+- name: Tibshirani et al. (2019), Conformal Prediction Under Covariate Shift
+  url: https://arxiv.org/abs/1904.06019
+rubrics:
+- stream_rate_within_tolerance
+- class_windows_hold_and_meet_floor
+- windows_invariant_to_pull_and_drop
+- next_visit_feasible_and_reaches_the_unsheeted_class
+- report_reconciles_receipts

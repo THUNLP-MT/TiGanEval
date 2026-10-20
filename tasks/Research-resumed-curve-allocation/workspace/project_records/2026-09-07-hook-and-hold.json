@@ -1,0 +1,13 @@
+{
+  "record_id": "hook-and-hold",
+  "date": "2026-09-07",
+  "author": "Priya Raghavan",
+  "through_day": "2026-09-07",
+  "receipts": [],
+  "notes": [
+    "Rack 3 goes to the evaluation team from the 14th. Said so at standup and put it in the cluster notes.",
+    "cfg-05 came back out on rack 5 this morning and its files gained five rows. It went out on train_v3 on the 27th and I have left it there through every resume.",
+    "Board at 19:00: cfg-06 1.589, cfg-05 1.605, cfg-02 1.695, cfg-04 1.947, cfg-01 1.989.",
+    "cfg-03 spent its second segment on a two-card box because that was what was free on the 5th."
+  ]
+}

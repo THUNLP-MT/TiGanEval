@@ -1,0 +1,13 @@
+{
+  "session": "export-cutover",
+  "date": "2026-03-26",
+  "analyst": "Tomas Halvorsen",
+  "as_of": "2026-03-25",
+  "receipts_then": ["wk11-hold-all"],
+  "notes": [
+    "Eventing migration went in on the 24th. Kofi's note is in the workspace.",
+    "Escalations on the export: 26 in week 11 and none so far in week 12.",
+    "last_observed_date stops at 22 March on every row flagged between 22 February and 22 March. Before that it is the flag date plus twenty-eight; after it, it is the flag date itself.",
+    "Asked the desk for a week at 75 percent held. They handed it back and charged ten slots for it."
+  ]
+}

@@ -1,0 +1,12 @@
+id: SWE-entity-snapshot-rollback
+domain: SWE
+title: 'SWE: Scene checkpoint and revert in the level editor'
+seed_sources:
+- name: 'DeepSWE v1.1: koota-entity-snapshot-rollback'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/koota-entity-snapshot-rollback
+rubrics:
+- isolated_checkpoint_value
+- exact_prop_restore
+- preserved_prop_identity
+- refused_revert_leaves_level
+- canonical_change_report

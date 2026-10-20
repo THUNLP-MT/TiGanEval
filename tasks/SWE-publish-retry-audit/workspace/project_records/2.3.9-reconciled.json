@@ -1,0 +1,4 @@
+{
+  "record_id": "2.3.9-reconciled",
+  "scene": "The 2.3.9 release we went through line by line with the vendor's support desk after they disputed our count. The linux tarball took two tries on the upload host, and the mirror bucket took two goes to open before anything could be put in it. The attempts block the two sides signed off on is printed next to the one this workspace produces."
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "training-run",
+  "scene": "One training run over the current dataset, followed by an export and a look at the files the run left behind."
+}

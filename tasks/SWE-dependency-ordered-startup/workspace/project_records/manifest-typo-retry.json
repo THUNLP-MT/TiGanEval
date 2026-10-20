@@ -1,0 +1,4 @@
+{
+  "record_id": "manifest-typo-retry",
+  "scene": "The morning someone added notice-log to the manifest with the wrong dependency, so it and the event relay ended up pointing at each other. This is the operator's transcript: bring the stack up, have the manifest rejected, correct the edge in place, bring it up again. Restarting the process instead would have cost the whole deploy window."
+}

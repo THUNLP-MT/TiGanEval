@@ -1,0 +1,12 @@
+id: SWE-message-expiry-routing
+domain: SWE
+title: 'SWE: Message expiry and dead-letter routing'
+seed_sources:
+- name: 'DeepSWE v1.1: kombu-virtual-queue-dead-lettering'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/kombu-virtual-queue-dead-lettering
+rubrics:
+- accounted_message_disposition
+- bounded_redelivery
+- publication_time_expiry
+- bounded_queue_overflow
+- restart_durable_broker_state

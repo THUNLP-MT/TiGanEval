@@ -1,0 +1,4 @@
+{
+  "record_id": "strict-and-collect",
+  "scene": "One partner posting to both endpoints we run: the strict one, which bounces a payload carrying anything we do not recognise, and the collecting one, which keeps what it does not recognise beside the record for the migration team to read. Two payloads are ordinary, one carries a typo their integration made on the day (amoun), and one carries two keys from their old EDI feed. The run ends with the schema the strict endpoint publishes."
+}

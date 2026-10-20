@@ -1,0 +1,4 @@
+{
+  "record_id": "revert-twice-drift",
+  "scene": "One checkpoint and three rounds of nudging: the crate's tint and mount offset are adjusted, reverted, the mount is adjusted again and reverted again, then its tint is pulled down and reverted a third time."
+}

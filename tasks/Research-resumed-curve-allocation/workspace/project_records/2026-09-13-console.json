@@ -1,0 +1,13 @@
+{
+  "record_id": "console",
+  "date": "2026-09-13",
+  "author": "Priya Raghavan",
+  "through_day": "2026-09-13",
+  "receipts": ["sweep-0912-a", "sweep-0913-a", "sweep-0913-b"],
+  "notes": [
+    "Booked cfg-01 for six hours on rack 5 on the 12th. Came back with 4980 steps and nineteen rows; first row 1.906 at step 250, last 1.858 at step 4750.",
+    "Asked for twelve hours of rack 3 for cfg-02 on the 13th. Console turned it away and took an hour off the grant.",
+    "Asked for twenty hours of rack 5 for cfg-04 the same afternoon. Turned away, another hour.",
+    "42 node-hours left on the window's grant after those three."
+  ]
+}

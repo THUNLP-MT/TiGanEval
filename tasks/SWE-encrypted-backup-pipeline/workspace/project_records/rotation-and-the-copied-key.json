@@ -1,0 +1,4 @@
+{
+  "record_id": "rotation-and-the-copied-key",
+  "scene": "The week we rotated from the autumn generation to the winter one, and the two nights a copy-and-paste between hosts left the job configuration naming both places at once. On the 8th the retired console's key file was still named in it while ARCHIVE_KEY was already set on the new host. On the 9th it went the other way: the key file that came across held the new generation and the variable still held one a staging box had been exporting for months. On each of those nights one of the two places holds a generation the ops key file has never listed, and it is not the same place twice. On the 10th the copied host had its normal key-file-only configuration and the listed winter generation. Both ambiguous hosts are gone now, and no record made at the time says which of their two sources the job preferred."
+}

@@ -1,0 +1,16 @@
+{
+  "name": "checkout-affinity",
+  "scope": "route",
+  "routes": ["checkout"],
+  "note": "Checkout team. x-session carries a rotating .v<n> suffix the storefront bumps on every token refresh.",
+  "pins": {
+    "headers": [
+      {"name": "x-shopper"},
+      {"name": "x-session", "rewrite": {"pattern": "\\.v[0-9]+$", "substitution": ""}},
+      {"name": "X-Shopper"}
+    ],
+    "cookies": [
+      {"name": "cart_sid", "ttl": "1h30m", "path": "/checkout", "flags": ["Secure", "SameSite=Lax"]}
+    ]
+  }
+}

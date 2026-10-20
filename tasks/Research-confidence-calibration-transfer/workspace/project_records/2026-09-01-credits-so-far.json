@@ -1,0 +1,13 @@
+{
+  "record_id": "credits-so-far",
+  "date": "2026-09-01",
+  "author": "Tomas Aldrich",
+  "through_day": "2026-08-31",
+  "batches": ["jun-mobile-spot", "jun-web-spot", "jul-resell-open", "aug-web-tail"],
+  "notes": [
+    "200 credits charged across four batches, 1000 left. Finance has the receipts.",
+    "jul-resell-open asked for 60 on reseller_import at route-2026-04 and 60 came back for 120 credits, 23 of them violating; only 34 of the 60 were auto_cleared. aug-web-tail asked for 27 on web at route-2026-04 and 27 came back for 27.",
+    "Re-ran the sort from 3 August. web now stops at 29 August, mobile at 28 August, partner_feed at 17 July, reseller_import at 29 July.",
+    "Marisol is taking the chart number to the council. She asked me to leave the notebook alone until someone has been through the intake side properly."
+  ]
+}

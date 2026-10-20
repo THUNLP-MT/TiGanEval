@@ -1,0 +1,14 @@
+{
+  "session": "export-close",
+  "date": "2026-05-27",
+  "analyst": "Priya Raman",
+  "as_of": "2026-05-27",
+  "receipts_on_file": ["RL-0117", "RL-0118"],
+  "notes": [
+    "Export stopped on the 24th. Devin's note is in the workspace.",
+    "last_observed_date reads 1 May for week one, 8 May for week two, 15 May for week three, and 22 May for week four and every week after it.",
+    "The desk worked RL-0117 out of the week of 16 March and refused RL-0118: I asked for a lot of accounts that had taken the offer and it was charged anyway.",
+    "The files RL-0117 came back with carry the score the run used, the credit filed against the account and its ordering to today, which runs past where the export stops.",
+    "Ines wants the readout for the 9 June council."
+  ]
+}

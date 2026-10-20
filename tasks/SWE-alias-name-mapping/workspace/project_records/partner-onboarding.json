@@ -1,0 +1,4 @@
+{
+  "record_id": "partner-onboarding",
+  "scene": "Last month's onboarding runs against the four partner configurations we hold today. Atlas and Cygnet moved to camelCase in March. Cygnet's payloads still say userId although we renamed that field to usr years ago for the warehouse export, and Dorado has posted order_ts_ and amount_total since 2019 and has told us twice they will not change either. The run ends with two records written back out for the downstream readers and with the schema Atlas fetches before it posts."
+}

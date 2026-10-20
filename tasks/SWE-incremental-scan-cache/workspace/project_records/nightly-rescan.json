@@ -1,0 +1,4 @@
+{
+  "record_id": "nightly-rescan",
+  "scene": "Seven consecutive nightly pipeline runs over one service checkout, including days on which developers fixed and reintroduced issues and days on which the analysis configuration changed."
+}

@@ -1,0 +1,12 @@
+id: Research-source-apportionment-tracer
+domain: Research
+title: 'Research: what share of January''s heat each supply carried'
+seed_sources:
+- name: 'Phillips and Gregg (2003), Source partitioning using stable isotopes: coping with too many sources'
+  url: https://doi.org/10.1007/s00442-003-1218-3
+rubrics:
+- supply_shares_within_tolerance
+- report_reconciles_receipts
+- band_covers_and_meets_floor
+- next_visit_identifies_mixture
+- shares_invariant_to_signature_shift

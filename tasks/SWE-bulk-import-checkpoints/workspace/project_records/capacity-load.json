@@ -1,0 +1,12 @@
+{
+  "record_id": "capacity-load",
+  "night": "2026-08-31",
+  "scene": "A clean warehouse load measured against the transaction and checkpoint allowances the warehouse team published.",
+  "attempts": [
+    {
+      "label": "warehouse-load",
+      "note": "one clean run over an undamaged export"
+    }
+  ],
+  "scheduler": "The warehouse team takes this night's numbers to the capacity review: the transactions the run opened against the allowance in README.md, the rows in its largest transaction, how far into the export it read before its first commit, and what the night wrote in total against the same allowance. The release ledger pairs the metadata snapshot from the opening of the window with the handoff after a completed report; an unmatched pair remains in the review queue instead of closing with the night's entry."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "refund",
+  "attributes": {
+    "refund_id": {"type": "string", "key": true, "required": true},
+    "state": {"type": "string", "stored_as": "stt", "required": true, "default": "opened"},
+    "amount": {"type": "number", "required": true},
+    "channel": {"type": "string", "stored_as": "chn"},
+    "route": {
+      "type": "map",
+      "stored_as": "rt",
+      "attributes": {
+        "channel": {"type": "string", "stored_as": "ch"},
+        "account_ref": {
+          "type": "string",
+          "stored_as": "acct",
+          "required_when": [{"attribute": "channel", "values": ["bank"]}]
+        },
+        "note": {"type": "string", "stored_as": "nt"}
+      }
+    }
+  }
+}

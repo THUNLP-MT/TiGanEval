@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-27",
+  "notes": [
+    "The hint has been at half of new visitors since 23 August. No other serving change.",
+    "checkout.v2 has been over its queue quota every evening since the 25th. The counters in the readout context carry what the queue shed, per topic and per day.",
+    "Platform says the shedder takes whatever is at the head of the topic buffer and does not read the payload; its incident replay found the accepted confirmations' first-versus-returning mix unchanged through those minutes.",
+    "Board asked for the readout on the first working day after the window closes."
+  ],
+  "operator": "Nadia Kovac",
+  "rescans": [],
+  "retained_from": "2026-08-20",
+  "session_id": "midpoint-readout",
+  "through_day": "2026-08-26"
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "vault-declined-a-write",
+  "scene": "The vault's maintenance window at the end of January, and the filer either side of it. On the 27th the vault declined a write part way through the upload, once it had taken the first few kilobytes, and we spent the morning working out what we were actually holding for that night. On the 28th the filer took every write, reported nothing wrong and kept a short object; that night went into the morning log as done and both listings still had a row for it a month later."
+}

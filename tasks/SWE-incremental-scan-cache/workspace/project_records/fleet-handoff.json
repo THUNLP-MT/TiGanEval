@@ -1,0 +1,4 @@
+{
+  "record_id": "fleet-handoff",
+  "scene": "A build-fleet handoff in which one worker exports its cache and a second worker, holding the same code at a different checkout path, imports it."
+}

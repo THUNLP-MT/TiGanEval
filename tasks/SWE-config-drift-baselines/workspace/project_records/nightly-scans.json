@@ -1,0 +1,4 @@
+{
+  "record_id": "nightly-scans",
+  "scene": "Seven nights of prod-uk in March against one declaration. The orders service ran on a hand-built image all week and its labels were edited along with it; billing was over its declared memory limit on the first two nights and moved higher again between them, back inside it for the next four, and over it again on the last; archive-worker had been moved onto host networking and was retired on the fifth night; a debug-shell somebody started by hand was still running on the sixth and seventh. The old shell script's number for each night is printed next to this build's."
+}

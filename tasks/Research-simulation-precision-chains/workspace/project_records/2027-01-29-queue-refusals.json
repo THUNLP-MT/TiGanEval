@@ -1,0 +1,16 @@
+{
+  "analyst": "Marta Wieland",
+  "chain_steps": {
+    "run-a": 840,
+    "run-b": 1710,
+    "run-e": 750
+  },
+  "date": "2027-01-29",
+  "jobs_on_the_ledger": 4,
+  "notes": [
+    "Put in for a 9000-step run and the console sent it straight back. The receipt is on the stream with 250 steps against it and nothing returned.",
+    "compute_ledger.md has the terms; I had not read them before queueing.",
+    "No new draws this fortnight, so the number is the one from the 15th."
+  ],
+  "session": "queue-refusals"
+}

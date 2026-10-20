@@ -1,0 +1,760 @@
+{
+  "archive": {
+    "retained_from": "2026-08-28",
+    "unit_cost": 1,
+    "units_granted": 10
+  },
+  "as_of": "2026-09-04",
+  "changes": [
+    {
+      "day": "2026-08-19",
+      "kind": "ramp",
+      "note": "Hint variant opened at a fifth of new visitors on the v2 checkout path."
+    },
+    {
+      "day": "2026-08-23",
+      "kind": "ramp",
+      "note": "Hint variant opened to half of new visitors; no other serving change."
+    },
+    {
+      "day": "2026-08-25",
+      "kind": "queue_quota",
+      "note": "checkout.v2 crossed its queue quota during the evening push and stayed over it for three days."
+    },
+    {
+      "day": "2026-08-28",
+      "kind": "crawler_surge",
+      "note": "Crawler surge on the sitemap paths from the early hours; support raised it at 21:40."
+    },
+    {
+      "day": "2026-08-29",
+      "kind": "rule_set",
+      "note": "Crawler rule set 12 enabled on the legacy serving path. The v2 path is booked for 2026-09-05."
+    },
+    {
+      "day": "2026-09-01",
+      "kind": "window_close",
+      "note": "Readout window closed."
+    }
+  ],
+  "checkout_queue": [
+    {
+      "accepted": 1804,
+      "day": "2026-08-19",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 466,
+      "day": "2026-08-19",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 1729,
+      "day": "2026-08-20",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 569,
+      "day": "2026-08-20",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 1962,
+      "day": "2026-08-21",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 730,
+      "day": "2026-08-21",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 2101,
+      "day": "2026-08-22",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 854,
+      "day": "2026-08-22",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 897,
+      "day": "2026-08-23",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1181,
+      "day": "2026-08-23",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 896,
+      "day": "2026-08-24",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1277,
+      "day": "2026-08-24",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 922,
+      "day": "2026-08-25",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1284,
+      "day": "2026-08-25",
+      "dropped": 120,
+      "minutes_over_quota": [
+        {
+          "dropped": 24,
+          "minute": "2026-08-25T19:35"
+        },
+        {
+          "dropped": 24,
+          "minute": "2026-08-25T19:42"
+        },
+        {
+          "dropped": 24,
+          "minute": "2026-08-25T19:49"
+        },
+        {
+          "dropped": 24,
+          "minute": "2026-08-25T19:56"
+        },
+        {
+          "dropped": 24,
+          "minute": "2026-08-25T20:03"
+        }
+      ],
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 848,
+      "day": "2026-08-26",
+      "dropped": 40,
+      "minutes_over_quota": [
+        {
+          "dropped": 10,
+          "minute": "2026-08-26T19:31"
+        },
+        {
+          "dropped": 10,
+          "minute": "2026-08-26T19:38"
+        },
+        {
+          "dropped": 10,
+          "minute": "2026-08-26T19:45"
+        },
+        {
+          "dropped": 10,
+          "minute": "2026-08-26T19:52"
+        }
+      ],
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1328,
+      "day": "2026-08-26",
+      "dropped": 110,
+      "minutes_over_quota": [
+        {
+          "dropped": 22,
+          "minute": "2026-08-26T19:38"
+        },
+        {
+          "dropped": 22,
+          "minute": "2026-08-26T19:45"
+        },
+        {
+          "dropped": 22,
+          "minute": "2026-08-26T19:52"
+        },
+        {
+          "dropped": 22,
+          "minute": "2026-08-26T19:59"
+        },
+        {
+          "dropped": 22,
+          "minute": "2026-08-26T20:06"
+        }
+      ],
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 862,
+      "day": "2026-08-27",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1404,
+      "day": "2026-08-27",
+      "dropped": 70,
+      "minutes_over_quota": [
+        {
+          "dropped": 14,
+          "minute": "2026-08-27T19:14"
+        },
+        {
+          "dropped": 14,
+          "minute": "2026-08-27T19:21"
+        },
+        {
+          "dropped": 14,
+          "minute": "2026-08-27T19:28"
+        },
+        {
+          "dropped": 14,
+          "minute": "2026-08-27T19:35"
+        },
+        {
+          "dropped": 14,
+          "minute": "2026-08-27T20:42"
+        }
+      ],
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 1020,
+      "day": "2026-08-28",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1785,
+      "day": "2026-08-28",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 1113,
+      "day": "2026-08-29",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 2012,
+      "day": "2026-08-29",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 753,
+      "day": "2026-08-30",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1422,
+      "day": "2026-08-30",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 775,
+      "day": "2026-08-31",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1488,
+      "day": "2026-08-31",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    },
+    {
+      "accepted": 805,
+      "day": "2026-09-01",
+      "dropped": 0,
+      "topic": "checkout.v1"
+    },
+    {
+      "accepted": 1571,
+      "day": "2026-09-01",
+      "dropped": 0,
+      "topic": "checkout.v2"
+    }
+  ],
+  "gate": "3/1000",
+  "readout": "checkout-hint-september",
+  "serving": {
+    "control": {
+      "service": "checkout-legacy",
+      "topic": "checkout.v1"
+    },
+    "treatment": {
+      "service": "checkout-v2",
+      "topic": "checkout.v2"
+    }
+  },
+  "sessions_by_day": [
+    {
+      "arm": "control",
+      "confirmations": 634,
+      "crawler_rules": "off",
+      "day": "2026-08-19",
+      "sessions": 10560,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 1170,
+      "crawler_rules": "off",
+      "day": "2026-08-19",
+      "sessions": 6880,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 168,
+      "crawler_rules": "off",
+      "day": "2026-08-19",
+      "sessions": 2640,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 298,
+      "crawler_rules": "off",
+      "day": "2026-08-19",
+      "sessions": 1720,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 614,
+      "crawler_rules": "off",
+      "day": "2026-08-20",
+      "sessions": 10240,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 1115,
+      "crawler_rules": "off",
+      "day": "2026-08-20",
+      "sessions": 6558,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 163,
+      "crawler_rules": "off",
+      "day": "2026-08-20",
+      "sessions": 2560,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 406,
+      "crawler_rules": "off",
+      "day": "2026-08-20",
+      "sessions": 2342,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 749,
+      "crawler_rules": "off",
+      "day": "2026-08-21",
+      "sessions": 12480,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 1213,
+      "crawler_rules": "off",
+      "day": "2026-08-21",
+      "sessions": 7133,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 198,
+      "crawler_rules": "off",
+      "day": "2026-08-21",
+      "sessions": 3120,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 532,
+      "crawler_rules": "off",
+      "day": "2026-08-21",
+      "sessions": 3067,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 835,
+      "crawler_rules": "off",
+      "day": "2026-08-22",
+      "sessions": 13920,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 1266,
+      "crawler_rules": "off",
+      "day": "2026-08-22",
+      "sessions": 7450,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 221,
+      "crawler_rules": "off",
+      "day": "2026-08-22",
+      "sessions": 3480,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 633,
+      "crawler_rules": "off",
+      "day": "2026-08-22",
+      "sessions": 3650,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 357,
+      "crawler_rules": "off",
+      "day": "2026-08-23",
+      "sessions": 5950,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 540,
+      "crawler_rules": "off",
+      "day": "2026-08-23",
+      "sessions": 3174,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 378,
+      "crawler_rules": "off",
+      "day": "2026-08-23",
+      "sessions": 5950,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 803,
+      "crawler_rules": "off",
+      "day": "2026-08-23",
+      "sessions": 4626,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 378,
+      "crawler_rules": "off",
+      "day": "2026-08-24",
+      "sessions": 6300,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 518,
+      "crawler_rules": "off",
+      "day": "2026-08-24",
+      "sessions": 3048,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 400,
+      "crawler_rules": "off",
+      "day": "2026-08-24",
+      "sessions": 6300,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 877,
+      "crawler_rules": "off",
+      "day": "2026-08-24",
+      "sessions": 5052,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 402,
+      "crawler_rules": "off",
+      "day": "2026-08-25",
+      "sessions": 6700,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 520,
+      "crawler_rules": "off",
+      "day": "2026-08-25",
+      "sessions": 3058,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 389,
+      "crawler_rules": "off",
+      "day": "2026-08-25",
+      "sessions": 6700,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 895,
+      "crawler_rules": "off",
+      "day": "2026-08-25",
+      "sessions": 5642,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 375,
+      "crawler_rules": "off",
+      "day": "2026-08-26",
+      "sessions": 6550,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 473,
+      "crawler_rules": "off",
+      "day": "2026-08-26",
+      "sessions": 2910,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 384,
+      "crawler_rules": "off",
+      "day": "2026-08-26",
+      "sessions": 6550,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 944,
+      "crawler_rules": "off",
+      "day": "2026-08-26",
+      "sessions": 5890,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 381,
+      "crawler_rules": "off",
+      "day": "2026-08-27",
+      "sessions": 6350,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 481,
+      "crawler_rules": "off",
+      "day": "2026-08-27",
+      "sessions": 2827,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 384,
+      "crawler_rules": "off",
+      "day": "2026-08-27",
+      "sessions": 6350,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1020,
+      "crawler_rules": "off",
+      "day": "2026-08-27",
+      "sessions": 6173,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 483,
+      "crawler_rules": "off",
+      "day": "2026-08-28",
+      "sessions": 9450,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 537,
+      "crawler_rules": "off",
+      "day": "2026-08-28",
+      "sessions": 3157,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 511,
+      "crawler_rules": "off",
+      "day": "2026-08-28",
+      "sessions": 9450,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1274,
+      "crawler_rules": "off",
+      "day": "2026-08-28",
+      "sessions": 7343,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 546,
+      "crawler_rules": "live",
+      "day": "2026-08-29",
+      "sessions": 9100,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 567,
+      "crawler_rules": "live",
+      "day": "2026-08-29",
+      "sessions": 3333,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 578,
+      "crawler_rules": "off",
+      "day": "2026-08-29",
+      "sessions": 10700,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1434,
+      "crawler_rules": "off",
+      "day": "2026-08-29",
+      "sessions": 8267,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 369,
+      "crawler_rules": "live",
+      "day": "2026-08-30",
+      "sessions": 6150,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 384,
+      "crawler_rules": "live",
+      "day": "2026-08-30",
+      "sessions": 2260,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 391,
+      "crawler_rules": "off",
+      "day": "2026-08-30",
+      "sessions": 7850,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1031,
+      "crawler_rules": "off",
+      "day": "2026-08-30",
+      "sessions": 5940,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 387,
+      "crawler_rules": "live",
+      "day": "2026-08-31",
+      "sessions": 6450,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 388,
+      "crawler_rules": "live",
+      "day": "2026-08-31",
+      "sessions": 2285,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 410,
+      "crawler_rules": "off",
+      "day": "2026-08-31",
+      "sessions": 7950,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1078,
+      "crawler_rules": "off",
+      "day": "2026-08-31",
+      "sessions": 6215,
+      "visit": "returning"
+    },
+    {
+      "arm": "control",
+      "confirmations": 408,
+      "crawler_rules": "live",
+      "day": "2026-09-01",
+      "sessions": 6800,
+      "visit": "first"
+    },
+    {
+      "arm": "control",
+      "confirmations": 397,
+      "crawler_rules": "live",
+      "day": "2026-09-01",
+      "sessions": 2337,
+      "visit": "returning"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 432,
+      "crawler_rules": "off",
+      "day": "2026-09-01",
+      "sessions": 8450,
+      "visit": "first"
+    },
+    {
+      "arm": "treatment",
+      "confirmations": 1139,
+      "crawler_rules": "off",
+      "day": "2026-09-01",
+      "sessions": 6563,
+      "visit": "returning"
+    }
+  ],
+  "window": {
+    "first_day": "2026-08-19",
+    "last_day": "2026-09-01"
+  }
+}

@@ -1,0 +1,13 @@
+id: Research-device-kinetics-discrimination
+domain: Research
+title: 'Research: How long an EM-9 holds before a tenth of it is gone'
+seed_sources:
+- name: Raue et al. (2009), Structural and practical identifiability analysis of partially observed dynamical models by exploiting
+    the profile likelihood
+  url: https://doi.org/10.1093/bioinformatics/btp358
+rubrics:
+- hours_to_loss_within_tolerance
+- report_reconciles_receipts
+- range_covers_and_spans_the_standing_laws
+- next_block_parts_the_standing_laws
+- hours_invariant_to_logger_cadence

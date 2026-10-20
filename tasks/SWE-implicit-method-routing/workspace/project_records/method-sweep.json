@@ -1,0 +1,4 @@
+{
+  "record_id": "method-sweep",
+  "scene": "The partner conformance probe that runs before an integration is signed off. It sends all eight methods at both order paths and records what came back, so the two of us can agree on what each path actually takes. The order paths are served by the orders router and the back-office router together, and the collection has terms the orders team wrote out themselves."
+}

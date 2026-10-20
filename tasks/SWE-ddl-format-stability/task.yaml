@@ -1,0 +1,12 @@
+id: SWE-ddl-format-stability
+domain: SWE
+title: 'SWE: DDL Format Stability'
+seed_sources:
+- name: 'DeepSWE v1.1: sqlfmt-create-table-ddl-formatting'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/sqlfmt-create-table-ddl-formatting
+rubrics:
+- schema_semantics_preserved
+- formatting_is_idempotent
+- comments_preserved
+- explicit_unsupported_handling
+- line_width_contract

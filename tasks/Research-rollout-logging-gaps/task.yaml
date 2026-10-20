@@ -1,0 +1,9 @@
+id: Research-rollout-logging-gaps
+domain: Research
+title: 'Research: What the checkout hint readout can actually say'
+rubrics:
+- conversion_lift_estimate
+- measurements_reconcile_with_the_receipts
+- lift_bounds_are_honest
+- rollout_decision
+- next_collection_plan

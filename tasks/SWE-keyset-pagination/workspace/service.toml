@@ -1,0 +1,11 @@
+# Settings the listing service is deployed with. Both fleets read this file.
+
+[listing]
+# The page size a client gets when it does not ask for one.
+default_limit = 20
+
+# The largest page the service will serve, whatever a client asks for. On
+# 4 March the reporting integration asked for the whole catalogue in one
+# request; the app's list view spent forty seconds drawing it and two phones
+# ran out of memory. Nothing goes out larger than this.
+max_page_size = 50

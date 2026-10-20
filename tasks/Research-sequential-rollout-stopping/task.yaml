@@ -1,0 +1,12 @@
+id: Research-sequential-rollout-stopping
+domain: Research
+title: 'Research: What the one-tap reorder watch can actually say'
+seed_sources:
+- name: Howard et al. (2021), Time-uniform, nonparametric, nonasymptotic confidence sequences
+  url: https://arxiv.org/abs/1810.08240
+rubrics:
+- base_lift
+- collection_account
+- lift_interval
+- stop_or_continue_plan
+- drop_ramp_invariance

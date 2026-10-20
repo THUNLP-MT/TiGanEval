@@ -1,0 +1,5 @@
+{
+  "record_id": "queue-retry-storm",
+  "scene": "A bad afternoon on the delivery queue: one person's run of edits arrived out of order on two laptops, the first edit of that run never reached one of them at all, and one packet was retried after a timeout.",
+  "support_note": "Support's packet-by-packet notes show that an edit received ahead of its dependency stayed off the card but remained as one waiting line in the merge account. After catch-up, each complete copy held four distinct operations and its account had four lines; the retried packet added no fifth line."
+}

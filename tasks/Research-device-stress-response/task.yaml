@@ -1,0 +1,12 @@
+id: Research-device-stress-response
+domain: Research
+title: 'Research: Where one in ten of the QR-40 family leak'
+seed_sources:
+- name: Ritz et al. (2015), Dose-Response Analysis Using R
+  url: https://doi.org/10.1371/journal.pone.0146021
+rubrics:
+- crossing_within_tolerance
+- report_reconciles_receipts
+- range_covers_and_meets_floor
+- next_block_reaches_the_crossing
+- crossing_invariant_to_bench_calibration

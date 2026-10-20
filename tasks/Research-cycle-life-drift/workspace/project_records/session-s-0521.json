@@ -1,0 +1,31 @@
+{
+  "campaign": "hx22-september",
+  "cells": [
+    "HX22-013",
+    "HX22-014",
+    "HX22-015",
+    "HX22-016",
+    "HX22-017",
+    "HX22-018",
+    "HX22-019",
+    "HX22-020"
+  ],
+  "chamber_logged_c": 25.0,
+  "channel_hours": 960,
+  "channels": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "firmware": "2.4.0",
+  "operator_note": "Abuse programme finished and the north rack came free. Two fixtures of the stepped charge went on it. Tester control software was updated on 12 May; nothing else on the bench changed.",
+  "protocol": "stepped",
+  "record_id": "S-0521",
+  "reference_cell_ah": 2.08,
+  "started": "2026-05-21"
+}

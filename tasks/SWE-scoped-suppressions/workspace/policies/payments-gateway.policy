@@ -1,0 +1,28 @@
+service:
+  name: payments-gateway
+  owner: payments-platform
+  runtime:
+    image: registry.internal/payments-gateway:latest
+    restart: always
+    network: bridge
+    logging: json
+    ports:
+      - 8443
+      - 22
+  hooks:
+    pre_deploy:
+      - "sh -c /opt/pin-mirror.sh"      # waive SEC-SHELL-EXEC
+      - "sh -c /opt/pin-registry.sh"    # waive SEC-SHELL-EXEC
+      - "sh -c /opt/pin-bundle.sh"      # waive SEC-SHELL-EXEC
+      - "sh -c /opt/drain-pool.sh"      # waive SEC-SHELL-EXEC
+      - "sh -c /opt/warm-cache.sh"      # waive SEC-SHELL-EXEC
+      - "sh -c /opt/rotate-keys.sh"     # waive SEC-SHELL-EXEC
+      - "sh -c /opt/seal-audit.sh"      # waive SEC-SHELL-EXEC
+      - "sh -c /opt/check-quota.sh"     # waive SEC-SHELL-EXEC
+      - "sh -c /opt/prime-routes.sh"    # waive SEC-SHELL-EXEC
+      - "sh -c /opt/swap-symlink.sh"    # waive SEC-SHELL-EXEC
+      - "sh -c /opt/close-window.sh"    # waive SEC-SHELL-EXEC
+    post_deploy:
+      - /usr/bin/settle-check
+  secrets:
+    gateway_token: vault:payments/gateway

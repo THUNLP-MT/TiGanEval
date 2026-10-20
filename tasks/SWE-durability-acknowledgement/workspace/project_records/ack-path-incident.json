@@ -1,0 +1,4 @@
+{
+  "record_id": "ack-path-incident",
+  "scene": "Tuesday's traffic on node c-7 up to the moment it went down: order and cart commits, some asking for an fsync and some not, three clients parked on sequence numbers, and a pipeline batching four sync-requesting commits into each fsync."
+}

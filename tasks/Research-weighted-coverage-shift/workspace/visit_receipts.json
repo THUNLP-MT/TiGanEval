@@ -1,0 +1,110 @@
+{
+  "depot": "halstow-2026-07",
+  "receipts": [
+    {
+      "receipt_id": "hal-w9-meter",
+      "depot": "halstow-2026-07",
+      "visit_id": "HV-001",
+      "week": 9,
+      "job_class": "meter-exchange",
+      "jobs_requested": 6,
+      "jobs_returned": 6,
+      "units_charged": 3,
+      "roster_ok": true,
+      "refusal": null,
+      "units_remaining": 33,
+      "observed": {
+        "rows": [
+          {
+            "job_id": "HAL-00270",
+            "job_class": "meter-exchange",
+            "parts_lines": 3.9,
+            "access_score": 6.44,
+            "site_distance_km": 6.3,
+            "crew_size": 1.88,
+            "prior_visits": -0.63,
+            "predicted_minutes": 58,
+            "actual_minutes": 56
+          },
+          {
+            "job_id": "HAL-00152",
+            "job_class": "meter-exchange",
+            "parts_lines": 2.99,
+            "access_score": 8.7,
+            "site_distance_km": 20.33,
+            "crew_size": 1.04,
+            "prior_visits": 1.52,
+            "predicted_minutes": 84,
+            "actual_minutes": 79
+          },
+          {
+            "job_id": "HAL-00120",
+            "job_class": "meter-exchange",
+            "parts_lines": 2.19,
+            "access_score": 4.35,
+            "site_distance_km": 14.22,
+            "crew_size": 2.53,
+            "prior_visits": 2.42,
+            "predicted_minutes": 78,
+            "actual_minutes": 70
+          },
+          {
+            "job_id": "HAL-00491",
+            "job_class": "meter-exchange",
+            "parts_lines": 4.54,
+            "access_score": 8.39,
+            "site_distance_km": 14.06,
+            "crew_size": 1.59,
+            "prior_visits": 0.8,
+            "predicted_minutes": 81,
+            "actual_minutes": 92
+          },
+          {
+            "job_id": "HAL-00331",
+            "job_class": "meter-exchange",
+            "parts_lines": 1.89,
+            "access_score": 6.13,
+            "site_distance_km": 8.49,
+            "crew_size": 1.86,
+            "prior_visits": 0.95,
+            "predicted_minutes": 49,
+            "actual_minutes": 65
+          },
+          {
+            "job_id": "HAL-00158",
+            "job_class": "meter-exchange",
+            "parts_lines": 4.12,
+            "access_score": 8.76,
+            "site_distance_km": 10.5,
+            "crew_size": 1.79,
+            "prior_visits": 0.01,
+            "predicted_minutes": 60,
+            "actual_minutes": 34
+          }
+        ]
+      },
+      "sequence": 1,
+      "previous": "",
+      "seal": "97a2e405a3653399ba0f318f07aed1b1f3bd1258fad54682c2419c4cc3f8473a"
+    },
+    {
+      "receipt_id": "hal-w9-pressure",
+      "depot": "halstow-2026-07",
+      "visit_id": "HV-002",
+      "week": 9,
+      "job_class": "pressure-test",
+      "jobs_requested": 6,
+      "jobs_returned": 0,
+      "units_charged": 1,
+      "roster_ok": false,
+      "refusal": "class is not on that week's night roster",
+      "units_remaining": 32,
+      "observed": {
+        "rows": []
+      },
+      "sequence": 2,
+      "previous": "97a2e405a3653399ba0f318f07aed1b1f3bd1258fad54682c2419c4cc3f8473a",
+      "seal": "a5b271a38afec4640f972dbb703998af912a6c1c7d3620c495f251cfcf8b8e17"
+    }
+  ]
+}

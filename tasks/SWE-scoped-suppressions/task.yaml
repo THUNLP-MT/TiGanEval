@@ -1,0 +1,12 @@
+id: SWE-scoped-suppressions
+domain: SWE
+title: 'SWE: Scoped waivers in the estate policy audit'
+seed_sources:
+- name: 'DeepSWE v1.1: bandit-structured-nosec-directives'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/bandit-structured-nosec-directives
+rubrics:
+- region_extent
+- selector_resolution
+- unit_scope_coverage
+- suppression_accounting
+- audit_run_equality

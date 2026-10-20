@@ -1,0 +1,12 @@
+{
+  "record_id": "first-export",
+  "date": "2026-07-06",
+  "author": "Suri Bhatt, release engineering",
+  "through_day": "2026-07-05",
+  "receipts": ["hg-counter-1"],
+  "notes": [
+    "First export off the capture app for this window. The app is on 152 of the units the register lists; Ops put it where the crews would keep it charged.",
+    "Ran the three bundles over the export as it stands. mallow ahead, then rowan, then thistle.",
+    "Asked the desk for 120 counter captures to have something annotated of our own. Came back full, 120 credits."
+  ]
+}

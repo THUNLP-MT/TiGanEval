@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-03",
+  "notes": [
+    "The window closed on 1 September and the readout is due to the release board.",
+    "Platform granted this readout ten archive rescan units for the month. Three are spent, so seven are left and they do not roll over.",
+    "A rescan costs one unit and covers one day of one arm. It re-runs the current crawler rule set over the raw ingest the archive still holds and returns the count it finds.",
+    "I put one more unit into the 28th on the v2 side to see what was sitting in those rows. It came back with a count, and I ran out of afternoon before doing anything with it.",
+    "Platform's billing review for August landed on the 2nd. They read the archive bill against what each readout had reported, line by line, and sent back two lines on the search readout that its notebook never printed. I gave them the receipt stream for this one and they closed it.",
+    "Handing the notebook on: the search, delivery and basket readouts are sitting behind this one on the same stack."
+  ],
+  "operator": "Nadia Kovac",
+  "rescans": [
+    [
+      "2026-08-29",
+      "control"
+    ],
+    [
+      "2026-08-30",
+      "control"
+    ],
+    [
+      "2026-08-28",
+      "treatment"
+    ]
+  ],
+  "retained_from": "2026-08-27",
+  "scan_ids": [
+    "nk-0829-legacy",
+    "nk-0830-legacy",
+    "nk-0828-v2"
+  ],
+  "session_id": "window-close",
+  "through_day": "2026-09-01"
+}

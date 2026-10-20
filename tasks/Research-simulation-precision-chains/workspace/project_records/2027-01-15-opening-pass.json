@@ -1,0 +1,17 @@
+{
+  "analyst": "Marta Wieland",
+  "chain_steps": {
+    "run-a": 840,
+    "run-b": 1710,
+    "run-e": 750
+  },
+  "date": "2027-01-15",
+  "jobs_on_the_ledger": 3,
+  "notes": [
+    "Three runs back from the console. run-a opens at 8.4 s and is down under 2 s by row 150; run-b and run-e do the same over their own first stretch.",
+    "step_size moves on every one of those opening rows and then holds at one value for the rest of the file.",
+    "j-4418 asked for 2600 steps and the receipt says 1710 came back.",
+    "Nadia wants the quarterly number off these three; I have run the notebook on them as they stand."
+  ],
+  "session": "opening-pass"
+}

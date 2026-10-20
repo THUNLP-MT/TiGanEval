@@ -1,0 +1,13 @@
+{
+  "record_id": "first-pull",
+  "date": "2026-07-06",
+  "author": "Tomas Aldrich",
+  "through_day": "2026-07-05",
+  "batches": [],
+  "notes": [
+    "Pulled the intake export for the quarter so far and ran counts. 3050 listings, four channels, two values in intake_period: route-2025-11 up to 26 June and route-2026-04 from the 27th.",
+    "Per day by channel, before 27 June: web 22, mobile 15, partner_feed 6, reseller_import 7. After: web 16, mobile 11, partner_feed 17, reseller_import 6.",
+    "Marisol wants the band counts for the council chart, so I am rebuilding the chart file off the route-2025-11 rows where the outcomes are all in.",
+    "stated_confidence is what the scorer printed at intake. auto_cleared is yes wherever it is under 0.06."
+  ]
+}

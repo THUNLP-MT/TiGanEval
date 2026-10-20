@@ -1,0 +1,13 @@
+{
+  "record_id": "board-prep",
+  "date": "2026-09-01",
+  "author": "Dario Feng, release manager",
+  "through_day": "2026-08-31",
+  "receipts": ["hg-counter-1", "hg-counter-2", "hg-damaged", "hg-oversize"],
+  "notes": [
+    "Pack for tomorrow. Ran the notebook over the whole export: mallow 92.2 per cent, rowan 89.6, thistle 88.3.",
+    "Rounded that to points of error for the slide and put mallow up.",
+    "Suri asked again about the reflectance columns on the 4.2 rows. I have nothing to tell her and mallow is two and a half points clear of the next one.",
+    "Plan for the rest of the grant is counter captures, since that is where two thirds of the export comes from."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "serving-requests",
+  "scene": "The same customer record sent through evaluation, batch prediction, and the live endpoint in the several shapes upstream systems actually send it, after the training data is no longer on the box."
+}

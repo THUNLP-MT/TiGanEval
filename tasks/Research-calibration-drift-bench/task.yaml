@@ -1,0 +1,12 @@
+id: Research-calibration-drift-bench
+domain: Research
+title: 'Research: What the wear bench can say about the two bushing suppliers'
+seed_sources:
+- name: Linnet (1993), Evaluation of regression procedures for methods comparison studies
+  url: https://doi.org/10.1093/clinchem/39.3.424
+rubrics:
+- wear_rate_ratio
+- correction_survives_the_bench_schedule
+- ratio_range_is_honest
+- report_reconciles_with_the_receipts
+- next_bench_booking

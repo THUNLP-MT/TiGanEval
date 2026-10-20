@@ -1,0 +1,12 @@
+id: Research-invitation-spillover-design
+domain: Research
+title: 'Research: What a gate-pass ticket is worth, and what to book with the rest of the grant'
+seed_sources:
+- name: Hudgens and Halloran (2008), Toward Causal Inference With Interference
+  url: https://doi.org/10.1198/016214508000000292
+rubrics:
+- ticket_effect_within_tolerance
+- range_covers_and_meets_floor
+- effect_invariant_to_counter_lag
+- booking_reaches_target_at_least_cost
+- report_reconciles_receipts

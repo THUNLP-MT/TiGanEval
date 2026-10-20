@@ -1,0 +1,4 @@
+{
+  "record_id": "depot-slow-drain",
+  "scene": "One depot unit whose consumer is working through an archive push a few hundred bytes at a time, over twelve radio slots."
+}

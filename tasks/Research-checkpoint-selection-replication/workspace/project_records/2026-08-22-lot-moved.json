@@ -1,0 +1,21 @@
+{
+  "record_id": "lot-moved",
+  "date": "2026-08-22",
+  "author": "Priya Anand",
+  "runs_finished": [
+    "r01",
+    "r02",
+    "r03",
+    "r04",
+    "r05",
+    "r06"
+  ],
+  "jobs": [],
+  "notes": [
+    "r05 and r06 are through. The rota moved the default evaluation lot to v-8b41 on 17 August, so both went through on that one.",
+    "Nothing in the training config changed between r04 and r05. Same data build, same recipe, same eight-run sweep.",
+    "Averaged the val_score column by lot over the sheet as it stands: v-2f9c 0.7868 over 180 rows, v-8b41 0.8060 over 90.",
+    "Top row of the whole sheet is now r06 at 13,500, 0.8443.",
+    "Asked the platform rota whether v-1c07 could be scored again. It cannot; the rows were not kept."
+  ]
+}

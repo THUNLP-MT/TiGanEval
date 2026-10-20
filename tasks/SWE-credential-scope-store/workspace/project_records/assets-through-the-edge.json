@@ -1,0 +1,4 @@
+{
+  "record_id": "assets-through-the-edge",
+  "scene": "The asset run recorded twice on the same night against two hosts that hand back exactly the same two replies. The first is the origin the vendor serves directly. The second is the mirror behind their edge, which writes what it has to say into as few headers as it can. Roughly half our nightly runs take the second path, and which one a run takes is the edge's decision rather than ours."
+}

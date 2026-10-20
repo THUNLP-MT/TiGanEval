@@ -1,0 +1,15 @@
+{
+  "date": "day 47",
+  "notes": [
+    "Rig 2 went in on the 30th and the house signed it off the same day. The fitter logged the FX-52 pin on it: a 5.2 mm seat against the 4.0 mm on rig 1's FX-40.",
+    "B-7101 arrived on the 33rd. Rig 1 was standing idle waiting on the house, so all nine parts went on rig 2. Rig 2's block read 19.93 on the 33rd.",
+    "The house came in on the 39th and signed rig 1 off. Its block read 20.13 the next morning.",
+    "A-3330 came in on the 40th, eight parts. Seven went on rig 1 and the eighth went on rig 2 on the 43rd. Rig 2's block read 20.65 that day.",
+    "B-7108 landed on the 44th, all nine on rig 2. The house signed rig 2 off that morning."
+  ],
+  "operator": "Karim Osei",
+  "run_ids": [],
+  "runs": [],
+  "session_id": "second-rig-live",
+  "through_day": 47
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "retry-burst",
+  "scene": "02:41 on Tuesday, the first four minutes of incident 4790. The console attaches to the worker stream before the layout has run, six workers retry the same shipments, and the on-call scrolls up in the middle of the burst to read what one of them is doing. Her note of where she put the bar and what the top of the pane did over the next three worker lines is beside the session."
+}

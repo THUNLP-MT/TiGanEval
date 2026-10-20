@@ -1,0 +1,4 @@
+{
+  "record_id": "sort-menu-and-retries",
+  "scene": "Eight requests support pulled out of Thursday's access log after the ticket about products nobody could find, each followed by the request the app made straight afterwards: a retry that came back with no sort on it before the list had a first page, a customer who changed the sort dropdown half way down, another who flipped price low-to-high to high-to-low, a retry that lost the sort from the query string but still carried its marker, a retry helper that put its old offset back, a link shared over a chat app that cut the end off the marker it carried, a phone still running last year's build, and a tester who emptied a marker out by hand to see what the shop would give him for it."
+}

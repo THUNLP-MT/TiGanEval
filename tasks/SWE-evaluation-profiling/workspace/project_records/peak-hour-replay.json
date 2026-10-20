@@ -1,0 +1,4 @@
+{
+  "record_id": "peak-hour-replay",
+  "scene": "A peak-hour batch in one service process: wide requests near the work-unit budget, the same request served twice, and a bundle swap part way through."
+}

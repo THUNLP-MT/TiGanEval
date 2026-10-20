@@ -1,0 +1,535 @@
+{
+  "analyser": {
+    "channels": [
+      "conductivity",
+      "marker",
+      "ripple"
+    ],
+    "dwell_options_min": [
+      5,
+      30
+    ],
+    "marker_floor_muL": {
+      "30": 0.2,
+      "5": 1.0
+    },
+    "repeatability": {
+      "30": {
+        "cond_uScm": 2.5,
+        "mark_muL": 0.035
+      },
+      "5": {
+        "cond_uScm": 6.0,
+        "mark_muL": 0.12
+      },
+      "ripple_idx": 0.6
+    }
+  },
+  "block": "Block A",
+  "collection": {
+    "long_dwell_slots": 2,
+    "module_slots": 2,
+    "open_days": [
+      "2026-02-01",
+      "2026-02-02",
+      "2026-02-03",
+      "2026-02-04",
+      "2026-02-05"
+    ],
+    "points": [
+      "header",
+      "tie_in_plant_room",
+      "gas_plant_room",
+      "east_riser"
+    ],
+    "slots_granted": 30,
+    "slots_per_visit": 4
+  },
+  "heat_meter": [
+    {
+      "day": "2026-01-01",
+      "delivered_kwh": 24528.0
+    },
+    {
+      "day": "2026-01-02",
+      "delivered_kwh": 25848.0
+    },
+    {
+      "day": "2026-01-03",
+      "delivered_kwh": 24792.0
+    },
+    {
+      "day": "2026-01-04",
+      "delivered_kwh": 22152.0
+    },
+    {
+      "day": "2026-01-05",
+      "delivered_kwh": 27168.0
+    },
+    {
+      "day": "2026-01-06",
+      "delivered_kwh": 30072.0
+    },
+    {
+      "day": "2026-01-07",
+      "delivered_kwh": 33240.0
+    },
+    {
+      "day": "2026-01-08",
+      "delivered_kwh": 39576.0
+    },
+    {
+      "day": "2026-01-09",
+      "delivered_kwh": 46440.0
+    },
+    {
+      "day": "2026-01-10",
+      "delivered_kwh": 52776.0
+    },
+    {
+      "day": "2026-01-11",
+      "delivered_kwh": 56472.0
+    },
+    {
+      "day": "2026-01-12",
+      "delivered_kwh": 57000.0
+    },
+    {
+      "day": "2026-01-13",
+      "delivered_kwh": 54360.0
+    },
+    {
+      "day": "2026-01-14",
+      "delivered_kwh": 48288.0
+    },
+    {
+      "day": "2026-01-15",
+      "delivered_kwh": 41688.0
+    },
+    {
+      "day": "2026-01-16",
+      "delivered_kwh": 36936.0
+    },
+    {
+      "day": "2026-01-17",
+      "delivered_kwh": 34560.0
+    },
+    {
+      "day": "2026-01-18",
+      "delivered_kwh": 30600.0
+    },
+    {
+      "day": "2026-01-19",
+      "delivered_kwh": 27432.0
+    },
+    {
+      "day": "2026-01-20",
+      "delivered_kwh": 24792.0
+    },
+    {
+      "day": "2026-01-21",
+      "delivered_kwh": 28488.0
+    },
+    {
+      "day": "2026-01-22",
+      "delivered_kwh": 31920.0
+    },
+    {
+      "day": "2026-01-23",
+      "delivered_kwh": 35352.0
+    },
+    {
+      "day": "2026-01-24",
+      "delivered_kwh": 37728.0
+    },
+    {
+      "day": "2026-01-25",
+      "delivered_kwh": 33768.0
+    },
+    {
+      "day": "2026-01-26",
+      "delivered_kwh": 27960.0
+    },
+    {
+      "day": "2026-01-27",
+      "delivered_kwh": 39048.0
+    },
+    {
+      "day": "2026-01-28",
+      "delivered_kwh": 39576.0
+    },
+    {
+      "day": "2026-01-29",
+      "delivered_kwh": 38784.0
+    },
+    {
+      "day": "2026-01-30",
+      "delivered_kwh": 39840.0
+    },
+    {
+      "day": "2026-01-31",
+      "delivered_kwh": 39312.0
+    },
+    {
+      "day": "2026-02-01",
+      "delivered_kwh": 38784.0
+    },
+    {
+      "day": "2026-02-02",
+      "delivered_kwh": 40104.0
+    },
+    {
+      "day": "2026-02-03",
+      "delivered_kwh": 38256.0
+    },
+    {
+      "day": "2026-02-04",
+      "delivered_kwh": 39576.0
+    },
+    {
+      "day": "2026-02-05",
+      "delivered_kwh": 37728.0
+    }
+  ],
+  "lot": "block-a-january",
+  "operations": [
+    {
+      "day": "2026-01-08",
+      "entry": "analyser off the header for its quarterly service; probe back on before noon",
+      "from": "09:00",
+      "to": "11:30"
+    },
+    {
+      "day": "2026-01-12",
+      "entry": "changeover on the plant-room set: east riser valved out and the tie-in interface set isolated; gas plant carrying the block",
+      "from": "14:00",
+      "to": "16:00"
+    },
+    {
+      "day": "2026-01-22",
+      "entry": "boiler-house lift out of service; contractor access by the north stair",
+      "from": "06:00",
+      "to": "18:00"
+    }
+  ],
+  "report_request": {
+    "recovery_band_half_width_at_most": 0.02,
+    "share_within": 0.04
+  },
+  "samples": [
+    {
+      "cond_uScm": 508.0,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.69,
+      "point": "header",
+      "sample_id": "hs-001",
+      "taken_at": "2026-01-04T09:15:00"
+    },
+    {
+      "cond_uScm": 508.8,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.77,
+      "point": "header",
+      "sample_id": "hs-002",
+      "taken_at": "2026-01-04T09:45:00"
+    },
+    {
+      "cond_uScm": 520.2,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.97,
+      "point": "header",
+      "sample_id": "hs-003",
+      "taken_at": "2026-01-04T10:15:00"
+    },
+    {
+      "cond_uScm": 506.3,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.89,
+      "point": "header",
+      "sample_id": "hs-004",
+      "taken_at": "2026-01-04T10:45:00"
+    },
+    {
+      "cond_uScm": 516.0,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 6.18,
+      "point": "header",
+      "sample_id": "hs-005",
+      "taken_at": "2026-01-12T09:20:00"
+    },
+    {
+      "cond_uScm": 533.4,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 6.2,
+      "point": "header",
+      "sample_id": "hs-006",
+      "taken_at": "2026-01-12T09:55:00"
+    },
+    {
+      "cond_uScm": 415.9,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 6.96,
+      "point": "header",
+      "sample_id": "hs-007",
+      "taken_at": "2026-01-12T14:20:00"
+    },
+    {
+      "cond_uScm": 420.7,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 7.07,
+      "point": "header",
+      "sample_id": "hs-008",
+      "taken_at": "2026-01-12T15:05:00"
+    },
+    {
+      "cond_uScm": 518.6,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.74,
+      "point": "header",
+      "sample_id": "hs-009",
+      "taken_at": "2026-01-20T09:10:00"
+    },
+    {
+      "cond_uScm": 510.7,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.44,
+      "point": "header",
+      "sample_id": "hs-010",
+      "taken_at": "2026-01-20T09:40:00"
+    },
+    {
+      "cond_uScm": 515.7,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.82,
+      "point": "header",
+      "sample_id": "hs-011",
+      "taken_at": "2026-01-20T10:10:00"
+    },
+    {
+      "cond_uScm": 516.0,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.94,
+      "point": "header",
+      "sample_id": "hs-012",
+      "taken_at": "2026-01-26T09:25:00"
+    },
+    {
+      "cond_uScm": 512.0,
+      "dwell_min": 5,
+      "mark_flag": "value",
+      "mark_muL": 5.78,
+      "point": "header",
+      "sample_id": "hs-013",
+      "taken_at": "2026-01-26T10:00:00"
+    }
+  ],
+  "signature_sheet": {
+    "outdoor_C": 7.2,
+    "read_on": "2026-01-04",
+    "rows": [
+      {
+        "cond_uScm": 685.6,
+        "dwell_min": 5,
+        "mark_flag": "value",
+        "mark_floor_muL": 1.0,
+        "mark_muL": 7.67,
+        "outdoor_C": 7.2,
+        "point": "tie_in_plant_room",
+        "read_on": "2026-01-04",
+        "slots": 3,
+        "supply": "district_tie_in"
+      },
+      {
+        "cond_uScm": 337.8,
+        "dwell_min": 5,
+        "mark_flag": "value",
+        "mark_floor_muL": 1.0,
+        "mark_muL": 6.88,
+        "outdoor_C": 7.2,
+        "point": "gas_plant_room",
+        "read_on": "2026-01-04",
+        "slots": 3,
+        "supply": "gas_plant"
+      },
+      {
+        "cond_uScm": 457.0,
+        "dwell_min": 5,
+        "mark_flag": "floor",
+        "mark_floor_muL": 1.0,
+        "mark_muL": null,
+        "outdoor_C": 7.2,
+        "point": "east_riser",
+        "read_on": "2026-01-04",
+        "slots": 3,
+        "supply": "data_hall_recovery"
+      }
+    ]
+  },
+  "supplies": [
+    "district_tie_in",
+    "gas_plant",
+    "data_hall_recovery"
+  ],
+  "weather": [
+    {
+      "day": "2026-01-01",
+      "outdoor_C": 6.3
+    },
+    {
+      "day": "2026-01-02",
+      "outdoor_C": 5.8
+    },
+    {
+      "day": "2026-01-03",
+      "outdoor_C": 6.2
+    },
+    {
+      "day": "2026-01-04",
+      "outdoor_C": 7.2
+    },
+    {
+      "day": "2026-01-05",
+      "outdoor_C": 5.3
+    },
+    {
+      "day": "2026-01-06",
+      "outdoor_C": 4.2
+    },
+    {
+      "day": "2026-01-07",
+      "outdoor_C": 3.0
+    },
+    {
+      "day": "2026-01-08",
+      "outdoor_C": 0.6
+    },
+    {
+      "day": "2026-01-09",
+      "outdoor_C": -2.0
+    },
+    {
+      "day": "2026-01-10",
+      "outdoor_C": -4.4
+    },
+    {
+      "day": "2026-01-11",
+      "outdoor_C": -5.8
+    },
+    {
+      "day": "2026-01-12",
+      "outdoor_C": -6.0
+    },
+    {
+      "day": "2026-01-13",
+      "outdoor_C": -5.0
+    },
+    {
+      "day": "2026-01-14",
+      "outdoor_C": -2.7
+    },
+    {
+      "day": "2026-01-15",
+      "outdoor_C": -0.2
+    },
+    {
+      "day": "2026-01-16",
+      "outdoor_C": 1.6
+    },
+    {
+      "day": "2026-01-17",
+      "outdoor_C": 2.5
+    },
+    {
+      "day": "2026-01-18",
+      "outdoor_C": 4.0
+    },
+    {
+      "day": "2026-01-19",
+      "outdoor_C": 5.2
+    },
+    {
+      "day": "2026-01-20",
+      "outdoor_C": 6.2
+    },
+    {
+      "day": "2026-01-21",
+      "outdoor_C": 4.8
+    },
+    {
+      "day": "2026-01-22",
+      "outdoor_C": 3.5
+    },
+    {
+      "day": "2026-01-23",
+      "outdoor_C": 2.2
+    },
+    {
+      "day": "2026-01-24",
+      "outdoor_C": 1.3
+    },
+    {
+      "day": "2026-01-25",
+      "outdoor_C": 2.8
+    },
+    {
+      "day": "2026-01-26",
+      "outdoor_C": 5.0
+    },
+    {
+      "day": "2026-01-27",
+      "outdoor_C": 0.8
+    },
+    {
+      "day": "2026-01-28",
+      "outdoor_C": 0.6
+    },
+    {
+      "day": "2026-01-29",
+      "outdoor_C": 0.9
+    },
+    {
+      "day": "2026-01-30",
+      "outdoor_C": 0.5
+    },
+    {
+      "day": "2026-01-31",
+      "outdoor_C": 0.7
+    },
+    {
+      "day": "2026-02-01",
+      "outdoor_C": 0.9
+    },
+    {
+      "day": "2026-02-02",
+      "outdoor_C": 0.4
+    },
+    {
+      "day": "2026-02-03",
+      "outdoor_C": 1.1
+    },
+    {
+      "day": "2026-02-04",
+      "outdoor_C": 0.6
+    },
+    {
+      "day": "2026-02-05",
+      "outdoor_C": 1.3
+    }
+  ],
+  "window": {
+    "first_day": "2026-01-01",
+    "last_day": "2026-01-31"
+  }
+}

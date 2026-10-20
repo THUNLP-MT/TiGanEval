@@ -1,0 +1,4 @@
+{
+  "record_id": "worker-settings-swap",
+  "scene": "The same audit job run twice: once on worker night-1 and once on worker night-2, whose kit path was typed in by hand during the shared-directory rollout and carries quotes, spaces, a trailing separator and the shared directory written both ways. Nothing else about the two workers differs, and both were meant to price the same night."
+}

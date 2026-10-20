@@ -1,0 +1,20 @@
+{
+  "name": "fleet-baseline",
+  "scope": "fleet",
+  "routes": ["checkout", "reporting-export"],
+  "note": "Platform-owned. Keeps a tenant, and each billing account inside it, on one pod estate-wide, and holds the cart cookie the storefront has set since the first edge release.",
+  "pins": {
+    "headers": [
+      {"name": "x-tenant"},
+      {"name": "x-account"}
+    ],
+    "cookies": [
+      {"name": "cart_sid", "ttl": "3600", "path": "/", "flags": ["Secure"]}
+    ],
+    "query": [
+      {"name": "campaign"},
+      {"name": "store"}
+    ],
+    "client": {}
+  }
+}

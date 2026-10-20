@@ -1,0 +1,4 @@
+{
+  "record_id": "reboot-night",
+  "scene": "Tuesday and Wednesday of the London rack move, in staging. Tuesday is an ordinary night. By Wednesday every host had been recreated by the move, so the collector read each service's settings back in a different order, and the metrics box came back with nothing to report about its labels. The web-api service has been on a hand-built image since the June rollback either way. The numbers the old shell script wrote for those two nights are printed next to the ones this build produces."
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "fsync-fault-drill",
+  "scene": "The monthly device drill: the controller refuses one write in the middle of a run of commits, and the device then comes back and takes more bytes as though nothing had happened."
+}

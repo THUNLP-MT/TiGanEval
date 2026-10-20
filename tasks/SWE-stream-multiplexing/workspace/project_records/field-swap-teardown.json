@@ -1,0 +1,4 @@
+{
+  "record_id": "field-swap-teardown",
+  "scene": "A field swap: streams closed from the station and from the unit while the link is still carrying traffic, and then the link killed with the radio refusing bytes."
+}

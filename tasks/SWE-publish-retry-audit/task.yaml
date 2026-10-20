@@ -1,0 +1,12 @@
+id: SWE-publish-retry-audit
+domain: SWE
+title: 'SWE: Retry-aware publishing and a truthful attempt ledger'
+seed_sources:
+- name: 'DeepSWE v1.1: goreleaser-retry-publish-auditing'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/goreleaser-retry-publish-auditing
+rubrics:
+- published_bytes_match_the_build
+- attempt_ledger_matches_the_host_log
+- refusals_are_answered_not_retried
+- waits_follow_the_hosts_direction
+- release_is_independent_of_publish_order

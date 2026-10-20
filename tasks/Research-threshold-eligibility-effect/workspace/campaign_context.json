@@ -1,0 +1,27 @@
+{
+  "as_of": "2026-05-30",
+  "council": {
+    "markets_on_the_slide": 7,
+    "odds": "one time in twenty",
+    "range_bar_points": 5.0
+  },
+  "credit_ceiling": 1.0,
+  "cut": 61.0,
+  "export_stop_day": "2026-05-24",
+  "market": "northgate",
+  "order_window_days": 60,
+  "publication_lag_days": 2,
+  "review_grant": {
+    "above_share_range": [
+      0.3,
+      0.7
+    ],
+    "files_granted": 300,
+    "files_per_booking": 60,
+    "smallest_lot": 20
+  },
+  "window": {
+    "first_day": "2026-03-02",
+    "last_day": "2026-05-30"
+  }
+}

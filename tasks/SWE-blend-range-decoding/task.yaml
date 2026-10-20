@@ -1,0 +1,12 @@
+id: SWE-blend-range-decoding
+domain: SWE
+title: 'SWE: Stored range work in the catalogue compositor'
+seed_sources:
+- name: 'DeepSWE v1.1: psd-tools-blend-range-api'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/psd-tools-blend-range-api
+rubrics:
+- untouched_shots_come_back_unchanged
+- source_files_survive_the_export
+- backdrop_cuts_read_the_plate_beneath
+- split_grips_fade
+- entries_address_declared_channels

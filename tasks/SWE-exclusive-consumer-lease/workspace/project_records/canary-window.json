@@ -1,0 +1,4 @@
+{
+  "record_id": "canary-window",
+  "scene": "An afternoon of ledger-export with the pinned canary node up. export-canary claims at rank 10 and export-b and export-c at rank 0, and five warehouse exports are put in while the canary is still working through the ones it has. The same afternoon on partner-settlement, settle-a has been running the class when a rank-10 canary takes it; after that canary drains and settle-a regains the class, a rank-20 canary takes it again. The afternoon ends with ledger-export retired out of the fleet while all three export workers are still on it."
+}

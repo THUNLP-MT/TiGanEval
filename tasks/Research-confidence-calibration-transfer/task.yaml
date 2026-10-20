@@ -1,0 +1,12 @@
+id: Research-confidence-calibration-transfer
+domain: Research
+title: 'Research: Where the auto-clear cut goes on the stream the router serves now'
+seed_sources:
+- name: Guo et al. (2017), On Calibration of Modern Neural Networks
+  url: https://proceedings.mlr.press/v70/guo17a.html
+rubrics:
+- escape_rate_within_tolerance
+- range_covers_and_meets_floor
+- estimate_invariant_to_lag_and_router
+- next_batch_feasible_and_informative
+- report_reconciles_receipts

@@ -1,0 +1,4 @@
+{
+  "record_id": "nightly-2026-08-19",
+  "scene": "The night the licence bill was queried. Five jobs went through one worker: the pricing job, which asks for the invoice kit and then for the shared tax kit by its full store path; the rounding job, started by the console with the trace switch on its command line rather than in its settings; the vendor feed job and the job that retried it twenty minutes later; and the staffing job, which is the one that has referred back and forth between the roster and the shift pattern since last quarter's refactor."
+}

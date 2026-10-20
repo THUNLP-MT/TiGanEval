@@ -1,0 +1,12 @@
+{
+  "date": "2026-03-11",
+  "notes": [
+    "B-02 is the whole production batch, a hundred and eighty couplings a cartridge, same bench as B-01.",
+    "Sanne: held 5 min, bay wanted at four.",
+    "C-215 came back sixteen in a hundred and eighty. C-200 ten, C-140 three.",
+    "Top three at 203.0 again, all of them."
+  ],
+  "operator": "Sanne Devries",
+  "record_id": "production-batch",
+  "through_batch": "B-02"
+}

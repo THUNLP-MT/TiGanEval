@@ -1,0 +1,12 @@
+id: Research-resumed-curve-allocation
+domain: Research
+title: 'Research: Where the last node-hours of the sweep should go'
+seed_sources:
+- name: Swersky, Snoek and Adams (2014), Freeze-Thaw Bayesian Optimization
+  url: https://arxiv.org/abs/1406.3896
+rubrics:
+- funded_run_end_loss_within_tolerance
+- range_covers_and_meets_floor
+- choice_invariant_to_node_history
+- next_booking_feasible_and_separating
+- report_reconciles_stream

@@ -1,0 +1,15 @@
+{
+  "name": "guest-checkout",
+  "scope": "route",
+  "routes": ["guest-checkout"],
+  "note": "Checkout team. Signed-in guests send x-shopper; everyone else arrives with a cart cookie and nothing else.",
+  "pins": {
+    "headers": [
+      {"name": "x-shopper", "stop": true}
+    ],
+    "cookies": [
+      {"name": "cart_sid", "ttl": "1h30m", "path": "/", "flags": ["Secure"]},
+      {"name": "wish_sid", "ttl": "3600", "path": "/", "flags": []}
+    ]
+  }
+}

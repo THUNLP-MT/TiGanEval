@@ -1,0 +1,12 @@
+id: Research-cross-site-model-transfer
+domain: Research
+title: 'Research: What the triage pipeline gets wrong at the centre it moved to'
+seed_sources:
+- name: Zadrozny (2004), Learning and Evaluating Classifiers under Sample Selection Bias
+  url: https://doi.org/10.1145/1015330.1015425
+rubrics:
+- served_stream_error
+- published_error_range
+- next_review_request
+- report_built_from_the_intake_counters
+- reviews_reconcile_with_the_ledger

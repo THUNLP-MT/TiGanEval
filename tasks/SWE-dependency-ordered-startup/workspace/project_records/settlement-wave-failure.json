@@ -1,0 +1,4 @@
+{
+  "record_id": "settlement-wave-failure",
+  "scene": "The 12 August deploy. The batch writer could not take its write lease ten ticks into its connect step, while the archive store was still opening its own connection and stayed on the deploy loop for another two minutes. The warehouse team were left with a handshake they could not account for, the router's close receipt failed, and the operator's second attempt is in here too."
+}

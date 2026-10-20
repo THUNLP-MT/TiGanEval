@@ -1,0 +1,12 @@
+{
+  "date": "2026-02-24",
+  "notes": [
+    "Anders asked why L-14 looks so much flatter than L-11 when he plots the export. Pulled both: L-14-15 is at 1728 in the elapsed column against L-11-01 at 1200, and they went on eleven days apart.",
+    "L-14-15 is reading 38.9 today, L-11-01 38.2.",
+    "Fan bearing on R-B replaced this morning. Rack down four hours, modules stayed in the case, no session missed.",
+    "REF-20 20.0 on R-B."
+  ],
+  "operator": "Nils Aaberg",
+  "record_id": "l14-lagging",
+  "through_day": "2026-02-24"
+}

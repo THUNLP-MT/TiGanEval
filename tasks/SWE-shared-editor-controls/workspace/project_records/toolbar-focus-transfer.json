@@ -1,0 +1,839 @@
+{
+  "name": "toolbar-focus-transfer",
+  "page": {
+    "controls": [
+      {
+        "id": "bold",
+        "command": "bold",
+        "kind": "button"
+      },
+      {
+        "id": "size",
+        "command": "size",
+        "kind": "select"
+      },
+      {
+        "id": "stamp",
+        "command": "stamp",
+        "kind": "button"
+      },
+      {
+        "id": "image",
+        "command": "image",
+        "kind": "button"
+      },
+      {
+        "id": "link",
+        "command": "link",
+        "kind": "button"
+      }
+    ],
+    "editors": [
+      {
+        "id": "headline",
+        "text": "Headline for the morning edition 243",
+        "stamp": "<headline approved>",
+        "mimetypes": [
+          "image/gif"
+        ],
+        "formats": [
+          {
+            "range": [
+              1,
+              3
+            ],
+            "attributes": {
+              "bold": true,
+              "size": "large"
+            }
+          }
+        ]
+      },
+      {
+        "id": "body",
+        "text": "Body copy for the production sheet 348",
+        "stamp": "<body approved>",
+        "mimetypes": [
+          "image/webp"
+        ],
+        "formats": []
+      }
+    ]
+  },
+  "operations": [
+    {
+      "op": "inspect",
+      "label": "open production sheet"
+    },
+    {
+      "op": "select",
+      "label": "select body at 5 for 2",
+      "editor": "body",
+      "range": [
+        5,
+        2
+      ]
+    },
+    {
+      "op": "select",
+      "label": "select headline at 2 for 6",
+      "editor": "headline",
+      "range": [
+        2,
+        6
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press bold at step 4",
+      "control": "bold",
+      "pointer": true
+    },
+    {
+      "op": "command",
+      "label": "press size at step 5",
+      "control": "size",
+      "value": "small",
+      "pointer": true
+    },
+    {
+      "op": "select",
+      "label": "select body at 7 for 3",
+      "editor": "body",
+      "range": [
+        7,
+        3
+      ]
+    },
+    {
+      "op": "command",
+      "label": "press size at step 7",
+      "control": "size",
+      "value": "large",
+      "pointer": true
+    },
+    {
+      "op": "command",
+      "label": "press bold at step 8",
+      "control": "bold",
+      "pointer": true
+    }
+  ],
+  "scene": "Pointer and select interaction in a highlighted passage",
+  "recorded_sheet": [
+    {
+      "name": "toolbar-focus-transfer",
+      "rows": [
+        {
+          "label": "open production sheet",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": null
+            },
+            "focus": "none",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": true
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": true,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 5 for 2",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                5,
+                2
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select headline at 2 for 6",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                6
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press bold at step 4",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    3,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    4,
+                    4,
+                    {
+                      "bold": true
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                6
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "bold",
+                "value": null,
+                "range": [
+                  2,
+                  6
+                ],
+                "after_range": [
+                  2,
+                  6
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 5",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    6,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": [
+                2,
+                6
+              ],
+              "body": null
+            },
+            "focus": "headline",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "small",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "small",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "headline",
+                "command": "size",
+                "value": "small",
+                "range": [
+                  2,
+                  6
+                ],
+                "after_range": [
+                  2,
+                  6
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "select body at 7 for 3",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    6,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                7,
+                3
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press size at step 7",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    6,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [
+                  [
+                    7,
+                    3,
+                    {
+                      "size": "large"
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                7,
+                3
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "large",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "large",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "size",
+                "value": "large",
+                "range": [
+                  7,
+                  3
+                ],
+                "after_range": [
+                  7,
+                  3
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        },
+        {
+          "label": "press bold at step 8",
+          "state": {
+            "documents": {
+              "headline": {
+                "text": "Headline for the morning edition 243",
+                "spans": [
+                  [
+                    1,
+                    1,
+                    {
+                      "bold": true,
+                      "size": "large"
+                    }
+                  ],
+                  [
+                    2,
+                    6,
+                    {
+                      "bold": true,
+                      "size": "small"
+                    }
+                  ]
+                ],
+                "typing": {}
+              },
+              "body": {
+                "text": "Body copy for the production sheet 348",
+                "spans": [
+                  [
+                    7,
+                    3,
+                    {
+                      "size": "large",
+                      "bold": true
+                    }
+                  ]
+                ],
+                "typing": {}
+              }
+            },
+            "selections": {
+              "headline": null,
+              "body": [
+                7,
+                3
+              ]
+            },
+            "focus": "body",
+            "controls": {
+              "bold": {
+                "active": true,
+                "value": "",
+                "disabled": false
+              },
+              "size": {
+                "active": false,
+                "value": "large",
+                "disabled": false
+              },
+              "stamp": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "image": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              },
+              "link": {
+                "active": false,
+                "value": "",
+                "disabled": false
+              }
+            },
+            "pickers": [
+              {
+                "control": "size",
+                "value": "large",
+                "aria_disabled": false,
+                "expanded": false
+              }
+            ],
+            "bar_count": 1,
+            "image_input_count": 0,
+            "picker_count": 1,
+            "receipts": [
+              {
+                "editor": "body",
+                "command": "bold",
+                "value": null,
+                "range": [
+                  7,
+                  3
+                ],
+                "after_range": [
+                  7,
+                  3
+                ]
+              }
+            ],
+            "dialogs": [],
+            "tooltips": []
+          }
+        }
+      ]
+    }
+  ]
+}

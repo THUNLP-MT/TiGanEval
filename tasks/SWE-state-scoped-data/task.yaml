@@ -1,0 +1,12 @@
+id: SWE-state-scoped-data
+domain: SWE
+title: 'SWE: State-Scoped Order Data'
+seed_sources:
+- name: 'DeepSWE v1.1: python-statemachine-state-data-scoping'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/python-statemachine-state-data-scoping
+rubrics:
+- scope_ownership
+- entry_isolation
+- resume_depth
+- change_audit
+- refused_writes

@@ -1,0 +1,23 @@
+{
+  "campaign": "hx22-september",
+  "cells": [
+    "HX22-021",
+    "HX22-022",
+    "HX22-023",
+    "HX22-024"
+  ],
+  "chamber_logged_c": 25.0,
+  "channel_hours": 480,
+  "channels": [
+    17,
+    18,
+    19,
+    20
+  ],
+  "firmware": "2.4.0",
+  "operator_note": "Last stepped fixture, back on the south rack. New controller went on the south chamber on 14 May; the setpoint has not been touched since March.",
+  "protocol": "stepped",
+  "record_id": "S-0604",
+  "reference_cell_ah": 2.08,
+  "started": "2026-06-04"
+}

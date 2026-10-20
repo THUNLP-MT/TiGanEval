@@ -1,0 +1,4 @@
+{
+  "record_id": "reporting-export-window",
+  "scene": "The nightly export against the reporting route across three pushes: the platform's fleet policy on its own, then the data team's quarter-end policy on top of it, then the data team's standing one, with what the route serves after each push and how the export's requests spread across the pods."
+}

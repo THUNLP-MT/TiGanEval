@@ -1,0 +1,4 @@
+{
+  "record_id": "rollout-duplicate",
+  "scene": "The evening we scaled settlement from one worker to three. The three replicas came up in order on three links and the partner's audit log for that hour is the thing finance queried. Two replicas then drained; the third settlement replica stayed in the old process and one export remained waiting when the scheduler was restarted in place by the supervisor at 21:40, as it is most weeks. Fresh settlement and export replicas linked to the rebuilt scheduler."
+}

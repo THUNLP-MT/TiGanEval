@@ -1,0 +1,12 @@
+id: SWE-pii-lineage-checker
+domain: SWE
+title: 'SWE: Personal-field lineage for the record pipeline'
+seed_sources:
+- name: 'DeepSWE v1.1: bandit-interprocedural-taint-checks'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/bandit-interprocedural-taint-checks
+rubrics:
+- flow_matches_the_field_rules
+- one_row_per_leaking_export
+- verdict_survives_step_extraction
+- report_independent_of_scan_order
+- existing_audit_rows_unchanged

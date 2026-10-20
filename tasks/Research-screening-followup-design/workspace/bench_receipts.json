@@ -1,0 +1,72 @@
+{
+  "campaign": "hs-july",
+  "entries": [
+    {
+      "ambient_C": 23.2,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 19.4,
+      "day_id": "2026-09-03",
+      "parts": [
+        {
+          "fixture_id": "F-16",
+          "part": "P-07",
+          "requested_runs": 2,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 1
+        },
+        {
+          "fixture_id": "F-14",
+          "part": "P-06",
+          "requested_runs": 1,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 2
+        },
+        {
+          "fixture_id": "F-18",
+          "part": "P-03",
+          "requested_runs": 1,
+          "returned_runs": 0,
+          "rise_K": [],
+          "slot": 3
+        }
+      ],
+      "previous": "",
+      "receipt_id": "mr-0903",
+      "refusal": "the day allows 2 fixture changes and the sheet asks for 3 parts",
+      "rig_days_left_after": 4,
+      "rig_hours_charged": 9.0,
+      "seal": "d68e1d0a2162439b427e6254d7084ac80d62eac15745faa1c8e9389ad2ca3183",
+      "sequence": 1
+    },
+    {
+      "ambient_C": 22.3,
+      "campaign": "hs-july",
+      "coolant_setpoint_C": 18.9,
+      "day_id": "2026-09-04",
+      "parts": [
+        {
+          "fixture_id": "F-15",
+          "part": "P-07",
+          "requested_runs": 4,
+          "returned_runs": 4,
+          "rise_K": [
+            16.2,
+            15.9,
+            16.5,
+            16.4
+          ],
+          "slot": 1
+        }
+      ],
+      "previous": "d68e1d0a2162439b427e6254d7084ac80d62eac15745faa1c8e9389ad2ca3183",
+      "receipt_id": "mr-0904",
+      "refusal": null,
+      "rig_days_left_after": 3,
+      "rig_hours_charged": 9.0,
+      "seal": "cea54dd1bf072ff108fcab3b56f2299b07892783fd9acb5296dccee2146a2e4f",
+      "sequence": 2
+    }
+  ]
+}

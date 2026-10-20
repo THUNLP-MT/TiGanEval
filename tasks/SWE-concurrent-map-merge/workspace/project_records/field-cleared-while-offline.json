@@ -1,0 +1,5 @@
+{
+  "record_id": "field-cleared-while-offline",
+  "scene": "Two people tidied a card they had just read, one emptying the owner it had been given and one emptying the estimate and the status. A colleague was off the network throughout, putting a new estimate and a new owner onto the same card and typing a status of his own before taking that back off again, and he had seen neither of them empty anything. The packets reached the three laptops in three different orders.",
+  "support_note": "Support's signed-off packet review records that, once the copies caught up, the new Estimate and Owner entered without either clearing on screen were still on the card; the Status its own author entered and then cleared was not."
+}

@@ -1,0 +1,12 @@
+id: SWE-bulk-import-checkpoints
+domain: SWE
+title: 'SWE: Bulk Import Checkpoints'
+seed_sources:
+- name: 'DeepSWE v1.1: sqlite-utils-safe-import-checkpoints'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/sqlite-utils-safe-import-checkpoints
+rubrics:
+- exactly_once_import_completion
+- invalid_row_rejection_integrity
+- resume_state_integrity
+- bounded_transaction_work
+- clean_idempotent_completion

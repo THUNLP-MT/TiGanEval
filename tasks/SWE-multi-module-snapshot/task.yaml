@@ -1,0 +1,12 @@
+id: SWE-multi-module-snapshot
+domain: SWE
+title: 'SWE: Consistent dumps of the pipeline''s plugin sandbox'
+seed_sources:
+- name: 'DeepSWE v1.1: wazero-multi-module-snapshots'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/wazero-multi-module-snapshots
+rubrics:
+- consistent_cut
+- capture_holds_still
+- incremental_chain
+- restore_all_or_nothing
+- restored_arena_exact

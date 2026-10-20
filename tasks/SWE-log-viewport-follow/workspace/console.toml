@@ -1,0 +1,48 @@
+# Incident console settings. The console reads this at start-up and hands the
+# values to each pane it builds. A recorded session ran with whatever the
+# console was configured with that night, and a replay prints those numbers
+# under "pane" before the session starts.
+
+[pane]
+# How many entries the rich pane keeps. A busy incident writes about forty
+# lines a second and the console box has to survive a night of it, so the pane
+# keeps only the newest entries and drops the oldest off the head.
+max_entries = 12
+
+# The narrowest the pane will ever draw an entry across. Below this the console
+# gives the reader a horizontal bar rather than breaking the text any further,
+# so an operator who drags the divider hard left still gets readable lines.
+min_width = 28
+
+# Rows of the pane's viewport.
+height = 8
+
+[layout]
+# The console builds its panes before the layout runs, so the first lines of an
+# incident are written while the pane still has no width. They belong on the
+# pane at the width the layout settles on, banners and rules included.
+panes_are_built_before_the_layout_runs = true
+
+# The divider between the two panes is draggable during an incident and the
+# operators do drag it. The exporter is the same renderer, so what the pane
+# shows and what an exported incident file holds are meant to be the same text.
+divider_is_draggable_during_an_incident = true
+
+[reading]
+# House rule since the March post-mortem: while the reader is not on the newest
+# line the pane holds their place. The entry at the top of the viewport stays at
+# the top, and while that entry is drawn the same way it was, the reader stays on
+# the same row of it. If that entry's complete rendered strip changes at all, the
+# house policy starts it from its first row, even when the particular row the
+# reader had been on happens to contain the same words after the redraw.
+hold_the_readers_place = true
+
+# When the entry they were holding is dropped by max_entries, the pane falls
+# back to the oldest entry it still has.
+when_the_held_entry_is_dropped = "fall back to the oldest entry left"
+
+[toolbar]
+# The badge shows Live or Paused, and the session audit is what the shift review
+# replays to see when the pane was live during the incident.
+badge_reads = "is_following_end"
+audit_keeps = "FollowChanged"

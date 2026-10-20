@@ -1,0 +1,35 @@
+{
+  "model_id": "ridgeline-2026-03",
+  "features": [
+    "body_length",
+    "attachments",
+    "wait_minutes",
+    "sentiment",
+    "account_age_months",
+    "product_breadth"
+  ],
+  "centre": [
+    179.374844,
+    0.80179,
+    14.015432,
+    -0.012309,
+    32.595939,
+    2.499866
+  ],
+  "scale": [
+    59.062031,
+    0.893456,
+    6.019216,
+    1.005759,
+    15.44636,
+    1.159927
+  ],
+  "fit_manifest": {
+    "fitted_on": "2026-03-11",
+    "inputs": [
+      "ridgeline_pool_v3",
+      "brookfield_queue_snapshot_v1"
+    ],
+    "rows": 8400
+  }
+}

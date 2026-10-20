@@ -1,0 +1,12 @@
+{
+  "date": "2026-05-14",
+  "notes": [
+    "Machines came free in ones and twos, so the narrow widths went first and the wide ones waited.",
+    "Two reservations I put in at width 512 were killed at submission; the queue prints the charge and refuses anything over the cap.",
+    "r-009 is the first repeat: same width, same examples, same rate as one I will run again later. It came back 2.0495.",
+    "Every job writes a validation point at each of forty checkpoints; the curves go into the context beside the summary row."
+  ],
+  "operator": "Ines Aliyev",
+  "record_id": "first-block",
+  "through_date": "2026-05-13"
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "slot-reuse-revert",
+  "scene": "A cleanup pass: the set is checkpointed, the pallet stack is deleted, a crate stand is dropped in to replace it and the crate is parented onto the new stand, then the session is reverted."
+}

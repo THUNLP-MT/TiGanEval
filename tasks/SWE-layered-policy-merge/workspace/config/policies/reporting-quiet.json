@@ -1,0 +1,9 @@
+{
+  "name": "reporting-quiet",
+  "scope": "route",
+  "routes": ["reporting-export"],
+  "note": "Data team. The nightly export runs from one office address; pinning it puts the whole job on one pod.",
+  "pins": {
+    "disable": true
+  }
+}

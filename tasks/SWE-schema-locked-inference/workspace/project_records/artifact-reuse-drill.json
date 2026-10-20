@@ -1,0 +1,4 @@
+{
+  "record_id": "artifact-reuse-drill",
+  "scene": "Two identical training runs, one over reordered rows, and a run directory whose files claim a version this build does not support."
+}

@@ -1,0 +1,12 @@
+# What the console runs a publish with. The release manager owns this file.
+
+[release]
+version = "2.5.0"
+channel = "stable"
+
+# The retry block. It has been here since March and the publishing step has
+# never read it.
+[release.retry]
+attempts = 4
+delay_ms = 2000
+max_delay_ms = 20000

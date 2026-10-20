@@ -1,0 +1,12 @@
+id: SWE-module-resolution-cache
+domain: SWE
+title: 'SWE: One kit file, one kit, for every job in a nightly run'
+seed_sources:
+- name: 'DeepSWE v1.1: abs-module-cache-flags'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/abs-module-cache-flags
+rubrics:
+- single_activation_per_file
+- resolution_agreement
+- load_state_conservation
+- run_outcome_independence
+- loader_diagnostics_routing

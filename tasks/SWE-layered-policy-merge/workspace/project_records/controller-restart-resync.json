@@ -1,0 +1,4 @@
+{
+  "record_id": "controller-restart-resync",
+  "scene": "The controller resyncing checkout three times over: once as the files are committed, once with the two attached policies reconciled the other way round, and once after a relabel rewrote the entries in a different order, with the plan and the pod of every shopper printed after each push."
+}

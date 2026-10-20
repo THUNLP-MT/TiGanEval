@@ -1,0 +1,4 @@
+{
+  "record_id": "fulfilment-escalation",
+  "scene": "The fulfilment job working through its queue: the change set each job sends, the patch and condition this build handed the store, whether the store committed it, and the order afterwards."
+}

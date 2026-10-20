@@ -1,0 +1,12 @@
+id: SWE-evaluation-profiling
+domain: SWE
+title: 'SWE: Rule evaluation profiling for the decision service'
+seed_sources:
+- name: 'DeepSWE v1.1: opa-rego-rule-profiling'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/opa-rego-rule-profiling
+rubrics:
+- profiling_is_not_causal
+- definition_level_attribution
+- reuse_is_not_evaluation
+- profile_scoped_to_one_decision
+- rollup_preserves_the_run

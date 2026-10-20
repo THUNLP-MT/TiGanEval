@@ -1,0 +1,250 @@
+{
+  "days": [
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-06",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-07",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-08",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-09",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-10",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-11",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 22350,
+      "ceiling_events": 42000,
+      "day": "2026-07-12",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 26400,
+      "ceiling_events": 42000,
+      "day": "2026-07-13",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 42000,
+      "ceiling_events": 42000,
+      "day": "2026-07-14",
+      "dropped": 34364,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 42000,
+      "ceiling_events": 42000,
+      "day": "2026-07-15",
+      "dropped": 34364,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 42000,
+      "ceiling_events": 42000,
+      "day": "2026-07-16",
+      "dropped": 34364,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 26400,
+      "ceiling_events": 42000,
+      "day": "2026-07-17",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 26400,
+      "ceiling_events": 42000,
+      "day": "2026-07-18",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 26400,
+      "ceiling_events": 42000,
+      "day": "2026-07-19",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-20",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-21",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-22",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-23",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-24",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-25",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 39000,
+      "ceiling_events": 42000,
+      "day": "2026-07-26",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-07-27",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-07-28",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-07-29",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-07-30",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-07-31",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-01",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-02",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-03",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-04",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-05",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-06",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-07",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-08",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    },
+    {
+      "accepted": 41250,
+      "ceiling_events": 42000,
+      "day": "2026-08-09",
+      "dropped": 0,
+      "topic": "orders.reorder-confirmed"
+    }
+  ],
+  "watch": "one-tap-reorder"
+}

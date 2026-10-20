@@ -1,0 +1,16 @@
+{
+  "record_id": "dw-wed",
+  "date": "2026-09-10",
+  "operator": "Tom\u00e1s Ferreira",
+  "through_shift": "2026-09-10",
+  "orders_settled": [
+    "dw-0907",
+    "dw-0908",
+    "dw-0909a",
+    "dw-0909b"
+  ],
+  "notes": [
+    "Carrier handed last night's order back: 44 vans on Harbour W1 against the 40 they hold. Desk fee charged, re-cut and sent.",
+    "Coverage sheet came back from planning with Z-118 on Harbour's list from today. Ridge's routing table is unchanged on their side."
+  ]
+}

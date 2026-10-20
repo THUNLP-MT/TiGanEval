@@ -1,0 +1,4 @@
+{
+  "record_id": "yesterday-file-offer",
+  "scene": "The level is written to a checkpoint file, a crate is moved and the pallet locked, and that file is then offered back to the editor three times: once with a prop dropped out of it that its own links point at, once carrying a key this project has never declared, and once exactly as it was written."
+}

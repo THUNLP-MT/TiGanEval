@@ -1,0 +1,12 @@
+id: SWE-duration-sharding
+domain: SWE
+title: 'SWE: Duration-aware CI shard planning'
+seed_sources:
+- name: 'DeepSWE v1.1: vitest-duration-sharding'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/vitest-duration-sharding
+rubrics:
+- whole_suite_assigned_once
+- run_pinned_plan_agreement
+- unmeasured_files_keep_the_usual_split
+- duration_history_conservation
+- plan_balance_honesty

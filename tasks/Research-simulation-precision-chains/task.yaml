@@ -1,0 +1,13 @@
+id: Research-simulation-precision-chains
+domain: Research
+title: 'Research: how often the capacity model puts a quarter''s peak wait over 2.5 s'
+seed_sources:
+- name: 'Vehtari et al. (2021), Rank-normalization, folding, and localization: An improved R-hat for assessing convergence
+    of MCMC'
+  url: https://arxiv.org/abs/1903.08008
+rubrics:
+- exceedance_within_tolerance
+- range_covers_and_meets_floor
+- report_reconciles_receipts
+- next_run_feasible_and_informative
+- estimate_invariant_to_settling_and_lineage

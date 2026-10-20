@@ -1,0 +1,12 @@
+{
+  "date": "2026-08-22",
+  "notes": [
+    "First order went in on the 21st at 09:05 and the whole file came back at 21:40.",
+    "R-14 took the list on their own; 96 items, worked from the top the way the order was written.",
+    "Of the 96 items, 77 sit on the ledger-dispute, orbit-swap or vault-mfa segments.",
+    "Marcus read the disagreement rate off the returned labels and took it to the Tuesday stand-up."
+  ],
+  "operator": "Dani Roux",
+  "record_id": "2026-08-22-first-batch",
+  "through_line": 96
+}

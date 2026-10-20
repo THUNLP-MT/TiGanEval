@@ -1,0 +1,19 @@
+{
+  "book": "halcombe region book",
+  "counted_on": "2026-02-01",
+  "orders_on_the_count_day": {
+    "Alder": 1056,
+    "Cardean": 960,
+    "Draymoor": 1056,
+    "Evermoor": 2881,
+    "Fennhaven": 1344,
+    "Harrow Bay": 1440,
+    "Kingsmere": 768,
+    "Millgate": 864,
+    "Ostley": 1152,
+    "Riverbend": 2881,
+    "Sculthorpe": 864,
+    "Thrushwood": 672
+  },
+  "window_closes_on": "2026-04-20"
+}

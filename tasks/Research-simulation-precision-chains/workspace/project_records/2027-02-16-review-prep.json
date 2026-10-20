@@ -1,0 +1,20 @@
+{
+  "analyst": "Tomas Ferrer",
+  "chain_steps": {
+    "run-a": 840,
+    "run-b": 1710,
+    "run-c": 1530,
+    "run-d": 860,
+    "run-e": 750,
+    "run-f": 1400
+  },
+  "date": "2027-02-16",
+  "jobs_on_the_ledger": 8,
+  "notes": [
+    "run-f is in from the resubmission. Its first row already carries the same step_size as the rest of the file, and there is no opening block on it at all.",
+    "Its opening rows read the same peak waits as the tail of run-b, number for number. I have not chased what that is.",
+    "The manifest carries run-b@1010 in run-f's init_source column; run-c and run-d carry dispersed-init even though they moved node and have later job ids.",
+    "Files pulled for the review on the 19th. Nadia has the summary table."
+  ],
+  "session": "review-prep"
+}

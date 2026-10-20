@@ -1,0 +1,12 @@
+id: SWE-schema-locked-inference
+domain: SWE
+title: 'SWE: Schema-Locked Inference'
+seed_sources:
+- name: 'DeepSWE v1.1: igel-persist-feature-schema'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/igel-persist-feature-schema
+rubrics:
+- consistent_inference_across_consumers
+- persisted_schema_completeness
+- schema_violation_refusal
+- caller_contract_error_reporting
+- stable_artifact_reuse

@@ -1,0 +1,80 @@
+{
+  "entries": [
+    {
+      "minute": "2026-09-22T19:31",
+      "observed": {
+        "client_receipts": 394,
+        "probe_errors": 36,
+        "probe_receipts": 95
+      },
+      "pool": "edge-ams",
+      "previous": "",
+      "review": "quote-api-september",
+      "seal": "9066bc8798703375cca63f9016fba88751f3adfdd1c5c1a8cb3e0288604dbda7",
+      "sequence": 1,
+      "trace_id": "mr-0922-a",
+      "units": 1
+    },
+    {
+      "minute": "2026-09-22T19:34",
+      "observed": {
+        "client_receipts": 376,
+        "probe_errors": 36,
+        "probe_receipts": 95
+      },
+      "pool": "edge-fra",
+      "previous": "9066bc8798703375cca63f9016fba88751f3adfdd1c5c1a8cb3e0288604dbda7",
+      "review": "quote-api-september",
+      "seal": "e2462cf4e54d6148361e58320cb67ff836149e40b55f8b5782b62c150ceaf5e3",
+      "sequence": 2,
+      "trace_id": "mr-0922-b",
+      "units": 1
+    },
+    {
+      "minute": "2026-09-23T19:28",
+      "observed": {
+        "client_receipts": 351,
+        "probe_errors": 34,
+        "probe_receipts": 95
+      },
+      "pool": "edge-ams",
+      "previous": "e2462cf4e54d6148361e58320cb67ff836149e40b55f8b5782b62c150ceaf5e3",
+      "review": "quote-api-september",
+      "seal": "0c4967f8cf6db3f8ddd984e8399a6683e3528da83ba96c419b303756fe50227d",
+      "sequence": 3,
+      "trace_id": "mr-0923-a",
+      "units": 1
+    },
+    {
+      "minute": "2026-09-25T18:14",
+      "observed": {
+        "client_receipts": 74,
+        "probe_errors": 0,
+        "probe_receipts": 0
+      },
+      "pool": "edge-lhr",
+      "previous": "0c4967f8cf6db3f8ddd984e8399a6683e3528da83ba96c419b303756fe50227d",
+      "review": "quote-api-september",
+      "seal": "62af66231306ae2921a45ed04d17edd496f872d9a582edeb10bf5fc4362108d8",
+      "sequence": 4,
+      "trace_id": "mr-0925-a",
+      "units": 1
+    },
+    {
+      "minute": "2026-09-24T19:26",
+      "observed": {
+        "client_receipts": 276,
+        "probe_errors": 24,
+        "probe_receipts": 84
+      },
+      "pool": "edge-ams",
+      "previous": "62af66231306ae2921a45ed04d17edd496f872d9a582edeb10bf5fc4362108d8",
+      "review": "quote-api-september",
+      "seal": "d212bfc575216a91b02c343ea17f34f01e18e2d53ea9e0f9fd6a852c0ba099ee",
+      "sequence": 5,
+      "trace_id": "mr-0924-a",
+      "units": 1
+    }
+  ],
+  "review": "quote-api-september"
+}

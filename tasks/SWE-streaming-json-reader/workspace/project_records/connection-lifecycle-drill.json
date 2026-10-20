@@ -1,0 +1,4 @@
+{
+  "record_id": "connection-lifecycle-drill",
+  "scene": "A connection drill that reads a response to the end, reads one again, abandons one after the first value, and re-reads one already held in memory."
+}

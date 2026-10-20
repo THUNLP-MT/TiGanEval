@@ -1,0 +1,4 @@
+{
+  "record_id": "whole-room-reconnect",
+  "scene": "Three people had the same card open on the ferry with no signal. When the carriage came back on, the sync service handed each of their laptops the same four operations in a different order, and one packet went out twice because the first send was never acknowledged."
+}

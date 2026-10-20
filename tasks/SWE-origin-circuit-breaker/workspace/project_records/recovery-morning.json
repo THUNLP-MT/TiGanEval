@@ -1,0 +1,4 @@
+{
+  "record_id": "recovery-morning",
+  "scene": "The morning the report cluster came back. Five report workers wake on the same timer and reach the same origin before any of them has finished; after its successful recovery answer, two ordinary report calls arrive together, then one later call gets a broken body and another follows it. The export host was out for the same stretch, and the one call that asks whether it is back asks for its body as JSON and gets a truncated body; another call arrives inside the new wait and one more after the full wait. The catalog host answers 503 to some calls and 404 to others, with one caller asking for error responses back rather than raised. Finally, search is configured for two simultaneous recovery calls and two waiting workers arrive together."
+}

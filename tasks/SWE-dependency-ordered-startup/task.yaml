@@ -1,0 +1,12 @@
+id: SWE-dependency-ordered-startup
+domain: SWE
+title: 'SWE: Dependency-ordered start-up for the API service'
+seed_sources:
+- name: 'DeepSWE v1.1: awilix-async-container-initialization'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/awilix-async-container-initialization
+rubrics:
+- unwind_releases_started_services
+- startup_order_follows_dependencies
+- each_service_starts_once
+- resolution_serves_started_instances
+- start_up_within_the_deploy_window

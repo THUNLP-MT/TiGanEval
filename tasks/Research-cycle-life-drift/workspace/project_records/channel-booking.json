@@ -1,0 +1,42 @@
+{
+  "as_of": "2026-09-08",
+  "campaign": "hx22-september",
+  "cells_per_fixture": 4,
+  "channel_hours_booked_for_the_campaign": 4440,
+  "channel_hours_per_cell": 120,
+  "channel_hours_remaining": 1560,
+  "record_id": "channel-booking",
+  "scheduler_log": [
+    {
+      "note": "A campaign booked two fixtures where it ran one, and the four channels the teardown programme had been promised went with them. They were handed back by hand. A request now takes the one fixture it needs, and hours a request does not need go to the next programme in the queue the day it is booked.",
+      "on": "2025-12-15"
+    }
+  ],
+  "scheduler_note": "The tester is booked one fixture at a time and a cell holds its channel for 120 hours whatever the run does. The hours below are what is left before the build closes; nothing can be booked past them.",
+  "sessions_already_run": [
+    {
+      "cells": 8,
+      "channel_hours": 960,
+      "session_id": "S-0312",
+      "started": "2026-03-12"
+    },
+    {
+      "cells": 4,
+      "channel_hours": 480,
+      "session_id": "S-0327",
+      "started": "2026-03-27"
+    },
+    {
+      "cells": 8,
+      "channel_hours": 960,
+      "session_id": "S-0521",
+      "started": "2026-05-21"
+    },
+    {
+      "cells": 4,
+      "channel_hours": 480,
+      "session_id": "S-0604",
+      "started": "2026-06-04"
+    }
+  ]
+}

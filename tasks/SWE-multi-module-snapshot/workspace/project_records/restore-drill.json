@@ -1,0 +1,4 @@
+{
+  "record_id": "restore-drill",
+  "scene": "The Wednesday recovery drill. A dump is taken, a bad run then moves a batch across, grows the duplicate sketch and writes into the new space, and the dump goes back in. The roll-up is then reloaded with the cell layout the pipeline team shipped on Monday and the same dump is offered to the sandbox again; it is reloaded a second time under its old layout, in the four-byte block the loader had left for it, and offered the dump once more."
+}

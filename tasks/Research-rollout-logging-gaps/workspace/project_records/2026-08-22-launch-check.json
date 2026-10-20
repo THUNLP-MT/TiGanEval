@@ -1,0 +1,13 @@
+{
+  "date": "2026-08-22",
+  "notes": [
+    "The hint is live on the v2 checkout path for a fifth of new visitors. Control stays on the legacy path.",
+    "Walked the router settings with platform before signing the launch off. The pin is written the first time the hint is served and read back on every later visit; a visitor with no pin is drawn again on each visit at whatever share the experiment is open at.",
+    "Nothing to rescan yet. None of the archive units for the month are spent."
+  ],
+  "operator": "Nadia Kovac",
+  "rescans": [],
+  "retained_from": "2026-08-15",
+  "session_id": "launch-check",
+  "through_day": "2026-08-21"
+}

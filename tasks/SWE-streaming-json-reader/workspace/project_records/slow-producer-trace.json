@@ -1,0 +1,4 @@
+{
+  "record_id": "slow-producer-trace",
+  "scene": "A slow producer sending a long response in small packets, traced against the number of body bytes pulled at the moment each value reached the caller."
+}

@@ -1,0 +1,13 @@
+{
+  "session": "refresh-followup",
+  "date": "2026-04-20",
+  "analyst": "Priya Raman",
+  "as_of": "2026-04-20",
+  "receipts_on_file": [],
+  "notes": [
+    "Pulled the rows where offer_flag disagrees with the account's own standing_score against 61.0. There are over five hundred of them and they were not there in March.",
+    "Every id I checked out of that set is in recompute_log.csv with a refresh_date after its offer_date. R-1 landed on 3 April, R-2 on 9 April.",
+    "score_before on those rows sits on the other side of 61.0 from standing_score.",
+    "Raised it with platform; they say the register is meant to carry the recomputed number and the job does not keep the old one anywhere except that log."
+  ]
+}

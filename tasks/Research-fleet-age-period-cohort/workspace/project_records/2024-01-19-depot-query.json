@@ -1,0 +1,14 @@
+{
+  "record_id": "depot-query",
+  "date": "2024-01-19",
+  "author": "Priya Ndiaye, fleet engineering",
+  "through_month": "2023-12",
+  "receipts": [],
+  "notes": [
+    "Kestrel queried its own numbers so I pulled the log by depot and month.",
+    "Kestrel faults per van on its books: 0.058 in July 2022, 0.042 in August, 0.093 in September, 0.091 in October, 0.101 in November, and it stays around there.",
+    "Ardmore over the same five months: 0.057, 0.049, 0.062, 0.057, 0.078. Sallow: 0.046, 0.056, 0.059, 0.064, 0.075.",
+    "walkaround_ref on Kestrel's rows is WA-30 up to 31 August 2022 and WA-52 from 1 September. Ardmore and Sallow are WA-30 throughout.",
+    "Asked the charge hand at Kestrel whether the ramps changed too. He says no, same ramps, same fitters, longer list."
+  ]
+}

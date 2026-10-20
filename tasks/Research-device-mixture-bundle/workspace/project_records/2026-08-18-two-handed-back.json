@@ -1,0 +1,13 @@
+{
+  "record_id": "two-handed-back",
+  "date": "2026-08-18",
+  "author": "Dario Feng, release manager",
+  "through_day": "2026-08-17",
+  "receipts": ["hg-counter-1", "hg-counter-2", "hg-damaged", "hg-oversize"],
+  "notes": [
+    "Two requests to the desk this week and neither came back with anything.",
+    "Sixty damaged captures off counter units on 4.2: the desk logged no units in that cell and billed 20.",
+    "A hundred and fifty backroom captures on 4.1: over the rows a request may ask for, another 20 gone.",
+    "920 credits left. Board is on the 2nd."
+  ]
+}

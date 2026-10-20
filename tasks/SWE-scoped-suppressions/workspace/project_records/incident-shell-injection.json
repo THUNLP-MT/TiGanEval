@@ -1,0 +1,4 @@
+{
+  "record_id": "incident-shell-injection",
+  "scene": "The review of policies/checkout-web.policy that followed the storefront shell-injection incident. During the incident the reviewer wrote waiver comments into the session handler, into the replay handler and above the legacy shim by hand, and the open list the review then published for this document is the one in reconciliation.json."
+}

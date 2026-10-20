@@ -1,0 +1,12 @@
+id: SWE-credential-scope-store
+domain: SWE
+title: 'SWE: Grant scope and lifetime in the relay client'
+seed_sources:
+- name: 'DeepSWE v1.1: httpx-deterministic-cookie-store'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/httpx-deterministic-cookie-store
+rubrics:
+- grant_audience
+- grant_lifetime
+- grant_identity_and_bounds
+- fold_invariance
+- grant_send_order

@@ -1,0 +1,4 @@
+{
+  "record_id": "overnight-reroute",
+  "scene": "Sunday night's reroute run and ticket sweep, on two hosts that were both coming and going. The routing client asks again once inside every call, so one reroute can appear in the log more than once: three reroutes back to back, then one 9.8 seconds after the third of them ended, another 0.4 seconds after that, and a last one ten seconds later again, with the routing host answering 503 to all of it until it came good at the end. The ticket sweep is the same hour. The ticket host answered the sweep's first two calls 503; the next call it was sent, eight seconds later, it answered 404, and the sweep put one more in straight after that one, one a second later, and one eight seconds later again."
+}

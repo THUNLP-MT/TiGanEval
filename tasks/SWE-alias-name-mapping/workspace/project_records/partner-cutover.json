@@ -1,0 +1,4 @@
+{
+  "record_id": "partner-cutover",
+  "scene": "The four hours of Borea's cutover on Tuesday. Their old gateway and their new one both posted for the whole window, so one payload arrives carrying user_id and uid with different values, and another carrying amount and amt with the same number. Finance re-posted 1,900 orders on Wednesday because the totals in the warehouse did not match Borea's own. The last payload is one their old gateway wrapped in both envelopes at once."
+}

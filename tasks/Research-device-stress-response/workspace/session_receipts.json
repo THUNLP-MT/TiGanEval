@@ -1,0 +1,28 @@
+{
+  "entries": [
+    {
+      "batch": "B-05",
+      "bench": "B-1",
+      "block_readings_bar": [
+        201.5,
+        199.1
+      ],
+      "booking_id": "qs-0408",
+      "cartridge": "C-215",
+      "dwell_min": 30,
+      "hours_charged": 1.0,
+      "hours_left_after": 9.0,
+      "lot": "qr40-march",
+      "previous": "",
+      "readings_bar": [],
+      "refusal": "the chamber holds 6 ports; the sheet asked for 8",
+      "results": [],
+      "seal": "60973b584dd7d74426d365eba9cd4f0b93c675caa745c9d58e8fd7152840dc82",
+      "sequence": 1,
+      "served_on": "2026-04-08",
+      "units_asked": 8,
+      "units_returned": 0
+    }
+  ],
+  "lot": "qr40-march"
+}

@@ -1,0 +1,38 @@
+service:
+  name: checkout-web
+  owner: storefront
+  runtime:
+    image: registry.internal/checkout-web:4.11
+    network: bridge
+    ports:
+      - 8080
+  handlers:
+    session:
+      # waive-begin SEC-PORT-ADMIN, SEC-SHELL-EXEC
+
+      refresh_hook:
+        - "sh -c /opt/refresh-session.sh"
+        # waive-end
+        - "sh -c /opt/rotate-session.sh"
+      session_token: literal-4f21                    # waive SEC-SECRET-PLAIN
+    checkout:
+      submit_hook:
+        - "sh -c /opt/submit-order.sh"
+      checkout_password: literal-9c07
+    replay:
+      # waive-begin
+      replay_hook:
+        - "sh -c /opt/replay-order.sh"
+      # waive-begin
+      replay_token: literal-11a3
+      # waive-end
+      replay_password: literal-6b55
+      # waive-end
+    audit:
+      audit_token: literal-2d90
+  logging: off
+# waive-begin
+legacy_shim:
+  shim_hook:
+    - "sh -c /opt/legacy-shim.sh"
+  shim_token: literal-7e14

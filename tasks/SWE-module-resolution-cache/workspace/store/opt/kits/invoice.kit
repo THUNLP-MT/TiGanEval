@@ -1,0 +1,8 @@
+# The invoice line, read off whatever the other kits have put in place.
+use tax
+use promos
+use regions
+copy tax.rate as rate
+count regions.markets as markets
+publish invoice.rate rate
+publish invoice.markets markets

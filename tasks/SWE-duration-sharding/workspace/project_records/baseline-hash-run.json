@@ -1,0 +1,4 @@
+{
+  "record_id": "baseline-hash-run",
+  "scene": "Last week's runs on the split CI has always had: a fresh clone with no history file, the run right after a killed job left the history half written, the run after the big rename when nothing the history named was still in the tree, and a hotfix branch with four spec files started across six machines."
+}

@@ -1,0 +1,4127 @@
+{
+  "deployment": "brookfield-q3",
+  "entries": [
+    {
+      "receipt_id": "bf-w1-queue",
+      "deployment": "brookfield-q3",
+      "day": "2026-08-14",
+      "site": "brookfield",
+      "channel": "queue",
+      "prior_contacts_min": null,
+      "prior_contacts_max": null,
+      "n_requested": 140,
+      "n_returned": 140,
+      "n_skipped": 0,
+      "units_charged": 140,
+      "snapshot_id": "brookfield_export_2026w35",
+      "observed": {
+        "rows": [
+          {
+            "ticket_id": "BF-004679",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 164.9501,
+              "attachments": -1.4954,
+              "wait_minutes": -1.2919,
+              "sentiment": 2.1334,
+              "account_age_months": 47.475,
+              "product_breadth": 3.3838
+            },
+            "pipeline_score": 0.0,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006189",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 25,
+            "features": {
+              "body_length": 81.5826,
+              "attachments": 1.0224,
+              "wait_minutes": 10.8988,
+              "sentiment": 1.8977,
+              "account_age_months": 42.4819,
+              "product_breadth": 3.8641
+            },
+            "pipeline_score": 2e-06,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008932",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 99.0884,
+              "attachments": -0.8704,
+              "wait_minutes": 9.8737,
+              "sentiment": 0.6727,
+              "account_age_months": 58.7689,
+              "product_breadth": 1.5563
+            },
+            "pipeline_score": 8e-06,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000291",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 35,
+            "features": {
+              "body_length": 57.3984,
+              "attachments": -0.7784,
+              "wait_minutes": 9.5483,
+              "sentiment": 0.3417,
+              "account_age_months": 16.4102,
+              "product_breadth": 2.8379
+            },
+            "pipeline_score": 1.8e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007769",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 186.171,
+              "attachments": -0.4721,
+              "wait_minutes": 8.9803,
+              "sentiment": 1.7436,
+              "account_age_months": 19.5914,
+              "product_breadth": 3.9917
+            },
+            "pipeline_score": 3.1e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008573",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 42,
+            "features": {
+              "body_length": 99.2228,
+              "attachments": 0.4272,
+              "wait_minutes": 3.8344,
+              "sentiment": 0.5053,
+              "account_age_months": 31.391,
+              "product_breadth": 1.9438
+            },
+            "pipeline_score": 6.3e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001929",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 137.3404,
+              "attachments": 0.4269,
+              "wait_minutes": 16.2431,
+              "sentiment": 2.1491,
+              "account_age_months": 17.7418,
+              "product_breadth": 3.6347
+            },
+            "pipeline_score": 9.5e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004645",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 251.1535,
+              "attachments": -0.3941,
+              "wait_minutes": 5.9287,
+              "sentiment": 1.3467,
+              "account_age_months": 47.1536,
+              "product_breadth": 4.1748
+            },
+            "pipeline_score": 0.000139,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001872",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 179.6332,
+              "attachments": -0.0422,
+              "wait_minutes": 14.5876,
+              "sentiment": 1.6688,
+              "account_age_months": 18.4381,
+              "product_breadth": 5.4974
+            },
+            "pipeline_score": 0.000188,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009637",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 62,
+            "features": {
+              "body_length": 100.1159,
+              "attachments": -0.7941,
+              "wait_minutes": 11.3845,
+              "sentiment": -0.1461,
+              "account_age_months": 36.2823,
+              "product_breadth": 3.1857
+            },
+            "pipeline_score": 0.000243,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008198",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 171.6444,
+              "attachments": 1.4141,
+              "wait_minutes": 11.5122,
+              "sentiment": 1.5688,
+              "account_age_months": 49.8201,
+              "product_breadth": 4.5549
+            },
+            "pipeline_score": 0.000313,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000653",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 167.2749,
+              "attachments": -1.0553,
+              "wait_minutes": 15.7953,
+              "sentiment": 1.0103,
+              "account_age_months": 31.7336,
+              "product_breadth": 3.1801
+            },
+            "pipeline_score": 0.000397,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006463",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 10,
+            "features": {
+              "body_length": 106.3562,
+              "attachments": -0.3099,
+              "wait_minutes": 11.4358,
+              "sentiment": 0.8278,
+              "account_age_months": 15.786,
+              "product_breadth": 0.733
+            },
+            "pipeline_score": 0.000486,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000479",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 52.926,
+              "attachments": -1.007,
+              "wait_minutes": 25.3177,
+              "sentiment": 0.1944,
+              "account_age_months": 46.9003,
+              "product_breadth": 2.8871
+            },
+            "pipeline_score": 0.000603,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008347",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 35,
+            "features": {
+              "body_length": 109.069,
+              "attachments": 1.1797,
+              "wait_minutes": 9.5695,
+              "sentiment": 0.5243,
+              "account_age_months": 55.0866,
+              "product_breadth": 1.8156
+            },
+            "pipeline_score": 0.000749,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000797",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 136.9324,
+              "attachments": 0.2849,
+              "wait_minutes": 18.0957,
+              "sentiment": 1.5164,
+              "account_age_months": 28.1874,
+              "product_breadth": 2.7959
+            },
+            "pipeline_score": 0.000891,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000396",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 250.1647,
+              "attachments": 0.7299,
+              "wait_minutes": 13.4145,
+              "sentiment": 2.4891,
+              "account_age_months": 34.392,
+              "product_breadth": 3.5683
+            },
+            "pipeline_score": 0.001064,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005275",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 21,
+            "features": {
+              "body_length": 133.2252,
+              "attachments": -0.6368,
+              "wait_minutes": 20.0916,
+              "sentiment": 0.3436,
+              "account_age_months": 63.0412,
+              "product_breadth": 3.2431
+            },
+            "pipeline_score": 0.001267,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007076",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 173.8169,
+              "attachments": 0.6287,
+              "wait_minutes": 8.1712,
+              "sentiment": 0.4251,
+              "account_age_months": 61.0966,
+              "product_breadth": 2.7015
+            },
+            "pipeline_score": 0.001481,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002934",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 11,
+            "features": {
+              "body_length": 138.5283,
+              "attachments": 0.9695,
+              "wait_minutes": 0.8629,
+              "sentiment": -0.245,
+              "account_age_months": 44.2174,
+              "product_breadth": 1.8459
+            },
+            "pipeline_score": 0.001704,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004505",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 205.1422,
+              "attachments": 1.0891,
+              "wait_minutes": 10.5975,
+              "sentiment": 1.6071,
+              "account_age_months": 22.0342,
+              "product_breadth": 4.4771
+            },
+            "pipeline_score": 0.002022,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004036",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 42,
+            "features": {
+              "body_length": 98.46,
+              "attachments": -0.222,
+              "wait_minutes": 21.5197,
+              "sentiment": 0.4444,
+              "account_age_months": 42.6276,
+              "product_breadth": 3.0829
+            },
+            "pipeline_score": 0.002395,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000515",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 162.5989,
+              "attachments": 0.6567,
+              "wait_minutes": 8.4526,
+              "sentiment": 0.4837,
+              "account_age_months": 39.2715,
+              "product_breadth": 2.7094
+            },
+            "pipeline_score": 0.002781,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002980",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 213.0482,
+              "attachments": 1.5359,
+              "wait_minutes": 8.0149,
+              "sentiment": 1.2888,
+              "account_age_months": 36.4143,
+              "product_breadth": 4.5537
+            },
+            "pipeline_score": 0.003178,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001081",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 178.442,
+              "attachments": 0.7748,
+              "wait_minutes": 7.0463,
+              "sentiment": 0.7142,
+              "account_age_months": 33.2333,
+              "product_breadth": 2.2838
+            },
+            "pipeline_score": 0.003609,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008984",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 52,
+            "features": {
+              "body_length": 114.3857,
+              "attachments": 0.9636,
+              "wait_minutes": 10.7147,
+              "sentiment": 1.0623,
+              "account_age_months": 10.9012,
+              "product_breadth": 0.4315
+            },
+            "pipeline_score": 0.004027,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005212",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 59,
+            "features": {
+              "body_length": 162.8207,
+              "attachments": 0.1721,
+              "wait_minutes": 19.0176,
+              "sentiment": 0.9045,
+              "account_age_months": 57.4367,
+              "product_breadth": 2.6103
+            },
+            "pipeline_score": 0.004566,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007619",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 59.7594,
+              "attachments": 1.9002,
+              "wait_minutes": 15.6541,
+              "sentiment": 0.6001,
+              "account_age_months": 38.2809,
+              "product_breadth": 1.833
+            },
+            "pipeline_score": 0.005157,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002329",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 227.8526,
+              "attachments": 0.9426,
+              "wait_minutes": 9.8105,
+              "sentiment": 1.4444,
+              "account_age_months": 38.4748,
+              "product_breadth": 2.7883
+            },
+            "pipeline_score": 0.005789,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006291",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 175.5317,
+              "attachments": 1.0568,
+              "wait_minutes": 14.4559,
+              "sentiment": 1.3225,
+              "account_age_months": 41.7512,
+              "product_breadth": 2.2551
+            },
+            "pipeline_score": 0.006476,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004049",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 27,
+            "features": {
+              "body_length": 114.1646,
+              "attachments": 0.8373,
+              "wait_minutes": 10.5129,
+              "sentiment": 0.21,
+              "account_age_months": 24.9973,
+              "product_breadth": 2.0729
+            },
+            "pipeline_score": 0.00728,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000035",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 37,
+            "features": {
+              "body_length": 109.6249,
+              "attachments": 1.0563,
+              "wait_minutes": 8.7989,
+              "sentiment": -0.0087,
+              "account_age_months": 40.2408,
+              "product_breadth": 1.008
+            },
+            "pipeline_score": 0.008379,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000961",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 65.7349,
+              "attachments": -0.3453,
+              "wait_minutes": 15.2772,
+              "sentiment": -1.1721,
+              "account_age_months": 31.3055,
+              "product_breadth": 3.908
+            },
+            "pipeline_score": 0.009372,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000539",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 11,
+            "features": {
+              "body_length": 86.5243,
+              "attachments": 0.7072,
+              "wait_minutes": 28.5529,
+              "sentiment": 1.2447,
+              "account_age_months": 28.0463,
+              "product_breadth": 3.7122
+            },
+            "pipeline_score": 0.010492,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000901",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 33,
+            "features": {
+              "body_length": 188.0435,
+              "attachments": 0.222,
+              "wait_minutes": 14.8479,
+              "sentiment": 0.7366,
+              "account_age_months": 55.455,
+              "product_breadth": 1.5931
+            },
+            "pipeline_score": 0.011821,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005827",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 142.7964,
+              "attachments": 1.0746,
+              "wait_minutes": 15.557,
+              "sentiment": 1.1998,
+              "account_age_months": 24.2958,
+              "product_breadth": 1.6184
+            },
+            "pipeline_score": 0.013014,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002474",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 49,
+            "features": {
+              "body_length": 176.5208,
+              "attachments": 1.6662,
+              "wait_minutes": 13.3093,
+              "sentiment": 0.8563,
+              "account_age_months": 41.0052,
+              "product_breadth": 4.6481
+            },
+            "pipeline_score": 0.014431,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-003272",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 164.4132,
+              "attachments": 1.914,
+              "wait_minutes": 19.8511,
+              "sentiment": 1.4139,
+              "account_age_months": 56.2357,
+              "product_breadth": 3.8739
+            },
+            "pipeline_score": 0.015937,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004067",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 186.2085,
+              "attachments": -0.0327,
+              "wait_minutes": 22.4335,
+              "sentiment": 1.2866,
+              "account_age_months": 41.118,
+              "product_breadth": 2.744
+            },
+            "pipeline_score": 0.017286,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009651",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 102.6281,
+              "attachments": 0.6375,
+              "wait_minutes": 21.9333,
+              "sentiment": 0.48,
+              "account_age_months": 41.3782,
+              "product_breadth": 2.601
+            },
+            "pipeline_score": 0.019463,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002230",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 122.2309,
+              "attachments": -0.3207,
+              "wait_minutes": 21.0042,
+              "sentiment": 0.1341,
+              "account_age_months": 57.6791,
+              "product_breadth": 0.6814
+            },
+            "pipeline_score": 0.021689,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009741",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 56,
+            "features": {
+              "body_length": 96.537,
+              "attachments": 0.9177,
+              "wait_minutes": 14.8857,
+              "sentiment": -0.2462,
+              "account_age_months": 30.3241,
+              "product_breadth": 3.4233
+            },
+            "pipeline_score": 0.023731,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005903",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 185.3392,
+              "attachments": 0.541,
+              "wait_minutes": 24.967,
+              "sentiment": 2.2698,
+              "account_age_months": 17.9229,
+              "product_breadth": 2.0974
+            },
+            "pipeline_score": 0.026491,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000566",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 81.3973,
+              "attachments": -1.0617,
+              "wait_minutes": 14.2864,
+              "sentiment": -1.5232,
+              "account_age_months": 22.1542,
+              "product_breadth": 2.9118
+            },
+            "pipeline_score": 0.029237,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000934",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 35,
+            "features": {
+              "body_length": 202.8091,
+              "attachments": 0.109,
+              "wait_minutes": 10.8665,
+              "sentiment": -0.1751,
+              "account_age_months": 43.0111,
+              "product_breadth": 4.086
+            },
+            "pipeline_score": 0.032474,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001209",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 42,
+            "features": {
+              "body_length": 264.0791,
+              "attachments": 0.3931,
+              "wait_minutes": 6.7257,
+              "sentiment": 1.1845,
+              "account_age_months": 20.0795,
+              "product_breadth": 1.7141
+            },
+            "pipeline_score": 0.036049,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004005",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 32,
+            "features": {
+              "body_length": 133.176,
+              "attachments": 1.3585,
+              "wait_minutes": 5.0475,
+              "sentiment": -0.5172,
+              "account_age_months": 38.7166,
+              "product_breadth": 1.551
+            },
+            "pipeline_score": 0.039428,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006293",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 104.923,
+              "attachments": 0.5807,
+              "wait_minutes": 19.5874,
+              "sentiment": -0.0149,
+              "account_age_months": 54.3611,
+              "product_breadth": 1.2699
+            },
+            "pipeline_score": 0.043666,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004429",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 37,
+            "features": {
+              "body_length": 176.9692,
+              "attachments": 1.1226,
+              "wait_minutes": 4.2277,
+              "sentiment": -0.3899,
+              "account_age_months": 29.8237,
+              "product_breadth": 3.2082
+            },
+            "pipeline_score": 0.047932,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006688",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 32,
+            "features": {
+              "body_length": 113.1129,
+              "attachments": 1.5349,
+              "wait_minutes": 10.3433,
+              "sentiment": -0.437,
+              "account_age_months": 34.402,
+              "product_breadth": 3.1472
+            },
+            "pipeline_score": 0.052306,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000292",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 227.9809,
+              "attachments": 0.549,
+              "wait_minutes": 8.9328,
+              "sentiment": 0.2397,
+              "account_age_months": 30.6318,
+              "product_breadth": 4.0434
+            },
+            "pipeline_score": 0.057341,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005727",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 27,
+            "features": {
+              "body_length": 167.0066,
+              "attachments": -0.8009,
+              "wait_minutes": 13.1976,
+              "sentiment": -1.1218,
+              "account_age_months": 39.7717,
+              "product_breadth": 4.1351
+            },
+            "pipeline_score": 0.062204,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002296",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 68,
+            "features": {
+              "body_length": 77.9499,
+              "attachments": 0.401,
+              "wait_minutes": 23.5828,
+              "sentiment": -0.2745,
+              "account_age_months": 34.0967,
+              "product_breadth": 3.4353
+            },
+            "pipeline_score": 0.067427,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002553",
+            "day": "2026-08-05",
+            "surface": "marketplace",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 118.6769,
+              "attachments": 0.2695,
+              "wait_minutes": 12.5796,
+              "sentiment": -0.2582,
+              "account_age_months": 12.9676,
+              "product_breadth": 1.2469
+            },
+            "pipeline_score": 0.074585,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000756",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 147.3155,
+              "attachments": 2.2139,
+              "wait_minutes": 17.1919,
+              "sentiment": 0.939,
+              "account_age_months": 33.9205,
+              "product_breadth": 3.7937
+            },
+            "pipeline_score": 0.074591,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001927",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 122.4965,
+              "attachments": 0.4383,
+              "wait_minutes": 17.0783,
+              "sentiment": -0.3246,
+              "account_age_months": 42.3013,
+              "product_breadth": 2.2278
+            },
+            "pipeline_score": 0.079441,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000930",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 161.5766,
+              "attachments": 1.4772,
+              "wait_minutes": 13.1707,
+              "sentiment": 0.0653,
+              "account_age_months": 36.221,
+              "product_breadth": 4.2988
+            },
+            "pipeline_score": 0.086468,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009290",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 266.4229,
+              "attachments": 0.6144,
+              "wait_minutes": 13.3382,
+              "sentiment": 0.7008,
+              "account_age_months": 58.5345,
+              "product_breadth": 3.6979
+            },
+            "pipeline_score": 0.093839,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007962",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 217.5768,
+              "attachments": 1.471,
+              "wait_minutes": 14.6998,
+              "sentiment": 1.3977,
+              "account_age_months": 37.5326,
+              "product_breadth": 1.7719
+            },
+            "pipeline_score": 0.101508,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004461",
+            "day": "2026-08-08",
+            "surface": "marketplace",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 140.5124,
+              "attachments": 1.1481,
+              "wait_minutes": 10.7744,
+              "sentiment": 0.5127,
+              "account_age_months": -9.0555,
+              "product_breadth": 1.6443
+            },
+            "pipeline_score": 0.111856,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007410",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 230.2912,
+              "attachments": -0.3041,
+              "wait_minutes": 22.6942,
+              "sentiment": 0.8017,
+              "account_age_months": 46.7874,
+              "product_breadth": 3.648
+            },
+            "pipeline_score": 0.122958,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001585",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 41,
+            "features": {
+              "body_length": 191.0705,
+              "attachments": 1.7954,
+              "wait_minutes": 6.9659,
+              "sentiment": -0.0873,
+              "account_age_months": 25.7648,
+              "product_breadth": 4.727
+            },
+            "pipeline_score": 0.132387,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001620",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 167.0697,
+              "attachments": 2.0936,
+              "wait_minutes": 22.4602,
+              "sentiment": 1.4211,
+              "account_age_months": 52.8392,
+              "product_breadth": 2.4263
+            },
+            "pipeline_score": 0.141837,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008634",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 159.6353,
+              "attachments": 1.0505,
+              "wait_minutes": 9.2783,
+              "sentiment": -0.4444,
+              "account_age_months": 19.4307,
+              "product_breadth": 3.6626
+            },
+            "pipeline_score": 0.153499,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000738",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 161.9643,
+              "attachments": 0.0655,
+              "wait_minutes": 8.3722,
+              "sentiment": -1.41,
+              "account_age_months": 30.4667,
+              "product_breadth": 4.1799
+            },
+            "pipeline_score": 0.164024,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009524",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 195.6922,
+              "attachments": 0.6247,
+              "wait_minutes": 16.7137,
+              "sentiment": 1.1323,
+              "account_age_months": 14.4851,
+              "product_breadth": 1.0805
+            },
+            "pipeline_score": 0.178278,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004427",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 232.6453,
+              "attachments": -0.0633,
+              "wait_minutes": 10.3433,
+              "sentiment": -0.3125,
+              "account_age_months": 33.6355,
+              "product_breadth": 3.6212
+            },
+            "pipeline_score": 0.188258,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006372",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 260.4487,
+              "attachments": 0.5885,
+              "wait_minutes": 16.0204,
+              "sentiment": 0.0707,
+              "account_age_months": 85.6779,
+              "product_breadth": 4.0948
+            },
+            "pipeline_score": 0.200533,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006231",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 43,
+            "features": {
+              "body_length": 245.159,
+              "attachments": 0.5338,
+              "wait_minutes": 11.3516,
+              "sentiment": 0.5496,
+              "account_age_months": 6.3133,
+              "product_breadth": 4.5444
+            },
+            "pipeline_score": 0.216889,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000126",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 22,
+            "features": {
+              "body_length": 140.1726,
+              "attachments": -0.223,
+              "wait_minutes": 14.7226,
+              "sentiment": -0.6361,
+              "account_age_months": 13.0884,
+              "product_breadth": 2.1159
+            },
+            "pipeline_score": 0.237307,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-002194",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 40,
+            "features": {
+              "body_length": 210.4699,
+              "attachments": 1.2402,
+              "wait_minutes": 17.7828,
+              "sentiment": 0.8721,
+              "account_age_months": 21.4868,
+              "product_breadth": 4.6179
+            },
+            "pipeline_score": 0.248814,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008612",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 26,
+            "features": {
+              "body_length": 201.6493,
+              "attachments": 0.538,
+              "wait_minutes": 14.8838,
+              "sentiment": -0.2062,
+              "account_age_months": 24.2098,
+              "product_breadth": 5.359
+            },
+            "pipeline_score": 0.269229,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009460",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 150.2271,
+              "attachments": 0.72,
+              "wait_minutes": 17.4517,
+              "sentiment": -0.0586,
+              "account_age_months": 36.1183,
+              "product_breadth": 1.7715
+            },
+            "pipeline_score": 0.292045,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004725",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 170.4857,
+              "attachments": 0.4907,
+              "wait_minutes": 5.9752,
+              "sentiment": -1.4494,
+              "account_age_months": 20.8021,
+              "product_breadth": 4.3681
+            },
+            "pipeline_score": 0.311025,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009730",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 35,
+            "features": {
+              "body_length": 104.565,
+              "attachments": 0.2124,
+              "wait_minutes": 17.0395,
+              "sentiment": -0.7171,
+              "account_age_months": 17.8036,
+              "product_breadth": 1.5207
+            },
+            "pipeline_score": 0.326847,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001503",
+            "day": "2026-08-04",
+            "surface": "marketplace",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 118.3299,
+              "attachments": 0.3666,
+              "wait_minutes": 9.5148,
+              "sentiment": -0.8689,
+              "account_age_months": 1.8917,
+              "product_breadth": 0.663
+            },
+            "pipeline_score": 0.355772,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002452",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 37,
+            "features": {
+              "body_length": 215.081,
+              "attachments": 0.6911,
+              "wait_minutes": 7.6704,
+              "sentiment": -0.5641,
+              "account_age_months": 29.7331,
+              "product_breadth": 3.2853
+            },
+            "pipeline_score": 0.366986,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001279",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 169.5477,
+              "attachments": 0.6154,
+              "wait_minutes": 11.4905,
+              "sentiment": -0.3953,
+              "account_age_months": -3.8777,
+              "product_breadth": 3.9842
+            },
+            "pipeline_score": 0.383972,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000629",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 240.8041,
+              "attachments": 1.0017,
+              "wait_minutes": 10.5179,
+              "sentiment": 0.0193,
+              "account_age_months": 45.6051,
+              "product_breadth": 3.0129
+            },
+            "pipeline_score": 0.399095,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006550",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 45,
+            "features": {
+              "body_length": 186.1916,
+              "attachments": 1.156,
+              "wait_minutes": 11.0544,
+              "sentiment": -0.2895,
+              "account_age_months": 35.7964,
+              "product_breadth": 2.2269
+            },
+            "pipeline_score": 0.42707,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006217",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 190.976,
+              "attachments": 0.0165,
+              "wait_minutes": 17.7834,
+              "sentiment": -0.4273,
+              "account_age_months": 45.8141,
+              "product_breadth": 2.5633
+            },
+            "pipeline_score": 0.448576,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002161",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 34,
+            "features": {
+              "body_length": 258.3496,
+              "attachments": 0.0082,
+              "wait_minutes": 8.3504,
+              "sentiment": -0.1115,
+              "account_age_months": 25.5362,
+              "product_breadth": 1.9387
+            },
+            "pipeline_score": 0.467509,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-002129",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 18,
+            "features": {
+              "body_length": 272.4917,
+              "attachments": 0.5391,
+              "wait_minutes": 13.4613,
+              "sentiment": 1.0476,
+              "account_age_months": 22.2376,
+              "product_breadth": 1.5064
+            },
+            "pipeline_score": 0.503686,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008611",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 33,
+            "features": {
+              "body_length": 136.6737,
+              "attachments": 1.0604,
+              "wait_minutes": 10.4421,
+              "sentiment": -0.9966,
+              "account_age_months": 18.8947,
+              "product_breadth": 2.6079
+            },
+            "pipeline_score": 0.52253,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-003041",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 182.5987,
+              "attachments": 1.19,
+              "wait_minutes": 22.4974,
+              "sentiment": 0.8816,
+              "account_age_months": 32.0798,
+              "product_breadth": 2.0564
+            },
+            "pipeline_score": 0.541459,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000367",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 188.4701,
+              "attachments": 1.7465,
+              "wait_minutes": 14.8668,
+              "sentiment": -0.3189,
+              "account_age_months": 60.6494,
+              "product_breadth": 3.4647
+            },
+            "pipeline_score": 0.553173,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004301",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 118.8369,
+              "attachments": 2.2212,
+              "wait_minutes": 14.8001,
+              "sentiment": -0.3929,
+              "account_age_months": 29.5715,
+              "product_breadth": 2.9257
+            },
+            "pipeline_score": 0.58107,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-009192",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 156.2311,
+              "attachments": 0.3668,
+              "wait_minutes": 15.9028,
+              "sentiment": -0.9815,
+              "account_age_months": 22.9444,
+              "product_breadth": 3.9103
+            },
+            "pipeline_score": 0.60937,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007029",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 164.6034,
+              "attachments": 1.1193,
+              "wait_minutes": 16.5302,
+              "sentiment": -0.9864,
+              "account_age_months": 54.2833,
+              "product_breadth": 4.1901
+            },
+            "pipeline_score": 0.642563,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002917",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 275.245,
+              "attachments": 1.2692,
+              "wait_minutes": 0.7519,
+              "sentiment": -0.4311,
+              "account_age_months": 20.8586,
+              "product_breadth": 3.5157
+            },
+            "pipeline_score": 0.645256,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001867",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 270.4822,
+              "attachments": 1.7645,
+              "wait_minutes": 21.069,
+              "sentiment": 1.6687,
+              "account_age_months": 47.2209,
+              "product_breadth": 2.8537
+            },
+            "pipeline_score": 0.669664,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005058",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 19,
+            "features": {
+              "body_length": 116.6041,
+              "attachments": 0.6532,
+              "wait_minutes": 19.1843,
+              "sentiment": -1.1315,
+              "account_age_months": 32.966,
+              "product_breadth": 3.1859
+            },
+            "pipeline_score": 0.687273,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000009",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 158.0572,
+              "attachments": 2.119,
+              "wait_minutes": 20.8197,
+              "sentiment": 0.7711,
+              "account_age_months": 34.1257,
+              "product_breadth": 1.4327
+            },
+            "pipeline_score": 0.705345,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006438",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 287.0854,
+              "attachments": 0.4171,
+              "wait_minutes": 25.5336,
+              "sentiment": 1.4714,
+              "account_age_months": 37.626,
+              "product_breadth": 3.786
+            },
+            "pipeline_score": 0.730487,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002712",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 304.849,
+              "attachments": 1.3087,
+              "wait_minutes": 6.879,
+              "sentiment": 0.5837,
+              "account_age_months": 20.4402,
+              "product_breadth": 3.2353
+            },
+            "pipeline_score": 0.737844,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004171",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 205.3744,
+              "attachments": 1.9988,
+              "wait_minutes": 13.5551,
+              "sentiment": 0.2307,
+              "account_age_months": 49.5479,
+              "product_breadth": 1.2361
+            },
+            "pipeline_score": 0.759477,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004944",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 92.3278,
+              "attachments": 0.2278,
+              "wait_minutes": 15.9048,
+              "sentiment": -2.0406,
+              "account_age_months": 37.5651,
+              "product_breadth": 1.8656
+            },
+            "pipeline_score": 0.774452,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003938",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 89.566,
+              "attachments": -0.1484,
+              "wait_minutes": 26.9842,
+              "sentiment": -0.8823,
+              "account_age_months": 16.5524,
+              "product_breadth": 2.4587
+            },
+            "pipeline_score": 0.793887,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005504",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 62,
+            "features": {
+              "body_length": 110.1904,
+              "attachments": 1.4691,
+              "wait_minutes": 11.2211,
+              "sentiment": -1.2848,
+              "account_age_months": 21.5154,
+              "product_breadth": 1.4218
+            },
+            "pipeline_score": 0.808886,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003546",
+            "day": "2026-08-07",
+            "surface": "marketplace",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 233.5309,
+              "attachments": 0.6179,
+              "wait_minutes": -0.3339,
+              "sentiment": -0.8317,
+              "account_age_months": -2.686,
+              "product_breadth": 0.4208
+            },
+            "pipeline_score": 0.83295,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007740",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 26,
+            "features": {
+              "body_length": 200.2212,
+              "attachments": 1.9612,
+              "wait_minutes": 2.9097,
+              "sentiment": -1.2461,
+              "account_age_months": 37.4163,
+              "product_breadth": 2.5093
+            },
+            "pipeline_score": 0.844714,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000924",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 180.1698,
+              "attachments": 0.2519,
+              "wait_minutes": 23.0307,
+              "sentiment": -0.1546,
+              "account_age_months": 24.2469,
+              "product_breadth": 2.765
+            },
+            "pipeline_score": 0.845447,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008929",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 271.3694,
+              "attachments": -0.7839,
+              "wait_minutes": 14.5673,
+              "sentiment": -0.6187,
+              "account_age_months": 19.4376,
+              "product_breadth": 3.8542
+            },
+            "pipeline_score": 0.85692,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007349",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 25,
+            "features": {
+              "body_length": 214.6328,
+              "attachments": 0.9217,
+              "wait_minutes": 15.5453,
+              "sentiment": -0.313,
+              "account_age_months": 35.2851,
+              "product_breadth": 2.3686
+            },
+            "pipeline_score": 0.878714,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-009120",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 23,
+            "features": {
+              "body_length": 162.833,
+              "attachments": 1.1537,
+              "wait_minutes": 18.0883,
+              "sentiment": -0.2724,
+              "account_age_months": 30.422,
+              "product_breadth": 0.9535
+            },
+            "pipeline_score": 0.888228,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001724",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 177.4842,
+              "attachments": 1.711,
+              "wait_minutes": 15.1616,
+              "sentiment": 0.1048,
+              "account_age_months": 6.6036,
+              "product_breadth": 2.1359
+            },
+            "pipeline_score": 0.890429,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003199",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 19,
+            "features": {
+              "body_length": 180.6729,
+              "attachments": 1.5581,
+              "wait_minutes": 14.1524,
+              "sentiment": -1.0066,
+              "account_age_months": 49.574,
+              "product_breadth": 3.1404
+            },
+            "pipeline_score": 0.898515,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-002677",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 21,
+            "features": {
+              "body_length": 242.596,
+              "attachments": 0.3246,
+              "wait_minutes": 12.6341,
+              "sentiment": -0.7386,
+              "account_age_months": 37.4314,
+              "product_breadth": 2.3514
+            },
+            "pipeline_score": 0.907321,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007615",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 206.5695,
+              "attachments": 2.1595,
+              "wait_minutes": 9.2363,
+              "sentiment": -0.3437,
+              "account_age_months": 28.4318,
+              "product_breadth": 1.9532
+            },
+            "pipeline_score": 0.922288,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007718",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 289.5511,
+              "attachments": 0.9972,
+              "wait_minutes": 13.1343,
+              "sentiment": 0.4474,
+              "account_age_months": 47.7173,
+              "product_breadth": 0.5903
+            },
+            "pipeline_score": 0.923944,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007839",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 240.0669,
+              "attachments": 1.6986,
+              "wait_minutes": 17.081,
+              "sentiment": 0.7363,
+              "account_age_months": 37.1238,
+              "product_breadth": 0.7261
+            },
+            "pipeline_score": 0.932598,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000813",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 238.204,
+              "attachments": -0.1302,
+              "wait_minutes": 17.362,
+              "sentiment": -0.7621,
+              "account_age_months": 29.4175,
+              "product_breadth": 3.3835
+            },
+            "pipeline_score": 0.939097,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008103",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 148.0046,
+              "attachments": 1.2597,
+              "wait_minutes": 14.8561,
+              "sentiment": -1.1704,
+              "account_age_months": 15.5939,
+              "product_breadth": 3.0172
+            },
+            "pipeline_score": 0.945945,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007766",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 260.4122,
+              "attachments": 0.183,
+              "wait_minutes": 16.3926,
+              "sentiment": -0.2138,
+              "account_age_months": 29.2691,
+              "product_breadth": 2.0329
+            },
+            "pipeline_score": 0.953947,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001715",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 23,
+            "features": {
+              "body_length": 270.7038,
+              "attachments": 0.3556,
+              "wait_minutes": 21.6038,
+              "sentiment": 0.1383,
+              "account_age_months": 41.502,
+              "product_breadth": 3.0951
+            },
+            "pipeline_score": 0.959874,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006775",
+            "day": "2026-08-11",
+            "surface": "marketplace",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 183.4594,
+              "attachments": 0.9778,
+              "wait_minutes": 17.4033,
+              "sentiment": 0.0876,
+              "account_age_months": -3.8458,
+              "product_breadth": 0.3789
+            },
+            "pipeline_score": 0.967739,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009652",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 11,
+            "features": {
+              "body_length": 192.7231,
+              "attachments": 1.0602,
+              "wait_minutes": 28.3678,
+              "sentiment": 0.4532,
+              "account_age_months": 38.8969,
+              "product_breadth": 1.7638
+            },
+            "pipeline_score": 0.969157,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000613",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 28,
+            "features": {
+              "body_length": 139.8902,
+              "attachments": 0.3531,
+              "wait_minutes": 21.7334,
+              "sentiment": -1.8947,
+              "account_age_months": 50.7475,
+              "product_breadth": 3.0262
+            },
+            "pipeline_score": 0.972547,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003693",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 47,
+            "features": {
+              "body_length": 196.9737,
+              "attachments": 1.1753,
+              "wait_minutes": 12.2466,
+              "sentiment": -1.4053,
+              "account_age_months": 41.7053,
+              "product_breadth": 2.1878
+            },
+            "pipeline_score": 0.97627,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008706",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 56,
+            "features": {
+              "body_length": 264.7864,
+              "attachments": 1.117,
+              "wait_minutes": 10.9398,
+              "sentiment": -0.7719,
+              "account_age_months": 32.2484,
+              "product_breadth": 3.2314
+            },
+            "pipeline_score": 0.980572,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005740",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 204.6924,
+              "attachments": -0.8475,
+              "wait_minutes": 18.4376,
+              "sentiment": -2.0982,
+              "account_age_months": 33.0619,
+              "product_breadth": 3.7347
+            },
+            "pipeline_score": 0.983606,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008609",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 29,
+            "features": {
+              "body_length": 182.6291,
+              "attachments": 0.4581,
+              "wait_minutes": 15.5181,
+              "sentiment": -1.9896,
+              "account_age_months": 4.591,
+              "product_breadth": 6.2567
+            },
+            "pipeline_score": 0.985569,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008697",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 171.7121,
+              "attachments": 0.825,
+              "wait_minutes": 20.1607,
+              "sentiment": -1.2144,
+              "account_age_months": 21.4749,
+              "product_breadth": 3.5012
+            },
+            "pipeline_score": 0.987585,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000904",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 175.1795,
+              "attachments": 2.3608,
+              "wait_minutes": 16.224,
+              "sentiment": -0.7903,
+              "account_age_months": 28.9551,
+              "product_breadth": 3.12
+            },
+            "pipeline_score": 0.989298,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000659",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 257.3366,
+              "attachments": 0.7447,
+              "wait_minutes": 17.0533,
+              "sentiment": -0.4106,
+              "account_age_months": 21.6513,
+              "product_breadth": 2.6801
+            },
+            "pipeline_score": 0.991496,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000237",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 20,
+            "features": {
+              "body_length": 196.8412,
+              "attachments": -0.921,
+              "wait_minutes": 28.2697,
+              "sentiment": -0.6212,
+              "account_age_months": 4.5727,
+              "product_breadth": 1.828
+            },
+            "pipeline_score": 0.993469,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003987",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 33,
+            "features": {
+              "body_length": 322.522,
+              "attachments": -0.5712,
+              "wait_minutes": 21.9785,
+              "sentiment": 0.0166,
+              "account_age_months": 48.3388,
+              "product_breadth": 0.6244
+            },
+            "pipeline_score": 0.994772,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005020",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 23,
+            "features": {
+              "body_length": 201.811,
+              "attachments": 1.5861,
+              "wait_minutes": 19.9412,
+              "sentiment": -0.7434,
+              "account_age_months": 19.9953,
+              "product_breadth": 3.7284
+            },
+            "pipeline_score": 0.995651,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005872",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 27,
+            "features": {
+              "body_length": 246.18,
+              "attachments": 0.857,
+              "wait_minutes": 25.6039,
+              "sentiment": 0.3403,
+              "account_age_months": 4.826,
+              "product_breadth": 3.2025
+            },
+            "pipeline_score": 0.996439,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-002055",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 227.9205,
+              "attachments": 1.5512,
+              "wait_minutes": 15.5305,
+              "sentiment": -0.8491,
+              "account_age_months": 15.8949,
+              "product_breadth": 3.2159
+            },
+            "pipeline_score": 0.997026,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000816",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 25,
+            "features": {
+              "body_length": 345.706,
+              "attachments": 1.4761,
+              "wait_minutes": 12.1318,
+              "sentiment": 0.4596,
+              "account_age_months": 29.6271,
+              "product_breadth": 0.8462
+            },
+            "pipeline_score": 0.997786,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004917",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 223.8884,
+              "attachments": 2.0782,
+              "wait_minutes": 4.9394,
+              "sentiment": -1.8241,
+              "account_age_months": 30.2568,
+              "product_breadth": 1.3349
+            },
+            "pipeline_score": 0.998348,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003162",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 310.0862,
+              "attachments": -0.6057,
+              "wait_minutes": 19.3548,
+              "sentiment": -1.171,
+              "account_age_months": 48.6405,
+              "product_breadth": 1.8148
+            },
+            "pipeline_score": 0.998773,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003990",
+            "day": "2026-08-07",
+            "surface": "marketplace",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 173.1162,
+              "attachments": 0.64,
+              "wait_minutes": 12.528,
+              "sentiment": -1.4191,
+              "account_age_months": -26.78,
+              "product_breadth": -0.3326
+            },
+            "pipeline_score": 0.999041,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002648",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 49,
+            "features": {
+              "body_length": 230.7738,
+              "attachments": 1.5272,
+              "wait_minutes": 17.6155,
+              "sentiment": -0.9143,
+              "account_age_months": 41.5966,
+              "product_breadth": -0.2278
+            },
+            "pipeline_score": 0.999443,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005430",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 251.9873,
+              "attachments": 2.6326,
+              "wait_minutes": 20.2895,
+              "sentiment": -0.8323,
+              "account_age_months": 60.2619,
+              "product_breadth": 3.406
+            },
+            "pipeline_score": 0.999629,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006768",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 194.4008,
+              "attachments": 1.1128,
+              "wait_minutes": 17.8004,
+              "sentiment": -2.4411,
+              "account_age_months": 31.1838,
+              "product_breadth": 3.1885
+            },
+            "pipeline_score": 0.999793,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007177",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 274.9395,
+              "attachments": 0.8692,
+              "wait_minutes": 17.261,
+              "sentiment": -1.8488,
+              "account_age_months": 24.6568,
+              "product_breadth": 4.0048
+            },
+            "pipeline_score": 0.999903,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001942",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 256.3991,
+              "attachments": 2.5695,
+              "wait_minutes": 21.2493,
+              "sentiment": -0.5391,
+              "account_age_months": 29.2618,
+              "product_breadth": 0.7942
+            },
+            "pipeline_score": 0.999974,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008559",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 38,
+            "features": {
+              "body_length": 283.1326,
+              "attachments": 0.3067,
+              "wait_minutes": 24.3255,
+              "sentiment": -2.0252,
+              "account_age_months": 26.3564,
+              "product_breadth": 2.4122
+            },
+            "pipeline_score": 0.999996,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          }
+        ]
+      },
+      "sequence": 1,
+      "previous": "",
+      "seal": "a87b48a00b19b4485443c39c739ed7909e113849c630199721bc3d9d4c17badd"
+    },
+    {
+      "receipt_id": "bf-w2-queue",
+      "deployment": "brookfield-q3",
+      "day": "2026-08-24",
+      "site": "brookfield",
+      "channel": "queue",
+      "prior_contacts_min": null,
+      "prior_contacts_max": null,
+      "n_requested": 100,
+      "n_returned": 100,
+      "n_skipped": 0,
+      "units_charged": 100,
+      "snapshot_id": "brookfield_export_2026w35",
+      "observed": {
+        "rows": [
+          {
+            "ticket_id": "BF-011865",
+            "day": "2026-08-17",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 66.1633,
+              "attachments": -0.4433,
+              "wait_minutes": 4.2032,
+              "sentiment": 2.0301,
+              "account_age_months": 54.5239,
+              "product_breadth": 1.6863
+            },
+            "pipeline_score": 0.0,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008838",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 191.3748,
+              "attachments": -1.2817,
+              "wait_minutes": 7.1085,
+              "sentiment": 1.3134,
+              "account_age_months": 60.8057,
+              "product_breadth": 2.7791
+            },
+            "pipeline_score": 4e-06,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-014280",
+            "day": "2026-08-20",
+            "surface": "portal",
+            "prior_contacts": 31,
+            "features": {
+              "body_length": 142.2296,
+              "attachments": -0.4447,
+              "wait_minutes": 2.1751,
+              "sentiment": 0.5684,
+              "account_age_months": 37.5523,
+              "product_breadth": 2.7497
+            },
+            "pipeline_score": 1.6e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001717",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 26,
+            "features": {
+              "body_length": 84.436,
+              "attachments": -0.1582,
+              "wait_minutes": 20.6856,
+              "sentiment": 1.4362,
+              "account_age_months": 38.8759,
+              "product_breadth": 4.116
+            },
+            "pipeline_score": 3.6e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008043",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 63,
+            "features": {
+              "body_length": 134.2266,
+              "attachments": -0.636,
+              "wait_minutes": 11.7792,
+              "sentiment": 0.2779,
+              "account_age_months": 61.7014,
+              "product_breadth": 3.7799
+            },
+            "pipeline_score": 7.8e-05,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009627",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 145.8328,
+              "attachments": 0.3476,
+              "wait_minutes": 13.6926,
+              "sentiment": 1.2709,
+              "account_age_months": 32.7589,
+              "product_breadth": 5.1489
+            },
+            "pipeline_score": 0.000137,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004866",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 101.6142,
+              "attachments": 0.662,
+              "wait_minutes": 3.8785,
+              "sentiment": 0.1856,
+              "account_age_months": 34.149,
+              "product_breadth": 2.298
+            },
+            "pipeline_score": 0.000201,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002745",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 28,
+            "features": {
+              "body_length": 85.7775,
+              "attachments": 0.9087,
+              "wait_minutes": 8.0316,
+              "sentiment": 0.598,
+              "account_age_months": 27.7228,
+              "product_breadth": 2.1218
+            },
+            "pipeline_score": 0.000288,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007391",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 81.3581,
+              "attachments": 0.2132,
+              "wait_minutes": 8.8305,
+              "sentiment": -0.3915,
+              "account_age_months": 33.7316,
+              "product_breadth": 4.1139
+            },
+            "pipeline_score": 0.000411,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-011790",
+            "day": "2026-08-17",
+            "surface": "portal",
+            "prior_contacts": 38,
+            "features": {
+              "body_length": 181.1225,
+              "attachments": -0.0982,
+              "wait_minutes": 12.3869,
+              "sentiment": 1.0894,
+              "account_age_months": 33.8106,
+              "product_breadth": 4.0142
+            },
+            "pipeline_score": 0.000549,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004644",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 188.4702,
+              "attachments": 1.1948,
+              "wait_minutes": 9.5574,
+              "sentiment": 1.9656,
+              "account_age_months": 30.5259,
+              "product_breadth": 2.1408
+            },
+            "pipeline_score": 0.000743,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005820",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 125.2002,
+              "attachments": 1.4197,
+              "wait_minutes": 16.6348,
+              "sentiment": 1.2447,
+              "account_age_months": 39.1495,
+              "product_breadth": 4.9416
+            },
+            "pipeline_score": 0.000957,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001512",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 130.7851,
+              "attachments": 1.4084,
+              "wait_minutes": 5.6492,
+              "sentiment": 0.3774,
+              "account_age_months": 57.727,
+              "product_breadth": 1.4683
+            },
+            "pipeline_score": 0.001259,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005921",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 38,
+            "features": {
+              "body_length": 181.1233,
+              "attachments": -1.3294,
+              "wait_minutes": 16.6502,
+              "sentiment": 1.0908,
+              "account_age_months": 21.7207,
+              "product_breadth": 1.9437
+            },
+            "pipeline_score": 0.001562,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000955",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 156.2362,
+              "attachments": -0.0664,
+              "wait_minutes": 7.9191,
+              "sentiment": 0.2932,
+              "account_age_months": 25.4403,
+              "product_breadth": 2.5649
+            },
+            "pipeline_score": 0.001929,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007450",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 99.7358,
+              "attachments": 0.1433,
+              "wait_minutes": 12.4716,
+              "sentiment": -0.3839,
+              "account_age_months": 35.7779,
+              "product_breadth": 3.9962
+            },
+            "pipeline_score": 0.002472,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006687",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 199.7707,
+              "attachments": 0.3964,
+              "wait_minutes": 3.4659,
+              "sentiment": 0.532,
+              "account_age_months": 31.6453,
+              "product_breadth": 1.951
+            },
+            "pipeline_score": 0.003062,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009086",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 106,
+            "features": {
+              "body_length": 161.3876,
+              "attachments": 1.315,
+              "wait_minutes": 11.4981,
+              "sentiment": 0.288,
+              "account_age_months": 56.0606,
+              "product_breadth": 5.4173
+            },
+            "pipeline_score": 0.003698,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007359",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 29,
+            "features": {
+              "body_length": 213.2384,
+              "attachments": 0.1344,
+              "wait_minutes": 14.1698,
+              "sentiment": 1.5442,
+              "account_age_months": 30.2996,
+              "product_breadth": 2.4191
+            },
+            "pipeline_score": 0.004415,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-003398",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 46,
+            "features": {
+              "body_length": 120.3641,
+              "attachments": 0.9745,
+              "wait_minutes": 19.4941,
+              "sentiment": 1.1219,
+              "account_age_months": 51.7662,
+              "product_breadth": 1.5029
+            },
+            "pipeline_score": 0.005255,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006358",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 21,
+            "features": {
+              "body_length": 96.9494,
+              "attachments": 1.4593,
+              "wait_minutes": 18.5427,
+              "sentiment": 0.5916,
+              "account_age_months": 50.8532,
+              "product_breadth": 3.3291
+            },
+            "pipeline_score": 0.006267,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004365",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 19,
+            "features": {
+              "body_length": 173.6616,
+              "attachments": 0.49,
+              "wait_minutes": 9.4757,
+              "sentiment": 0.6165,
+              "account_age_months": 27.7504,
+              "product_breadth": 2.2256
+            },
+            "pipeline_score": 0.007368,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-014809",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 95,
+            "features": {
+              "body_length": 160.1619,
+              "attachments": 0.5599,
+              "wait_minutes": 23.37,
+              "sentiment": 1.2054,
+              "account_age_months": 55.0462,
+              "product_breadth": 3.6337
+            },
+            "pipeline_score": 0.008709,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008084",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 40,
+            "features": {
+              "body_length": 196.4616,
+              "attachments": -0.0364,
+              "wait_minutes": 20.8035,
+              "sentiment": 1.6669,
+              "account_age_months": 27.4081,
+              "product_breadth": 2.6352
+            },
+            "pipeline_score": 0.010416,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-015103",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 46.1542,
+              "attachments": 0.4771,
+              "wait_minutes": 12.9531,
+              "sentiment": -0.9467,
+              "account_age_months": 31.2727,
+              "product_breadth": 2.146
+            },
+            "pipeline_score": 0.012092,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-017107",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 75,
+            "features": {
+              "body_length": 169.3834,
+              "attachments": 0.1779,
+              "wait_minutes": 4.6325,
+              "sentiment": -0.4065,
+              "account_age_months": 36.5258,
+              "product_breadth": 1.6364
+            },
+            "pipeline_score": 0.014093,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007816",
+            "day": "2026-08-12",
+            "surface": "marketplace",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 152.875,
+              "attachments": 2.6118,
+              "wait_minutes": 9.6364,
+              "sentiment": 1.7414,
+              "account_age_months": 10.6249,
+              "product_breadth": 1.7248
+            },
+            "pipeline_score": 0.01607,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-002246",
+            "day": "2026-08-05",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 170.151,
+              "attachments": 1.991,
+              "wait_minutes": 14.9456,
+              "sentiment": 1.8451,
+              "account_age_months": 38.6358,
+              "product_breadth": 0.8107
+            },
+            "pipeline_score": 0.018384,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016531",
+            "day": "2026-08-23",
+            "surface": "portal",
+            "prior_contacts": 13,
+            "features": {
+              "body_length": 198.992,
+              "attachments": 1.1527,
+              "wait_minutes": 1.8392,
+              "sentiment": -0.0375,
+              "account_age_months": 30.2153,
+              "product_breadth": 3.0616
+            },
+            "pipeline_score": 0.021189,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-012844",
+            "day": "2026-08-18",
+            "surface": "portal",
+            "prior_contacts": 20,
+            "features": {
+              "body_length": 274.8844,
+              "attachments": 1.3621,
+              "wait_minutes": 11.8459,
+              "sentiment": 1.6523,
+              "account_age_months": 66.3396,
+              "product_breadth": 2.55
+            },
+            "pipeline_score": 0.024212,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016252",
+            "day": "2026-08-23",
+            "surface": "portal",
+            "prior_contacts": 43,
+            "features": {
+              "body_length": 153.7701,
+              "attachments": -0.193,
+              "wait_minutes": 7.6797,
+              "sentiment": -0.7638,
+              "account_age_months": 34.0551,
+              "product_breadth": 2.0158
+            },
+            "pipeline_score": 0.027908,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007798",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 42,
+            "features": {
+              "body_length": 161.4213,
+              "attachments": 1.3457,
+              "wait_minutes": 9.6786,
+              "sentiment": 0.0932,
+              "account_age_months": 37.152,
+              "product_breadth": 3.428
+            },
+            "pipeline_score": 0.03258,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-015013",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 18,
+            "features": {
+              "body_length": 203.683,
+              "attachments": 0.1766,
+              "wait_minutes": 15.3553,
+              "sentiment": 0.9523,
+              "account_age_months": 30.9632,
+              "product_breadth": 1.8931
+            },
+            "pipeline_score": 0.037212,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008134",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 268.6645,
+              "attachments": -0.2074,
+              "wait_minutes": 13.4702,
+              "sentiment": 1.4635,
+              "account_age_months": 24.9171,
+              "product_breadth": 1.8609
+            },
+            "pipeline_score": 0.042405,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009983",
+            "day": "2026-08-15",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 121.3468,
+              "attachments": 0.834,
+              "wait_minutes": 21.4498,
+              "sentiment": 0.2746,
+              "account_age_months": 49.2752,
+              "product_breadth": 3.0114
+            },
+            "pipeline_score": 0.04858,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-012040",
+            "day": "2026-08-17",
+            "surface": "marketplace",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 140.7539,
+              "attachments": -0.7357,
+              "wait_minutes": 12.8108,
+              "sentiment": 0.2788,
+              "account_age_months": -30.9971,
+              "product_breadth": 1.4797
+            },
+            "pipeline_score": 0.055053,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-000920",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 146.3281,
+              "attachments": -0.1086,
+              "wait_minutes": 7.935,
+              "sentiment": -1.0244,
+              "account_age_months": 30.8891,
+              "product_breadth": 2.1176
+            },
+            "pipeline_score": 0.061871,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-008679",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 130.1411,
+              "attachments": 0.044,
+              "wait_minutes": 12.0904,
+              "sentiment": -0.7863,
+              "account_age_months": 36.4861,
+              "product_breadth": 1.8647
+            },
+            "pipeline_score": 0.069769,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-007928",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 10,
+            "features": {
+              "body_length": 123.3202,
+              "attachments": 1.422,
+              "wait_minutes": 8.8187,
+              "sentiment": -0.314,
+              "account_age_months": 21.2476,
+              "product_breadth": 2.454
+            },
+            "pipeline_score": 0.07795,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-017682",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 101.2365,
+              "attachments": 0.7375,
+              "wait_minutes": 18.8658,
+              "sentiment": -0.3729,
+              "account_age_months": 33.9082,
+              "product_breadth": 3.4631
+            },
+            "pipeline_score": 0.088083,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016044",
+            "day": "2026-08-22",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 225.3213,
+              "attachments": 0.561,
+              "wait_minutes": 15.8017,
+              "sentiment": 1.5623,
+              "account_age_months": 20.9157,
+              "product_breadth": 0.8303
+            },
+            "pipeline_score": 0.097764,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016647",
+            "day": "2026-08-23",
+            "surface": "portal",
+            "prior_contacts": 30,
+            "features": {
+              "body_length": 101.008,
+              "attachments": -0.9169,
+              "wait_minutes": 12.0772,
+              "sentiment": -1.3089,
+              "account_age_months": 22.4086,
+              "product_breadth": -0.049
+            },
+            "pipeline_score": 0.110931,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-009833",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 69,
+            "features": {
+              "body_length": 202.5651,
+              "attachments": 1.1145,
+              "wait_minutes": 11.2479,
+              "sentiment": 0.1118,
+              "account_age_months": 47.5763,
+              "product_breadth": 3.0423
+            },
+            "pipeline_score": 0.124681,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005529",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 56,
+            "features": {
+              "body_length": 21.3713,
+              "attachments": 0.4438,
+              "wait_minutes": 16.7356,
+              "sentiment": -1.7436,
+              "account_age_months": 37.2036,
+              "product_breadth": 1.6862
+            },
+            "pipeline_score": 0.139199,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005558",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 187.6118,
+              "attachments": 0.2278,
+              "wait_minutes": 17.197,
+              "sentiment": -0.2793,
+              "account_age_months": 52.4222,
+              "product_breadth": 3.8238
+            },
+            "pipeline_score": 0.15414,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004406",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 212.6685,
+              "attachments": 0.5501,
+              "wait_minutes": 13.8413,
+              "sentiment": -0.1239,
+              "account_age_months": 67.8974,
+              "product_breadth": 2.3199
+            },
+            "pipeline_score": 0.169035,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016618",
+            "day": "2026-08-23",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 201.8842,
+              "attachments": 0.5872,
+              "wait_minutes": 15.0656,
+              "sentiment": 0.4495,
+              "account_age_months": 33.3837,
+              "product_breadth": 2.2512
+            },
+            "pipeline_score": 0.185415,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016219",
+            "day": "2026-08-23",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 176.3555,
+              "attachments": 0.524,
+              "wait_minutes": 25.7471,
+              "sentiment": 1.1057,
+              "account_age_months": 14.233,
+              "product_breadth": 4.4175
+            },
+            "pipeline_score": 0.202945,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-012820",
+            "day": "2026-08-18",
+            "surface": "portal",
+            "prior_contacts": 15,
+            "features": {
+              "body_length": 344.6138,
+              "attachments": -0.182,
+              "wait_minutes": 11.2621,
+              "sentiment": 1.1118,
+              "account_age_months": 51.7809,
+              "product_breadth": 2.3069
+            },
+            "pipeline_score": 0.223161,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-017545",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 271.6857,
+              "attachments": 1.3949,
+              "wait_minutes": 10.5163,
+              "sentiment": 1.292,
+              "account_age_months": 33.0554,
+              "product_breadth": 2.1662
+            },
+            "pipeline_score": 0.239698,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-013313",
+            "day": "2026-08-19",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 161.8259,
+              "attachments": 0.9894,
+              "wait_minutes": 21.4436,
+              "sentiment": 0.4287,
+              "account_age_months": 32.5391,
+              "product_breadth": 3.6422
+            },
+            "pipeline_score": 0.270841,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-001084",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 182.7752,
+              "attachments": 1.0452,
+              "wait_minutes": 9.1879,
+              "sentiment": -0.5264,
+              "account_age_months": 43.8364,
+              "product_breadth": 2.0672
+            },
+            "pipeline_score": 0.29713,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006595",
+            "day": "2026-08-11",
+            "surface": "portal",
+            "prior_contacts": 68,
+            "features": {
+              "body_length": 202.7209,
+              "attachments": -1.0088,
+              "wait_minutes": 19.6147,
+              "sentiment": -0.9255,
+              "account_age_months": 72.4623,
+              "product_breadth": 2.4011
+            },
+            "pipeline_score": 0.324762,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-013008",
+            "day": "2026-08-19",
+            "surface": "portal",
+            "prior_contacts": 20,
+            "features": {
+              "body_length": 149.875,
+              "attachments": 0.8664,
+              "wait_minutes": 25.3896,
+              "sentiment": 0.8516,
+              "account_age_months": 27.0314,
+              "product_breadth": 2.3747
+            },
+            "pipeline_score": 0.344605,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-013394",
+            "day": "2026-08-19",
+            "surface": "portal",
+            "prior_contacts": 22,
+            "features": {
+              "body_length": 179.9954,
+              "attachments": -0.2883,
+              "wait_minutes": 13.4312,
+              "sentiment": -0.9474,
+              "account_age_months": 35.151,
+              "product_breadth": 2.4727
+            },
+            "pipeline_score": 0.383639,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-006099",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 94.3251,
+              "attachments": 1.6715,
+              "wait_minutes": 11.6048,
+              "sentiment": -0.7024,
+              "account_age_months": 12.7046,
+              "product_breadth": 1.8787
+            },
+            "pipeline_score": 0.422306,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-015279",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 19,
+            "features": {
+              "body_length": 188.9272,
+              "attachments": 1.4317,
+              "wait_minutes": 20.1804,
+              "sentiment": 0.9852,
+              "account_age_months": 39.9165,
+              "product_breadth": 1.3451
+            },
+            "pipeline_score": 0.447136,
+            "pipeline_decision": 0,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-004971",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 11,
+            "features": {
+              "body_length": 184.0702,
+              "attachments": 0.377,
+              "wait_minutes": 15.0185,
+              "sentiment": -0.161,
+              "account_age_months": 20.3647,
+              "product_breadth": 2.3062
+            },
+            "pipeline_score": 0.474017,
+            "pipeline_decision": 0,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004759",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 38,
+            "features": {
+              "body_length": 233.3255,
+              "attachments": 1.2951,
+              "wait_minutes": 2.5466,
+              "sentiment": -0.7072,
+              "account_age_months": 26.3669,
+              "product_breadth": 3.5674
+            },
+            "pipeline_score": 0.508921,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-009553",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 22,
+            "features": {
+              "body_length": 271.9576,
+              "attachments": 0.5544,
+              "wait_minutes": 15.1623,
+              "sentiment": 0.3558,
+              "account_age_months": 42.6885,
+              "product_breadth": 4.0397
+            },
+            "pipeline_score": 0.535315,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005214",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 218.6065,
+              "attachments": -1.1628,
+              "wait_minutes": 11.4728,
+              "sentiment": -1.0704,
+              "account_age_months": 24.7786,
+              "product_breadth": 1.7313
+            },
+            "pipeline_score": 0.559499,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-012560",
+            "day": "2026-08-18",
+            "surface": "portal",
+            "prior_contacts": 22,
+            "features": {
+              "body_length": 140.0235,
+              "attachments": -0.0639,
+              "wait_minutes": 15.4415,
+              "sentiment": -1.0101,
+              "account_age_months": 9.3903,
+              "product_breadth": 2.6505
+            },
+            "pipeline_score": 0.592769,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-001248",
+            "day": "2026-08-04",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 200.3061,
+              "attachments": 0.2345,
+              "wait_minutes": 11.638,
+              "sentiment": -1.0086,
+              "account_age_months": 30.473,
+              "product_breadth": 3.6308
+            },
+            "pipeline_score": 0.612974,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-013205",
+            "day": "2026-08-19",
+            "surface": "portal",
+            "prior_contacts": 9,
+            "features": {
+              "body_length": 212.2533,
+              "attachments": 0.831,
+              "wait_minutes": 9.7952,
+              "sentiment": -0.3152,
+              "account_age_months": 18.9495,
+              "product_breadth": 2.3408
+            },
+            "pipeline_score": 0.659907,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-017261",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 51,
+            "features": {
+              "body_length": 196.8382,
+              "attachments": 0.8674,
+              "wait_minutes": 10.7524,
+              "sentiment": -0.403,
+              "account_age_months": 29.3448,
+              "product_breadth": 1.2316
+            },
+            "pipeline_score": 0.689017,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005581",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 258.9024,
+              "attachments": 2.9015,
+              "wait_minutes": 12.0768,
+              "sentiment": 1.4767,
+              "account_age_months": 26.2395,
+              "product_breadth": 2.9258
+            },
+            "pipeline_score": 0.713382,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005734",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 14,
+            "features": {
+              "body_length": 104.5694,
+              "attachments": 1.2278,
+              "wait_minutes": 17.2476,
+              "sentiment": -0.9474,
+              "account_age_months": 34.9952,
+              "product_breadth": 1.4918
+            },
+            "pipeline_score": 0.734413,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-010551",
+            "day": "2026-08-15",
+            "surface": "marketplace",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 192.3078,
+              "attachments": -0.9248,
+              "wait_minutes": 12.2597,
+              "sentiment": -0.7479,
+              "account_age_months": 15.1308,
+              "product_breadth": -1.2946
+            },
+            "pipeline_score": 0.759947,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-017314",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 232.9633,
+              "attachments": 0.3085,
+              "wait_minutes": 14.3207,
+              "sentiment": -0.1472,
+              "account_age_months": 13.9347,
+              "product_breadth": 3.2598
+            },
+            "pipeline_score": 0.784607,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-002635",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 63,
+            "features": {
+              "body_length": 182.6502,
+              "attachments": 1.7085,
+              "wait_minutes": 14.129,
+              "sentiment": -0.3859,
+              "account_age_months": 43.5932,
+              "product_breadth": 2.3271
+            },
+            "pipeline_score": 0.805669,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007607",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 75,
+            "features": {
+              "body_length": 90.9335,
+              "attachments": 1.5932,
+              "wait_minutes": 18.9928,
+              "sentiment": -1.1449,
+              "account_age_months": 32.2431,
+              "product_breadth": 2.9868
+            },
+            "pipeline_score": 0.826447,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-015993",
+            "day": "2026-08-22",
+            "surface": "portal",
+            "prior_contacts": 55,
+            "features": {
+              "body_length": 234.4125,
+              "attachments": 2.0121,
+              "wait_minutes": 7.2716,
+              "sentiment": 0.0822,
+              "account_age_months": 26.0058,
+              "product_breadth": 1.6797
+            },
+            "pipeline_score": 0.843965,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-016976",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 90,
+            "features": {
+              "body_length": 142.246,
+              "attachments": 1.3593,
+              "wait_minutes": 21.4373,
+              "sentiment": -0.337,
+              "account_age_months": 46.1921,
+              "product_breadth": 1.4238
+            },
+            "pipeline_score": 0.859728,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-017463",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 56,
+            "features": {
+              "body_length": 240.4066,
+              "attachments": 1.7186,
+              "wait_minutes": 5.1844,
+              "sentiment": -0.9895,
+              "account_age_months": 46.2958,
+              "product_breadth": 3.3197
+            },
+            "pipeline_score": 0.876027,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-009518",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 170.4272,
+              "attachments": 0.2741,
+              "wait_minutes": 11.2252,
+              "sentiment": -1.5348,
+              "account_age_months": 8.3201,
+              "product_breadth": 3.3277
+            },
+            "pipeline_score": 0.890479,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-009574",
+            "day": "2026-08-14",
+            "surface": "portal",
+            "prior_contacts": 5,
+            "features": {
+              "body_length": 352.1066,
+              "attachments": -0.7255,
+              "wait_minutes": 16.4728,
+              "sentiment": 0.3681,
+              "account_age_months": 24.6932,
+              "product_breadth": 4.4236
+            },
+            "pipeline_score": 0.904938,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005213",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 17,
+            "features": {
+              "body_length": 259.0011,
+              "attachments": -0.537,
+              "wait_minutes": 14.332,
+              "sentiment": -0.8503,
+              "account_age_months": 40.1292,
+              "product_breadth": 1.9781
+            },
+            "pipeline_score": 0.916053,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000242",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 259.373,
+              "attachments": 1.212,
+              "wait_minutes": 10.7063,
+              "sentiment": -0.1089,
+              "account_age_months": 23.0227,
+              "product_breadth": 2.6937
+            },
+            "pipeline_score": 0.928331,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005782",
+            "day": "2026-08-10",
+            "surface": "marketplace",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 219.9465,
+              "attachments": 1.3754,
+              "wait_minutes": 10.8034,
+              "sentiment": 0.2032,
+              "account_age_months": 8.3283,
+              "product_breadth": -0.0362
+            },
+            "pipeline_score": 0.936009,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-016801",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 162.4792,
+              "attachments": 1.4464,
+              "wait_minutes": 17.1578,
+              "sentiment": -0.8549,
+              "account_age_months": 40.2139,
+              "product_breadth": 2.0593
+            },
+            "pipeline_score": 0.947564,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-007984",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 19,
+            "features": {
+              "body_length": 150.919,
+              "attachments": 1.5392,
+              "wait_minutes": 13.3868,
+              "sentiment": -1.1565,
+              "account_age_months": 33.5082,
+              "product_breadth": 1.2058
+            },
+            "pipeline_score": 0.956759,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006093",
+            "day": "2026-08-10",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 234.0964,
+              "attachments": 1.0444,
+              "wait_minutes": 15.6005,
+              "sentiment": -0.4489,
+              "account_age_months": 43.551,
+              "product_breadth": 1.8799
+            },
+            "pipeline_score": 0.964559,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008032",
+            "day": "2026-08-12",
+            "surface": "portal",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 277.4278,
+              "attachments": 0.5096,
+              "wait_minutes": 16.869,
+              "sentiment": 0.3176,
+              "account_age_months": 27.7386,
+              "product_breadth": 1.0871
+            },
+            "pipeline_score": 0.970788,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004522",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 11,
+            "features": {
+              "body_length": 268.3433,
+              "attachments": 0.1922,
+              "wait_minutes": 20.6408,
+              "sentiment": 0.1595,
+              "account_age_months": 26.8732,
+              "product_breadth": 2.191
+            },
+            "pipeline_score": 0.975622,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003302",
+            "day": "2026-08-06",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 283.8085,
+              "attachments": 1.1714,
+              "wait_minutes": 12.4925,
+              "sentiment": -0.2855,
+              "account_age_months": 47.0375,
+              "product_breadth": 1.8148
+            },
+            "pipeline_score": 0.980385,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000661",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 83,
+            "features": {
+              "body_length": 228.6296,
+              "attachments": 1.376,
+              "wait_minutes": 9.3558,
+              "sentiment": -1.2183,
+              "account_age_months": 16.7503,
+              "product_breadth": 3.9287
+            },
+            "pipeline_score": 0.984007,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-011325",
+            "day": "2026-08-17",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 108.1464,
+              "attachments": 1.9827,
+              "wait_minutes": 19.6678,
+              "sentiment": -0.9926,
+              "account_age_months": 16.9103,
+              "product_breadth": 1.663
+            },
+            "pipeline_score": 0.986923,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-004929",
+            "day": "2026-08-08",
+            "surface": "portal",
+            "prior_contacts": 6,
+            "features": {
+              "body_length": 315.1281,
+              "attachments": 0.0272,
+              "wait_minutes": 16.5696,
+              "sentiment": -0.4339,
+              "account_age_months": 46.3847,
+              "product_breadth": 2.5994
+            },
+            "pipeline_score": 0.989269,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003798",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 12,
+            "features": {
+              "body_length": 259.1431,
+              "attachments": 0.9716,
+              "wait_minutes": 8.1915,
+              "sentiment": -1.1733,
+              "account_age_months": 23.9437,
+              "product_breadth": 2.1637
+            },
+            "pipeline_score": 0.991797,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-005133",
+            "day": "2026-08-09",
+            "surface": "portal",
+            "prior_contacts": 28,
+            "features": {
+              "body_length": 237.8167,
+              "attachments": 0.446,
+              "wait_minutes": 20.8905,
+              "sentiment": -0.6181,
+              "account_age_months": 40.3499,
+              "product_breadth": 1.463
+            },
+            "pipeline_score": 0.993797,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-006678",
+            "day": "2026-08-11",
+            "surface": "marketplace",
+            "prior_contacts": 7,
+            "features": {
+              "body_length": 204.0046,
+              "attachments": 0.5474,
+              "wait_minutes": 6.4652,
+              "sentiment": -1.9229,
+              "account_age_months": 25.0764,
+              "product_breadth": -1.1471
+            },
+            "pipeline_score": 0.995303,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-000017",
+            "day": "2026-08-03",
+            "surface": "portal",
+            "prior_contacts": 40,
+            "features": {
+              "body_length": 270.889,
+              "attachments": 2.056,
+              "wait_minutes": 12.1405,
+              "sentiment": -0.7724,
+              "account_age_months": 41.6405,
+              "product_breadth": 3.5
+            },
+            "pipeline_score": 0.99644,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-017466",
+            "day": "2026-08-24",
+            "surface": "portal",
+            "prior_contacts": 24,
+            "features": {
+              "body_length": 198.376,
+              "attachments": -0.2371,
+              "wait_minutes": 19.7953,
+              "sentiment": -2.1214,
+              "account_age_months": 28.5072,
+              "product_breadth": 3.2804
+            },
+            "pipeline_score": 0.997457,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-014718",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 26,
+            "features": {
+              "body_length": 218.7628,
+              "attachments": 1.1251,
+              "wait_minutes": 18.0027,
+              "sentiment": -1.0893,
+              "account_age_months": 29.4842,
+              "product_breadth": 1.832
+            },
+            "pipeline_score": 0.998237,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-003563",
+            "day": "2026-08-07",
+            "surface": "portal",
+            "prior_contacts": 47,
+            "features": {
+              "body_length": 208.6305,
+              "attachments": 1.4091,
+              "wait_minutes": 18.7363,
+              "sentiment": -1.551,
+              "account_age_months": 39.1119,
+              "product_breadth": 3.1734
+            },
+            "pipeline_score": 0.998883,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-012589",
+            "day": "2026-08-18",
+            "surface": "portal",
+            "prior_contacts": 49,
+            "features": {
+              "body_length": 215.2051,
+              "attachments": 0.9098,
+              "wait_minutes": 15.6861,
+              "sentiment": -2.2658,
+              "account_age_months": 34.8966,
+              "product_breadth": 3.6122
+            },
+            "pipeline_score": 0.999316,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008992",
+            "day": "2026-08-13",
+            "surface": "portal",
+            "prior_contacts": 16,
+            "features": {
+              "body_length": 172.189,
+              "attachments": 2.7588,
+              "wait_minutes": 22.9527,
+              "sentiment": -0.6769,
+              "account_age_months": 43.4154,
+              "product_breadth": 0.5062
+            },
+            "pipeline_score": 0.999603,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-014851",
+            "day": "2026-08-21",
+            "surface": "portal",
+            "prior_contacts": 8,
+            "features": {
+              "body_length": 199.9431,
+              "attachments": 1.296,
+              "wait_minutes": 25.2986,
+              "sentiment": -1.8605,
+              "account_age_months": 52.8426,
+              "product_breadth": 3.2156
+            },
+            "pipeline_score": 0.999823,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          },
+          {
+            "ticket_id": "BF-008194",
+            "day": "2026-08-12",
+            "surface": "marketplace",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 182.7774,
+              "attachments": 2.3737,
+              "wait_minutes": 15.337,
+              "sentiment": -1.424,
+              "account_age_months": 4.7513,
+              "product_breadth": 0.4203
+            },
+            "pipeline_score": 0.999914,
+            "pipeline_decision": 1,
+            "reviewed_label": 0
+          },
+          {
+            "ticket_id": "BF-005860",
+            "day": "2026-08-10",
+            "surface": "marketplace",
+            "prior_contacts": 4,
+            "features": {
+              "body_length": 285.1937,
+              "attachments": 0.0963,
+              "wait_minutes": 19.7027,
+              "sentiment": -1.5309,
+              "account_age_months": -27.7902,
+              "product_breadth": 1.2805
+            },
+            "pipeline_score": 0.999996,
+            "pipeline_decision": 1,
+            "reviewed_label": 1
+          }
+        ]
+      },
+      "sequence": 2,
+      "previous": "a87b48a00b19b4485443c39c739ed7909e113849c630199721bc3d9d4c17badd",
+      "seal": "08268ad27c5fadbf49172b5103e47c91a5fc88a328407033d305b064e1938090"
+    }
+  ]
+}

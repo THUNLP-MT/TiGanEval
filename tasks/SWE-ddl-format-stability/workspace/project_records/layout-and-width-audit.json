@@ -1,0 +1,12 @@
+{
+  "record_id": "layout-and-width-audit",
+  "scene": "The same table written two ways alongside a very wide table, formatted and measured line by line.",
+  "files": [
+    "migrations/0004_create_account_wide.sql",
+    "migrations/0006_create_account_pairs.sql",
+    "migrations/0007_recreate_account_pairs.sql"
+  ],
+  "same_schema": [
+    ["migrations/0006_create_account_pairs.sql", "migrations/0007_recreate_account_pairs.sql"]
+  ]
+}

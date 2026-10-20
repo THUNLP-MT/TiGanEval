@@ -1,0 +1,20 @@
+{
+  "name": "order",
+  "attributes": {
+    "order_id": {"type": "string", "key": true, "required": true},
+    "status": {"type": "string", "stored_as": "st", "required": true, "default": "draft"},
+    "currency": {"type": "string", "stored_as": "ccy", "required": true, "default": "EUR"},
+    "payment_method": {"type": "string", "stored_as": "pm"},
+    "authorisation_id": {
+      "type": "string",
+      "stored_as": "auth",
+      "required_when": [{"attribute": "payment_method", "values": ["card", "wallet"]}]
+    },
+    "tracking_number": {
+      "type": "string",
+      "stored_as": "trk",
+      "required_when": [{"attribute": "status", "values": ["shipped", "in_transit"]}]
+    },
+    "carrier": {"type": "string", "stored_as": "car"}
+  }
+}

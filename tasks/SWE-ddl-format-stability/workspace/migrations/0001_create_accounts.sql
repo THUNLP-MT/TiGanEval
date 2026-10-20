@@ -1,0 +1,2 @@
+create table accounts (id bigint primary key, account_ref varchar(64) not null, status text not null default 'active', opened timestamp not null, constraint accounts_ck check (opened > '2020-01-01'));
+create table account_addresses (id bigint primary key, account_id bigint not null references accounts (id), line1 text not null, postcode varchar(16), constraint account_addresses_uq unique (account_id, postcode));

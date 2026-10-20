@@ -1,0 +1,5 @@
+{
+  "record_id": "unsupported-catalogue",
+  "scene": "A migration file mixing plain table definitions with the other statement shapes the schema repository contains.",
+  "files": ["migrations/0008_account_views.sql"]
+}

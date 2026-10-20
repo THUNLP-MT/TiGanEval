@@ -1,0 +1,4 @@
+{
+  "record_id": "2.3.7-throttled",
+  "scene": "Two releases from the same afternoon. In 2.3.7 the vendor's rate limiter sat on us: the host answered the linux tarball with a wait of four seconds and then, when we came back, with one of twelve; it wrote the windows zip's wait as a date rather than a count of seconds; and it asked us to leave the macos tarball for fifteen minutes, which is longer than the whole build window. The docs bundle never went up at all. Then 2.3.8, the hotfix behind it, which I stopped three seconds in because I wanted the build looked at before anything else went to the host."
+}

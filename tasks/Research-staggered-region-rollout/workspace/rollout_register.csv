@@ -1,0 +1,17 @@
+region,band,readiness_score,live_from,stack_migrated_on,orders_per_day
+Alder,coastal,0.75,2026-03-12,2026-01-08,1100
+Balnaby,ring,0.64,2026-04-08,2026-04-05,950
+Cardean,inner,0.88,2026-02-08,2026-02-03,1000
+Corbel Ness,outer,0.38,,,1000
+Draymoor,inner,0.47,,,1100
+Evermoor,ring,0.6,2026-04-25,2026-04-23,3000
+Fennhaven,core,0.51,,,1400
+Harrow Bay,core,0.94,2026-01-25,2026-01-22,1500
+Kingsmere,coastal,0.72,2026-03-20,2026-01-17,800
+Millgate,inner,0.85,2026-02-14,2026-02-10,900
+Ostley,core,0.91,2026-01-31,2026-01-29,1200
+Riverbend,outer,0.79,2026-03-04,2026-03-02,3000
+Sculthorpe,ring,0.43,,,900
+Thrushwood,outer,0.82,2026-02-24,2026-02-21,700
+Vell,coastal,0.55,,2026-01-13,1200
+Wraymouth,ring,0.33,,,300

@@ -1,0 +1,13 @@
+{
+  "record_id": "review-followup",
+  "date": "2023-11-24",
+  "author": "Priya Ndiaye, fleet engineering",
+  "through_month": "2023-10",
+  "receipts": [],
+  "notes": [
+    "First cut of the board note off the returns to October. Ran it as it stands.",
+    "Delia wants the 2022-H2 build against 2021-H2 and a number she can put to procurement.",
+    "Register has 1,711 vans on it across thirty-three build months. Log has faults back to April 2022.",
+    "Roster and register do not give the same monthly count. Roster is higher every month of the window; October reads 1,626 against 1,450 vans with a hand-over date on or before the first and a hand-back date on or after it."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "look": "mix-check",
+  "date": "2026-08-05",
+  "analyst": "Priya Raman",
+  "as_of": "2026-08-05",
+  "notes": [
+    "July audience roll-up is in base_audience.json. 8.2 million people counted, broken out by sessions in the 28 days before the count.",
+    "Pulled the watch's own totals by sessions_28d for the finance pack: 3,854 people at 1 session so far, against 45,566 at 34.",
+    "Held the share at forty-five all week. Booked it flat again.",
+    "Ingestion has been clean since the 17th; accepted sits a little under the ceiling every day."
+  ]
+}

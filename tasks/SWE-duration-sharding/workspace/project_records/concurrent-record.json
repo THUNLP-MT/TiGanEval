@@ -1,0 +1,4 @@
+{
+  "record_id": "concurrent-record",
+  "scene": "One run in which all four machines finish within a minute of each other and their calls to publish timings overlap, with one file the runner skipped and one whose machine died part way through it."
+}

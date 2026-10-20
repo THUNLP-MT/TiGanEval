@@ -1,0 +1,9 @@
+{
+  "record_id": "review-corpus",
+  "scene": "A batch of migration files, formatted and compared against the schemas their authors wrote.",
+  "files": [
+    "migrations/0001_create_accounts.sql",
+    "migrations/0002_create_account_notes.sql",
+    "migrations/0005_create_account_events.sql"
+  ]
+}

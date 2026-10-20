@@ -1,0 +1,48 @@
+{
+  "record_id": "shared-holding-drill",
+  "scene": "The billing digest and the receipts queue, which both hand what they cannot keep to one shared holding queue that names no queue of its own.",
+  "queue_properties": {
+    "digest": {"dead_letter_queue": "holding", "message_ttl": 20.0, "max_length": 2, "max_deliveries": 2},
+    "receipts": {"dead_letter_queue": "holding", "message_ttl": null, "max_length": null, "max_deliveries": 2},
+    "holding": {"dead_letter_queue": null, "message_ttl": null, "max_length": 2, "max_deliveries": 2}
+  },
+  "recorded": {
+    "note": "Written up by on-call after the last drill the notification team signed off. Two teams share `holding`; the digest keeps its notifications for twenty seconds and the receipts queue keeps them until somebody takes them. Nobody moved the clock during this run.",
+    "deadlines_at_publish": [
+      {"label": "pub-d1", "queue": "digest", "message_id": "m-00001", "published_at": 0.0, "expires_at": 20.0},
+      {"label": "pub-d2", "queue": "digest", "message_id": "m-00002", "published_at": 0.0, "expires_at": 20.0},
+      {"label": "pub-d3", "queue": "digest", "message_id": "m-00003", "published_at": 0.0, "expires_at": 20.0},
+      {"label": "pub-r1", "queue": "receipts", "message_id": "m-00004", "published_at": 0.0, "expires_at": null},
+      {"label": "pub-r2", "queue": "receipts", "message_id": "m-00005", "published_at": 0.0, "expires_at": null}
+    ],
+    "handouts": [
+      {"label": "take-r1", "queue": "receipts", "message_id": "m-00004", "redelivery_count": 0},
+      {"label": "take-r2", "queue": "receipts", "message_id": "m-00004", "redelivery_count": 1},
+      {"label": "take-hold", "queue": "holding", "message_id": "m-00001", "redelivery_count": 0},
+      {"label": "take-r3", "queue": "receipts", "message_id": "m-00005", "redelivery_count": 0}
+    ],
+    "what_on_call_saw_on_the_copy_waiting_in_holding": {
+      "message_id": "m-00004",
+      "queue": "holding",
+      "published_at": 0.0,
+      "expires_at": null,
+      "body": {"tag": "r1", "batch": 26, "payload": "r1-026"},
+      "headers": {
+        "x-death": [{"queue": "receipts", "reason": "rejected", "count": 2, "time": 0.0}],
+        "x-first-death-queue": "receipts",
+        "x-first-death-reason": "rejected"
+      }
+    },
+    "at_the_end": {
+      "clock": 0.0,
+      "waiting": {"digest": ["m-00002", "m-00003"], "holding": ["m-00004"], "receipts": []},
+      "held_by_workers": [],
+      "settled": [
+        {"message_id": "m-00001", "disposition": "dead_lettered", "reason": "maxlen", "queue": "digest"},
+        {"message_id": "m-00004", "disposition": "dead_lettered", "reason": "rejected", "queue": "receipts"},
+        {"message_id": "m-00001", "disposition": "acknowledged", "reason": null, "queue": "holding"},
+        {"message_id": "m-00005", "disposition": "acknowledged", "reason": null, "queue": "receipts"}
+      ]
+    }
+  }
+}

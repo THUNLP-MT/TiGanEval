@@ -1,0 +1,9 @@
+id: Research-cycle-life-drift
+domain: Research
+title: 'Research: Cycle life on a tester that moved under the study'
+rubrics:
+- session_retirement_cycles
+- qualification_difference
+- supported_effect_range
+- collection_plan
+- booking_decision

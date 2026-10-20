@@ -1,0 +1,12 @@
+id: SWE-request-coalescing
+domain: SWE
+title: 'SWE: Request Coalescing'
+seed_sources:
+- name: 'DeepSWE v1.1: langchain-request-coalescing'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/langchain-request-coalescing
+rubrics:
+- delivered_response_equivalence
+- every_call_answered_once
+- upstream_execution_conservation
+- usage_ledger_completeness
+- outcome_independent_of_arrival_order

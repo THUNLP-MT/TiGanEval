@@ -1,0 +1,4 @@
+{
+  "record_id": "morning-cold-start",
+  "scene": "The 08:00 deploy on 2 September, the morning the cutover was missed. Seven services, six of them with a connect step, and the readiness script calling bring-up a second time the moment the first call returned. The billing pool hands back its connected wrapper when the handshake finishes, and the console resolves three services out of the registry once the boot is done."
+}

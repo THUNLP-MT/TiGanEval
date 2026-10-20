@@ -1,0 +1,12 @@
+id: SWE-shared-editor-controls
+domain: SWE
+title: 'SWE: One toolbar for the production sheet'
+seed_sources:
+- name: 'DeepSWE v1.1: quill-shared-toolbar-focus'
+  url: https://github.com/datacurve-ai/deep-swe/tree/0b9fabbb63b9104d678fe965e1632f2dd9eaa2ea/tasks/quill-shared-toolbar-focus
+rubrics:
+- active_document_commands
+- selection_survives_toolbar_focus
+- theme_tracks_editor_context
+- unavailable_context_is_inert
+- shared_control_lifecycle

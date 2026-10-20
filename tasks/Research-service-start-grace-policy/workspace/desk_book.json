@@ -1,0 +1,46 @@
+{
+  "accounts": [
+    {
+      "accounts": 3332,
+      "error_rate_7d": 0.5,
+      "plan_tier": "standard"
+    },
+    {
+      "accounts": 1428,
+      "error_rate_7d": 0.5,
+      "plan_tier": "premier"
+    },
+    {
+      "accounts": 2940,
+      "error_rate_7d": 0.8,
+      "plan_tier": "standard"
+    },
+    {
+      "accounts": 1260,
+      "error_rate_7d": 0.8,
+      "plan_tier": "premier"
+    },
+    {
+      "accounts": 2156,
+      "error_rate_7d": 1.1,
+      "plan_tier": "standard"
+    },
+    {
+      "accounts": 924,
+      "error_rate_7d": 1.1,
+      "plan_tier": "premier"
+    },
+    {
+      "accounts": 1372,
+      "error_rate_7d": 1.5,
+      "plan_tier": "standard"
+    },
+    {
+      "accounts": 588,
+      "error_rate_7d": 1.5,
+      "plan_tier": "premier"
+    }
+  ],
+  "counted_on": "2026-01-05",
+  "source": "desk book, monthly count"
+}

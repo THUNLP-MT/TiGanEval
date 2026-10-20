@@ -1,0 +1,3 @@
+Forwarding what Acme's integration lead sent me this morning. Their mirror asks how big a file is before it pulls it, and on `/v1/schedules` we answer 405, so it skipped that feed for eleven days and their Monday reconciliation ran on stale files. Replay `project_records/mirror-probe-log.json`: the refusal sits right next to the fetch that works.
+
+Can you make `surface/routing.py` give these answers for us, instead of every team writing them by hand. I think it is a HEAD registered beside each GET that runs the same operation and hands it back without the body, plus an OPTIONS that tells a caller which methods a path takes. A setting `auto_head` on by default and `auto_options` off is fine by me.

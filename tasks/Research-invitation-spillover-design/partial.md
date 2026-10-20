@@ -1,0 +1,5 @@
+Iris Vandel here, estates app. Can you take September's gate-pass readout off me before Thursday's committee, rather than leaving it with me.
+
+`report.py` runs today. I put the pivot behind it together myself off `iris_pivot.csv` and it comes back at about four and a half points a ticket, which is what I have been quoting since the month-end review. I have never been near the address side of the register though, and I am not putting my own arithmetic in front of the committee again. Take it apart, work through Nita's records in `project_records/`, and give me back the number you would sign.
+
+Then the rest of the grant. There are 3,180 credits on it and the mail house stops printing on the 27th. The estate drums are 38 credits a hundred against 55 for citywide, so my instinct is to put the lot on an estate drum and have `next_collection` send Nita there; what is in there now already does. Do not waste any of it on the waitlist — that drum landed on the 14th and the counter did not move for two days afterwards.

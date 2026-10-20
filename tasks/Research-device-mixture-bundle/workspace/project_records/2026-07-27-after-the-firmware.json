@@ -1,0 +1,13 @@
+{
+  "record_id": "after-the-firmware",
+  "date": "2026-07-27",
+  "author": "Suri Bhatt, release engineering",
+  "through_day": "2026-07-26",
+  "receipts": ["hg-counter-1", "hg-counter-2"],
+  "notes": [
+    "4.2 has been going out since the 13th. Yard and night first.",
+    "Something in the export looks wrong to me. On the rows off the units platform has already done, refl_a, refl_b and refl_c run well past where those columns sit on every other row. Sorted the export by refl_b and the top of the file is all one firmware.",
+    "Same rows read `as_captured` in the stage column. The rest of the file reads `corrected`.",
+    "Second counter request in, 120 rows, 120 credits. Numbers off the export have not moved much: mallow still ahead."
+  ]
+}

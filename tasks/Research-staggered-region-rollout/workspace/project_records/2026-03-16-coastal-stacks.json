@@ -1,0 +1,15 @@
+{
+  "session": "coastal-stacks",
+  "date": "2026-03-16",
+  "analyst": "Nils Aarheim",
+  "as_of": "2026-03-16",
+  "regions": ["Alder", "Kingsmere", "Vell"],
+  "notes": [
+    "The three coastal metros have stack_migrated_on dates in January. Alder 2026-01-08, Vell 2026-01-13, Kingsmere 2026-01-17.",
+    "Alder went live on 12 March, sixty-three days after its stack moved. Kingsmere goes live on the 20th.",
+    "Alder's printed rate: 0.8494 on 7 January, 0.9040 on the 8th. On 11 March it is 0.9170 and on the 12th, the day it went live, 0.9231.",
+    "Vell is not on the rollout list at all and has no live_from. Its printed rate is 0.8077 on 12 January and 0.8612 on the 13th.",
+    "Vell's sampled orders on those two days: 51 of 63 on placed_at and 54 of 63 on assigned_at on the 12th, 48 of 60 and 52 of 60 on the 13th.",
+    "Tova asked whether the coastal wave matters. I said I would look at what the two stamps do before answering."
+  ]
+}

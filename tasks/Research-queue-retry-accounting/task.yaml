@@ -1,0 +1,12 @@
+id: Research-queue-retry-accounting
+domain: Research
+title: 'Research: What share of quote operations actually failed'
+seed_sources:
+- name: Dean and Barroso (2013), The Tail at Scale
+  url: https://research.google/pubs/the-tail-at-scale/
+rubrics:
+- window_failure_rate
+- reported_range
+- next_trace_plan
+- receipt_accounting
+- correction_invariant

@@ -1,0 +1,4 @@
+{
+  "record_id": "cache-damage-drill",
+  "scene": "A reliability drill in which saved cache data is truncated, overwritten, altered a byte at a time, and turned up under keys that are not its own, and in which an outdated cache bundle is re-imported between pipeline runs."
+}

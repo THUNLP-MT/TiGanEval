@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-05",
+  "notes": [
+    "Three rig days left, four runs and two fixture changes on each of them, and everything on the shelf list is in the cabinet.",
+    "The August mount-ring screen and the September fin screen are queued behind this one on the same rig, and the same notebook runs them.",
+    "Reporting reissue a block table whenever the fixture log is reconciled. The August one went out again on Tuesday with two of its plates against different days.",
+    "Every rig day the desk takes is charged to the review whether or not the sheet runs."
+  ],
+  "operator": "Suli Rahman",
+  "record_id": "review-prep",
+  "rig_days_charged": [
+    "mr-0903",
+    "mr-0904"
+  ],
+  "through_day": "2026-09-04"
+}

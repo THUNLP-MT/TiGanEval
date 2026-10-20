@@ -1,0 +1,26 @@
+{
+  "record_id": "review-prep",
+  "date": "2026-09-03",
+  "author": "Nadia Brekke",
+  "runs_finished": [
+    "r01",
+    "r02",
+    "r03",
+    "r04",
+    "r05",
+    "r06",
+    "r07",
+    "r08"
+  ],
+  "jobs": [
+    "nb-0827",
+    "nb-0901"
+  ],
+  "notes": [
+    "Sent the desk r06@13500 and r05@16500 on v-8b41, two reads each. 120 units. Receipts on the stream.",
+    "First pass came back 0.8321 and 0.8343. Second pass came back 0.8156 and 0.8156.",
+    "Both came back lower on the second pass.",
+    "Ravi wants the readout on the 11th with the checkpoint, the number, the range and the compute account.",
+    "900 units left on the grant, 150 of them the smoke check."
+  ]
+}

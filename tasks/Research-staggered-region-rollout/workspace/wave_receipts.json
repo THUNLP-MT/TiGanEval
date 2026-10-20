@@ -1,0 +1,35 @@
+{
+  "entries": [
+    {
+      "days_returned": 7,
+      "holdback_share": 25,
+      "network": "halcombe",
+      "orders_returned": 7115,
+      "previous": "",
+      "receipt_id": "sculthorpe-2026-04-27",
+      "refusal": "",
+      "region": "Sculthorpe",
+      "region_weeks_charged": 1,
+      "region_weeks_left": 11,
+      "seal": "a82405173d9389ec0ee85d2d4d5019c443f5517d958f74b0668b8f79c02eb126",
+      "sequence": 1,
+      "week": "2026-04-27"
+    },
+    {
+      "days_returned": 0,
+      "holdback_share": 30,
+      "network": "halcombe",
+      "orders_returned": 0,
+      "previous": "a82405173d9389ec0ee85d2d4d5019c443f5517d958f74b0668b8f79c02eb126",
+      "receipt_id": "balnaby-2026-05-04",
+      "refusal": "region already live",
+      "region": "Balnaby",
+      "region_weeks_charged": 1,
+      "region_weeks_left": 10,
+      "seal": "2895c21d3222cb1936d2d6bcd5947e9c034e83c852eaf8c2d0125c56035dff4b",
+      "sequence": 2,
+      "week": "2026-05-04"
+    }
+  ],
+  "network": "halcombe"
+}

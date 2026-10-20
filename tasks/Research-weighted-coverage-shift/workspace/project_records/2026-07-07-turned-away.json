@@ -1,0 +1,13 @@
+{
+  "record_id": "turned-away",
+  "date": "2026-07-07",
+  "author": "Tomas Weill",
+  "through_week": 8,
+  "receipts": ["hal-w9-meter", "hal-w9-pressure"],
+  "notes": [
+    "Asked for a pressure-test night in the same week and the desk turned it away. The crew was stood down and the unit was charged anyway.",
+    "Checked the roster afterwards: pressure-test is on weeks 10 and 12, not 9.",
+    "Thirty-two units left, and nothing has been timed on pressure-test.",
+    "Leaving this for whoever writes the month's board."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "record_id": "checkout-order-drill",
+  "scene": "The split-up case handler scanned twice over, once in the order the release checkout walked the working tree and once in the order the second build worker walked it."
+}

@@ -1,0 +1,12 @@
+{
+  "record_id": "schema-publication",
+  "scene": "What the platform publishes out of a document: the contract the partner importer validates against, the same schema rebuilt on the far side of the reconciliation worker, and the review queue's proposed documents.",
+  "recorded_reviews": [
+    {
+      "draft": "pair-on-the-key",
+      "reviewer": "Schema publication desk",
+      "verdict": "refused",
+      "comment": "Returned to the schema owner: ticket_id is present because it identifies the record, regardless of state. The document should not describe its presence as a state-dependent requirement."
+    }
+  ]
+}

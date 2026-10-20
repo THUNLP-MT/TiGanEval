@@ -1,0 +1,13 @@
+{
+  "record_id": "restarts",
+  "date": "2026-09-11",
+  "author": "Priya Raghavan",
+  "through_day": "2026-09-11",
+  "receipts": [],
+  "notes": [
+    "cfg-06 sat idle four days and went back out on rack 5 at 06:00. First row back reads 1.627 at step 250; the row before the pause read 1.589 at step 13250.",
+    "cfg-02 restarted on the 8th: 1.739 at step 250 against 1.695 at step 17750 before it.",
+    "Board at 22:00: cfg-02 1.576, cfg-06 1.607, cfg-05 1.605 from the 7th, cfg-01 1.849, cfg-04 1.900, cfg-03 1.927.",
+    "Director asked on the 11th for a number and a range for the Friday review. Wrote it up in review_note.md."
+  ]
+}
